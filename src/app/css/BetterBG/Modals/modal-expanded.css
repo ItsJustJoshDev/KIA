@@ -1,0 +1,398 @@
+/* KIA - Modal Expanded */
+
+/* Avatars */
+/*.avatarPositionPremium-3We5Ho {top: 160px;}*/
+
+.avatar-AvHqJA {
+	border: 0px;
+	transform: scale(0.9)/* 1.2 */;
+	margin-left: 34.5%;
+	margin-top: 2.6%;
+	top: -140px;
+	left: -200px;
+}
+
+/* NameTag */
+
+.nameTagNoCustomStatus-3IWmZC,
+.nameTagWithCustomStatus-2kkfrQ {
+	margin-top: 3.2%; /*margin-left: -2.5%; text-align: center; justify-content: center;*/
+}
+
+/* Custom Status */
+
+.customStatusActivity-nmH3DF {
+	position: absolute;
+	margin-top: -285px;
+	width: 520px;
+	margin-left: 10px; 
+	background-color: var(--background-tertiary);
+	border-radius: 5px;
+	opacity: 0.5;
+	transition: 250ms ease all !important;
+	padding: 5px 5px 5px 5px
+}
+
+.customStatusActivity-nmH3DF:hover {
+	opacity: 1;
+	transition: 250ms ease all !important;
+}
+
+/* User Tabs */
+
+.tabBar-3nvOPa {
+	position: absolute;
+	flex-direction: column-reverse;
+    margin-left: 550px;
+	margin-top: -285px;
+	opacity: 0.5;
+	transition: 250ms ease all !important;
+	background-color: var(--background-tertiary);
+	border-radius: 10px;
+	height: initial;
+	justify-content: center;
+}
+
+.tabBar-3nvOPa:hover {
+	opacity: 1;
+	transition: 250ms ease all !important;
+}
+
+/* More Settings / Send Message Button */
+
+.relationshipButtons-pUQVkf {
+	margin-left: 230px;
+	margin-top: -3px;
+}
+
+/* Profile Badges */
+
+.badgeList-1R1WgZ {
+	position: absolute;
+	top: -63px;
+	opacity: 0.5;
+	transition: 250ms ease all !important;
+	left: 115px;
+	background-color: var(--background-tertiary);
+	border-radius: 8px;
+	padding: 5px 5px 5px 6px; 
+	margin-left: -145px;
+}
+
+.badgeList-1R1WgZ:hover {
+	opacity: 1;
+	transition: 250ms ease all !important;
+}
+
+/* Modal Expanded Base */
+
+.form-26zE04,
+.theme-dark .root-1gCeng {
+	border-radius: 12px; min-height: 400px; max-height: 900px; padding: 15px; 
+	background-color: var(--background-secondary-alt);
+}
+
+.topSection-y3p-_D {
+	background-color: var(--background-secondary);
+	border-radius: 8px;
+}
+
+.body-r6_QPy {
+	background-color: var(--background-tertiary);
+	padding: 10px;
+	margin-top: 5px;
+	border-radius: 8px;
+}
+
+/* Begone Dumbshit */
+
+.premiumIconWrapper-1A-UH5,
+[class*="note"],
+[class*="aboutMeTitle"],
+[class*="bodyTitle"],
+[class*="userInfoSectionHeader"]  {
+	display: none;
+}
+
+/* USRBG / Banners - Modal Expanded */
+
+#app-mount .header-4zuFdR .wrapper-3t9DeA::before {
+	content: '';
+	position: absolute;
+	top: -138px;
+	left: -16px;
+	width: 557.1%;
+	border-top-left-radius: 8px; 
+	border-top-right-radius: 8px;
+	height: 224%;
+    filter: brightness(0.5);
+	pointer-events: none;
+	background: #000 var(--user-background) var(--user-popout-position, center)/cover no-repeat;
+	background-attachment: var(--user-background, fixed);
+}
+
+.root-3QyAh1 .banner-2QYc2d {
+	height: 240px;
+	border-top-left-radius: 8px; 
+    filter: brightness(0.5);
+	border-top-right-radius: 8px;
+}
+
+.profileBanner-33-uE1 {
+	border-top-left-radius: 8px; 
+	border-top-right-radius: 8px;
+    filter: brightness(0.5);
+}
+
+.popoutBannerPremium-1n96gg {
+	height: 200px;
+	border-top-left-radius: 8px; 
+	border-top-right-radius: 8px;
+    filter: brightness(0.5);
+}
+
+/* Comfy Colors - Modal Expanded */
+
+:root .root-3QyAh1 .activityProfile-2bJRaP {
+  padding: 16px;
+  margin: 12px;
+  border-radius: 5px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+:root .root-3QyAh1 .activityProfile-2bJRaP .headerText-1HLrL7, :root .root-3QyAh1 .activityProfile-2bJRaP .activityName-1IaRLn, :root .root-3QyAh1 .activityProfile-2bJRaP .content-3JfFJh,
+:root .root-3QyAh1 .activityProfile-2bJRaP .details-38sfDr, :root .root-3QyAh1 .activityProfile-2bJRaP .name-29ETJS, :root .root-3QyAh1 .activityProfile-2bJRaP .nameNormal-2lqVQK, :root .root-3QyAh1 .activityProfile-2bJRaP .nameWrap-3Z4G_9 {
+  color: white;
+}
+
+:root .root-3QyAh1 .activityProfile-2bJRaP .button-38aScr {
+  border: none;
+  background-color: #ffffff21;
+  box-shadow: 0 4px 15px #00000021;
+  color: #fff;
+}
+
+:root .root-3QyAh1 .activityProfile-2bJRaP .contentImagesProfile-1Mz07W::after,
+:root .root-3QyAh1 .activityProfile-2bJRaP .contentGameImageProfile-WTVbI0::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  left: 0;
+  top: 0;
+  background: var(--brand-color);
+}
+
+:root .root-3QyAh1 .activityProfile-2bJRaP .timeBarProfile-10b-fm::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  background: var(--spotify-color);
+}
+
+:root .root-3QyAh1 .activityProfile-2bJRaP .spotifyIcon-2J9kSv {display: none !important;}
+
+/* Comfy Icons - Modal Expanded */
+:root .root-3QyAh1 .tabBarContainer-37hZsr:not(.flex-1xMQg5) {
+  flex: 1;
+  border-bottom: none;
+  padding-left: 0;
+}
+:root .root-3QyAh1 .tabBarContainer-37hZsr:not(.flex-1xMQg5) .tabBar-3nvOPa .tabBarItem-3dfX8P[aria-controls=user_info-tab],
+:root .root-3QyAh1 .tabBarContainer-37hZsr:not(.flex-1xMQg5) .tabBar-3nvOPa .tabBarItem-3dfX8P[aria-controls=mutual_guilds-tab],
+:root .root-3QyAh1 .tabBarContainer-37hZsr:not(.flex-1xMQg5) .tabBar-3nvOPa .tabBarItem-3dfX8P[aria-controls=mutual_friends-tab],
+:root .root-3QyAh1 .tabBarContainer-37hZsr:not(.flex-1xMQg5) .tabBar-3nvOPa .tabBarItem-3dfX8P[aria-controls=activity-tab] {
+  text-indent: 100%;
+  overflow: hidden;
+  margin: 10px 10px 10px 10px;
+  width: 20px;
+}
+:root .root-3QyAh1 .tabBarContainer-37hZsr:not(.flex-1xMQg5) .tabBar-3nvOPa .tabBarItem-3dfX8P[aria-controls=user_info-tab]::after,
+:root .root-3QyAh1 .tabBarContainer-37hZsr:not(.flex-1xMQg5) .tabBar-3nvOPa .tabBarItem-3dfX8P[aria-controls=mutual_guilds-tab]::after,
+:root .root-3QyAh1 .tabBarContainer-37hZsr:not(.flex-1xMQg5) .tabBar-3nvOPa .tabBarItem-3dfX8P[aria-controls=mutual_friends-tab]::after,
+:root .root-3QyAh1 .tabBarContainer-37hZsr:not(.flex-1xMQg5) .tabBar-3nvOPa .tabBarItem-3dfX8P[aria-controls=activity-tab]::after {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+:root .root-3QyAh1 .tabBarContainer-37hZsr:not(.flex-1xMQg5) .tabBar-3nvOPa .tabBarItem-3dfX8P[aria-controls=user_info-tab]::after {
+  background-image: url("https://nyri4.github.io/Comfy/assets/user.png");
+}
+:root .root-3QyAh1 .tabBarContainer-37hZsr:not(.flex-1xMQg5) .tabBar-3nvOPa .tabBarItem-3dfX8P[aria-controls=mutual_guilds-tab]::after {
+  background-image: url("https://nyri4.github.io/Comfy/assets/guild.png");
+}
+:root .root-3QyAh1 .tabBarContainer-37hZsr:not(.flex-1xMQg5) .tabBar-3nvOPa .tabBarItem-3dfX8P[aria-controls=mutual_friends-tab]::after {
+  background-image: url("https://nyri4.github.io/Comfy/assets/friend.png");
+}
+:root .root-3QyAh1 .tabBarContainer-37hZsr:not(.flex-1xMQg5) .tabBar-3nvOPa .tabBarItem-3dfX8P[aria-controls=activity-tab]::after {
+  background-image: url("https://nyri4.github.io/Comfy/assets/activity.png");
+}
+:root .root-3QyAh1 .noTabBar-3ZjPNR {
+  border-top: none;
+}
+
+/* Modal Expanded - Avatar Fix */
+
+:root .wrapper-3t9DeA foreignObject, :root .callAvatarMask-1SLlRi foreignObject,
+:root .avatarContainer-3CQrif foreignObject, :root .avatarMasked-3y6o4j {
+  mask: none;
+  -webkit-mask: none;
+}
+
+:root .wrapper-3t9DeA, :root .avatar-1BDn8e, :root .profile-1eT9hT .avatarUploaderInner-3UNxY3,
+:root .voiceAvatar-14IynY, :root .avatar-3tNQiO, :root .border-Jn5IOt, :root .avatar-3bWpYy, :root .clickableAvatar-1wQpeh,
+:root .emptyUser-7txhlW, :root .avatar-VxgULZ, :root .wrapper-2QE8vf.ringingIncoming-38YcLn::after,
+:root .wrapper-2QE8vf.ringingOutgoing-mbXhhQ::after, :root .replyAvatar-1K9Wmr, :root .avatarSpeaking-2c8-9i,
+:root .avatar-3Heyg_, :root .avatarContainer-2LLZwy, :root .appAvatar-3bgkQ9,
+[class*="avatar"] {
+  border-radius: var(--avatar-radius);
+}
+
+/* Modal Expanded - Status Border Fix */
+
+:root .userPopout-xaxa6l .pointerEvents-2zdfdO {
+  x: 66;
+  y: 66;
+  width: 20px;
+  height: 20px;
+  rx: calc(var(--status-radius) + 1px) !important;
+  stroke-width: 4px;
+  stroke: var(--background-tertiary);
+}
+:root .userPopout-xaxa6l .pointerEvents-2zdfdO[mask="url(#svg-mask-status-online-mobile)"] {
+  x: 64;
+  y: 56;
+  height: 28px;
+  rx: 8px !important;
+}
+:root .pointerEvents-2zdfdO {
+  mask: none;
+  pointer-events: none;
+}
+:root .pointerEvents-2zdfdO[width="8"]:not([mask="url(#svg-mask-status-online-mobile)"]), :root .pointerEvents-2zdfdO[width="10"]:not([mask="url(#svg-mask-status-online-mobile)"]), :root .pointerEvents-2zdfdO[width="12"]:not([mask="url(#svg-mask-status-online-mobile)"]), :root .pointerEvents-2zdfdO[width="16"]:not([mask="url(#svg-mask-status-online-mobile)"]) {
+  rx: var(--status-radius);
+}
+:root .pointerEvents-2zdfdO[width="25"], :root .pointerEvents-2zdfdO[mask="url(#svg-mask-status-online-mobile)"] {
+  rx: 5px;
+}
+:root .mask-1l8v16, :root .userInfo-2zN2z8 {
+  overflow: visible;
+}
+:root .cursorDefault-dsQJ1n, :root .mask-1l8v16 > svg {
+  overflow: visible;
+}
+:root .userPopout-xaxa6l .mask-1l8v16 > svg > mask > rect:first-child {
+  x: 18;
+  y: 14 !important;
+  ry: var(--status-radius);
+}
+:root div:not(.avatarWrapper-2yR4wp) .mask-1l8v16 > svg > mask > rect:first-child {
+  y: 8;
+  rx: var(--status-radius);
+}
+:root .mask-1l8v16 > svg > mask > rect[width="10"]:first-child {
+  x: 8;
+  width: 14px;
+  height: 11px;
+}
+:root .avatarWrapper-2yR4wp .wrapper-3t9DeA > .mask-1l8v16 > svg > rect {
+  height: calc(25px * 10px);
+  mask: none;
+  x: 10;
+  y: 8;
+  width: 10px;
+  rx: var(--status-radius);
+}
+:root .mask-1l8v16 > svg > rect {
+  height: 40px;
+}
+:root .mask-1l8v16 > svg > mask > rect:nth-child(2), :root .mask-1l8v16 > svg > mask > circle, :root .mask-1l8v16 > svg > mask > polygon {
+  display: none;
+}
+:root .channel-2QD9_O .pointerEvents-2zdfdO,
+:root .members-1998pB .pointerEvents-2zdfdO,
+:root .avatarWrapper-2yR4wp[aria-expanded=false] .pointerEvents-2zdfdO,
+:root .peopleListItem-2nzedh .pointerEvents-2zdfdO,
+:root .nowPlayingColumn-2sl4cE .pointerEvents-2zdfdO {
+  height: 12px;
+  y: 24;
+  stroke-width: 2.5px;
+}
+:root .channel-2QD9_O .pointerEvents-2zdfdO[width="10"]:not([mask="url(#svg-mask-status-online-mobile)"]),
+:root .members-1998pB .pointerEvents-2zdfdO[width="10"]:not([mask="url(#svg-mask-status-online-mobile)"]),
+:root .avatarWrapper-2yR4wp[aria-expanded=false] .pointerEvents-2zdfdO,
+:root .peopleListItem-2nzedh .pointerEvents-2zdfdO[width="10"]:not([mask="url(#svg-mask-status-online-mobile)"]),
+:root .nowPlayingColumn-2sl4cE .pointerEvents-2zdfdO[width="10"]:not([mask="url(#svg-mask-status-online-mobile)"]) {
+  width: 12px;
+  x: 24;
+}
+:root .channel-2QD9_O .pointerEvents-2zdfdO[mask="url(#svg-mask-status-online-mobile)"],
+:root .members-1998pB .pointerEvents-2zdfdO[mask="url(#svg-mask-status-online-mobile)"],
+:root .peopleListItem-2nzedh .pointerEvents-2zdfdO[mask="url(#svg-mask-status-online-mobile)"],
+:root .nowPlayingColumn-2sl4cE .pointerEvents-2zdfdO[mask="url(#svg-mask-status-online-mobile)"],
+:root .menu-3sdvDG .pointerEvents-2zdfdO[mask="url(#svg-mask-status-online-mobile)"] {
+  width: 12px;
+  height: 16px;
+  x: 24;
+  y: 20;
+}
+:root .avatarWrapper-2yR4wp[aria-expanded=true] .pointerEvents-2zdfdO {
+  x: 24;
+  y: 24;
+}
+:root .listAvatar-1NlAhb .pointerEvents-2zdfdO {
+  x: 30;
+  y: 30;
+  stroke-width: 2.5px;
+}
+:root .menu-3sdvDG .pointerEvents-2zdfdO:not([mask="url(#svg-mask-status-online-mobile)"]) {
+  width: 10px;
+  height: 10px;
+  stroke-width: 2.5px;
+}
+:root .menu-3sdvDG .pointerEvents-2zdfdO {
+  stroke: var(--background-tertiary);
+}
+:root .channel-2QD9_O .pointerEvents-2zdfdO, :root .members-1998pB .pointerEvents-2zdfdO, :root .listAvatar-1NlAhb .pointerEvents-2zdfdO, :root .nowPlayingColumn-2sl4cE .pointerEvents-2zdfdO {
+  stroke: var(--background-secondary-alt);
+}
+:root .avatarWrapper-2yR4wp[aria-expanded=false] .pointerEvents-2zdfdO, :root .peopleListItem-2nzedh .pointerEvents-2zdfdO {
+  stroke: var(--background-primary);
+}
+:root .wrapper-3t9DeA .dots-3Bkt3k {
+  overflow: visible;
+}
+:root .wrapper-3t9DeA .dots-3Bkt3k g {
+  transform: translateY(2.5px);
+}
+:root .accountProfileCard-1XCH88 .avatar-1uQSZT .pointerEvents-2zdfdO {
+  x: 66px;
+  y: 66px;
+  width: 20px;
+  height: 20px;
+  rx: calc(var(--status-radius) + 1px) !important;
+  stroke: var(--background-secondary);
+  stroke-width: 4px;
+}
+
+/* Status Fix - Begone Bullshit */
+
+.topSection-y3p-_D .pointerEvents-2zdfdO,
+.title-3qD0b- .status-1XNdyw {
+  display: none;
+}
+
+/* Mini Modal - Begone Bullshit */
+
+.setIdentityLink-1t8Ahd {
+	display: none;
+}
