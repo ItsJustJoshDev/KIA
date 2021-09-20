@@ -7,3 +7,5 @@ Discord Theme From a Car Name lol
 [Nebula](https://github.com/Pavui/Nebula) By [Pavui](https://github.com/Pavui)
 
 [Ovel](https://github.com/leeprky/Ovel) By [Leeprky](https://github.com/leeprky)
+
+[Teardrop Messgaes](https://userstyles.world/style/13/discord-teardrop-messages) By [Freeplay]
