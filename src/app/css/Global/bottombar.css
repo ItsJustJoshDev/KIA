@@ -3,6 +3,14 @@
 @import url("https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css");
 @import url('https://discord-theme-addons.github.io/bottom-bar/src/support/compiled.css');
 
+:root {
+	/* BottomBar */
+	--bar-background-primary: var(--background-tertiary);
+	/* Horizontal Server List */
+	--HSL-server-icon-size: 40px; /* Size of the server icons | DEFAULT: 40px */
+	--HSL-server-spacing: 10px; /* Spacing between each server icon | DEFAULT: 10px */
+}
+
 #app-mount {
     --bar-height: 125px !important; /* i recommend not touching this */
 }
