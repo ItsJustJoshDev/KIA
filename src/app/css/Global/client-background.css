@@ -1,7 +1,9 @@
-  :root {
-   background:var(--background-image) center/cover no-repeat !important;
-  }
+	[class*="root"],
+	:root {
+   		background:var(--background-image) center/cover no-repeat !important;
+  	}
 
-   body {
-    opacity:var(--opacity) !important;
-  }
+	[class*="body"],
+	body {
+		opacity:var(--opacity) !important;
+  	}
