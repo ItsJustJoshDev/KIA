@@ -1,5 +1,6 @@
 /* Base Imports */
 @import url("https://discordstyles.github.io/Addons/bottomhsl.css");
+@import url('https://xhylo.github.io/DmBubblesearch/SearchSC.css');
 @import url("https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css");
 @import url('https://discord-theme-addons.github.io/bottom-bar/src/support/compiled.css');
 
@@ -20,6 +21,13 @@ background: var(--bar-background-primary) !important;
 position: absolute;
 width: 1126px;
 height: 60px;
+margin-top: 480px !important; 
+}
+.container-1r6BKw {
+border: none;
+background: var(--bar-background-primary) !important;
+position: absolute;
+width: 1126px;
 margin-top: 480px !important; 
 }
 .theme-dark .children-19S4PO:after {
@@ -74,4 +82,34 @@ body #app-mount .guilds-1SWlCJ {
 .button-14-BFJ:hover[aria-label="Deafen"][aria-checked="true"],[aria-label="Mute"][aria-checked="true"] {
   background-color: var(--brand-color) !important;
   filter: brightness(0.9);
+}
+
+#app-mount .privateChannels-1nO12o .searchBar-6Kv8R2 {
+  border-radius: var(--primary-rounding);
+  background:  var(--background-tertiary);
+}
+#app-mount .privateChannels-1nO12o .searchBar-6Kv8R2 .searchBarComponent-32dTOx::after {
+  content: '';
+  position: absolute;
+  height: 70%;
+  width: 30px;
+  bottom: 5px;
+  right: 5px;
+  background-color: var(--header-primary) !important;
+  -webkit-mask: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="%23000000"%3E%3Cpath d="M0 0h24v24H0z" fill="none"/%3E%3Cpath d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/%3E%3C/svg%3E') center/cover no-repeat;
+}
+#app-mount .privateChannels-1nO12o .searchBar-6Kv8R2 .searchBarComponent-32dTOx::before {
+  content: 'Search Direct Messages';
+  position: absolute;
+  top: 50%;
+  transform: translateY(-25%);
+  width: 180px;
+  bottom: 0;
+  right: 0vw;
+  color: var(--header-primary);
+  opacity: .5;
+  font-size: 12px;
+  line-height: 100%;
+  transition: all 1s ease-in-out;
+  pointer-events: none;
 }
