@@ -40,7 +40,7 @@
 	opacity: 1.0;
 	top:  0px;
 	height: 260px;
-	background-image: var(--settings-image);
+	background-image: var(--user-background, var(--settings-image));
 }
 .avatar-1uQSZT {
 	margin-top:  160px;
@@ -56,8 +56,8 @@
 }
 [class*="bannerNormal"] {
 	content: "";
-	background: #000 var(--settings-image) var(--user-popout-position, center)/cover no-repeat;
-	background-attachment: var(--settings-image, fixed);
+	background: #000 var(--user-background, var(--settings-image)) var(--user-popout-position, center)/cover no-repeat;
+	background-attachment: var(--user-background, var(--settings-image), fixed);
     height: 180px;
     margin-top: 0px;
 	top: 0px;
