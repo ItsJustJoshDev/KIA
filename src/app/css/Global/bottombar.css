@@ -3,20 +3,60 @@
 @import url("https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css");
 @import url('https://discord-theme-addons.github.io/bottom-bar/src/support/compiled.css');
 
+.title-3qD0b- {
+background: var(--bar-background-primary) !important;
+position: absolute;
+width: 1126px;
+height: 60px;
+margin-top: 480px !important; 
+}
 body #app-mount .guilds-1SWlCJ {
   top: unset !important;
-  left: 106.3vw !important;
+  left: 109.3vw !important;
   bottom: 0 !important;
   transform-origin: bottom left;
 }
-/*
-#app-mount .members-1998pB::after,
-#app-mount .searchResultsWrap-3-pOjs::after {
-    content: "";
-    position: fixed;
-    background-color: var(--bar-background-primary);
-    width: 100%;
-    height: calc(var(--bar-height) + 60px);
-    bottom: 0;
+#app-mount .chatContent-a9vAAp .form-2fGMdU {
+    background: var(--bar-background-primary);
+    padding: 41px 16px 0 16px;
+    margin: 0;
+    margin-bottom: 0;
+    bottom: -3px;
+    margin-top: -3px;
 }
-*/
+
+.button-14-BFJ[aria-label="Mute"], .button-14-BFJ[aria-label="Deafen"] {
+  margin-bottom: 8px;
+}
+.container-3baos1 .flex-1xMQg5 {
+  flex-direction: column;
+  background-color: var(--background-secondary-alt);
+  padding: 5px;
+  border-radius: 4px;
+  right: -8px !important;
+  position: relative;
+  transition: 350ms ease all !important;
+}
+
+.container-3baos1 .flex-1xMQg5 .button-14-BFJ:not(:last-child) {
+  display: none;
+}
+.container-3baos1 .flex-1xMQg5:hover {
+  transform: translate(0px, -40px);
+  transition: 250ms ease all !important;
+}
+.container-3baos1 .flex-1xMQg5:hover .button-14-BFJ:not(:last-child) {
+  display: block;
+}
+
+
+.button-14-BFJ:hover {
+  background-color: var(--brand-color) !important;
+  filter: opacity(0.5);
+  transition: 250ms ease all !important;
+}
+
+.button-14-BFJ:hover[aria-label="Deafen"][aria-checked="true"],[aria-label="Mute"][aria-checked="true"] {
+  background-color: var(--brand-color) !important;
+  filter: brightness(0.9);
+}
