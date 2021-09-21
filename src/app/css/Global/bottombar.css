@@ -117,3 +117,9 @@ body #app-mount .guilds-1SWlCJ {
 .form-2fGMdU > div > div.scrollableContainer-2NUZem {
 height: 41px;
 }
+
+[class*="attachedBars"] {
+position: absolute;
+margin-top: -94px;
+width: 1094px;
+}
