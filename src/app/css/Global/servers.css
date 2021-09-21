@@ -45,3 +45,18 @@ background: var(--brand-color);
 [class*="guilds-"] [class*="scroller-"] > [class*="listItem-"]:nth-last-child(-1n + 3) {
 	display: none !important;
 }
+
+:root {
+  --home-icon-mobile: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:serif='http://www.serif.com/' width='100%25' height='100%25' viewBox='0 0 48 48' version='1.1' xml:space='preserve' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='ArtBoard1' x='0' y='0' width='48' height='48' style='fill:none;'/%3E%3Cg id='ArtBoard11' serif:id='ArtBoard1'%3E%3Cpath id='home' d='M13.688,43.053l0,-8l-5.867,0c-2.109,0 -3.821,-1.712 -3.821,-3.821l0,-22.464c0,-2.109 1.712,-3.821 3.821,-3.821l32.358,-0c2.109,-0 3.821,1.712 3.821,3.821l-0,22.464c-0,2.109 -1.712,3.821 -3.821,3.821l-18.491,0l-8,8Z'/%3E%3C/g%3E%3C/svg%3E") center no-repeat;
+}
+
+.homeIcon-FuNwkv {
+  color: transparent;
+  -webkit-mask: var(--home-icon);
+  mask: var(--home-icon);
+  background: var(--interactive-normal);
+  width: 60%;
+  height: 60%;
+  margin-top: 2px;
+
+}
