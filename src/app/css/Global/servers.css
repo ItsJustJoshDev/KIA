@@ -1,0 +1,27 @@
+:root .wrapper-3t9DeA foreignObject, :root .callAvatarMask-1SLlRi foreignObject,
+:root .avatarContainer-3CQrif foreignObject, :root .avatarMasked-3y6o4j {
+  mask: none;
+  -webkit-mask: none;
+}
+:root .wrapper-25eVIn foreignObject {
+  mask: none;
+  -webkit-mask: none;
+}
+:root .wrapperSimple-19ogV2 {
+  overflow: visible;
+}
+:root .wrapperSimple-19ogV2, :root .wrapper-25eVIn foreignObject,
+:root .folderIconWrapper-226oVY, :root .folderIconWrapper-1_bOZe,
+:root .expandedFolderBackground-2sPsd-,
+:root .flexChild-faoVW3 .avatarUploaderInner-3UNxY3 {
+  border-radius: var(--server-radius);
+}
+:root .iconInactive-98JN5i {
+  border-radius: calc(var(--server-radius) - 4px);
+}
+:root .wrapper-25eVIn foreignObject {
+  transition: border-radius 200ms;
+}
+:root .wrapper-25eVIn foreignObject:hover foreignObject {
+  border-radius: calc(var(--server-radius) - 3px);
+}
