@@ -3,6 +3,10 @@
 @import url("https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css");
 @import url('https://discord-theme-addons.github.io/bottom-bar/src/support/compiled.css');
 
+#app-mount {
+    --bar-height: 125px !important; /* i recommend not touching this */
+}
+
 .title-3qD0b- {
 background: var(--bar-background-primary) !important;
 position: absolute;
