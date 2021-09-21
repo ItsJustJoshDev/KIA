@@ -22,6 +22,9 @@ width: 1126px;
 height: 60px;
 margin-top: 480px !important; 
 }
+.theme-dark .children-19S4PO:after {
+display: none;
+}
 body #app-mount .guilds-1SWlCJ {
   top: unset !important;
   left: 109.3vw !important;
