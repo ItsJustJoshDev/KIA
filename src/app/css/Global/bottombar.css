@@ -1,5 +1,5 @@
 /* Base Imports */
-/*@import url("https://discordstyles.github.io/Addons/bottomhsl.css");*/
+@import url("https://discordstyles.github.io/Addons/bottomhsl.css");
 @import url("https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css");
 @import url('https://discord-theme-addons.github.io/bottom-bar/src/support/compiled.css');
 
@@ -22,12 +22,12 @@ width: 1126px;
 height: 60px;
 margin-top: 480px !important; 
 }
-/*body #app-mount .guilds-1SWlCJ {
+body #app-mount .guilds-1SWlCJ {
   top: unset !important;
   left: 109.3vw !important;
   bottom: 0 !important;
   transform-origin: bottom left;
-}*/
+}
 #app-mount .chatContent-a9vAAp .form-2fGMdU {
     background: var(--bar-background-primary);
     padding: 41px 16px 0 16px;
