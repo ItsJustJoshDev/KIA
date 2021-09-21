@@ -20,7 +20,7 @@
 }
 /* Channels/DM's */
 .sidebar-2K8pFh {
-    resize: horizontal;
+/*    resize: horizontal;  */
     width: var(--sidebar-initial-width);
 }
 .sidebar-2K8pFh .channel-2QD9_O { max-width: unset; }
