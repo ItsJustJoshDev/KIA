@@ -1,0 +1,43 @@
+/* Scrollbar Begone */
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+/* Disable Help */
+[aria-label="Help"] {
+	display: none;
+}
+
+/* Fuck Stickers */
+.assetWrapper-3GNt0z { 
+	max-height: 10vh;
+	max-width: 10vh;
+}
+
+/* Better Chatbar */
+.buttons-3JBrkn {opacity: 1;}
+.attachWrapper-2TRKBi {order:1; margin-left:9px;}
+.attachButton-2WznTc {padding-right:15px}
+.uploadModal-2ifh8j .buttons-3JBrkn {opacity: 1.0;}
+
+/* Support for BetterFormattingRedux */
+#bfredux::before {
+  background: var(--channeltextarea-background);
+}
+
+/* Stage BS */
+[class*="nowPlayingSidebar"] {
+display: none;
+}
+.container-24CyRy {
+display: none;
+}
+.pageContent-1xgXch {
+background-color: var(--bar-background-primary);
+height: 435px;
+}
+
+/* setting button spinning */
+@keyframes spin { from { transform: rotate(0deg); }
+to { transform: rotate(360deg); } }
+.button-14-BFJ[aria-label="User Settings"]:hover svg { animation: spin 2s linear infinite; }
