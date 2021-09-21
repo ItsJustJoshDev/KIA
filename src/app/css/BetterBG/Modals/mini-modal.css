@@ -1,4 +1,4 @@
-/* Nebula User Popout */
+/* KIA User Popout */
  .userPopout-xaxa6l {
      background-color: var(--background-secondary-alt);
      border-radius: var(--primary-rounding);
@@ -118,6 +118,30 @@
 	right: 0;
 	bottom: 0;
 	left: 0;
+}
+
+.headerText-1vVs-U {
+position: fixed;
+margin-left: -145px;
+}
+.banner-2QYc2d.popoutBannerPremium-1n96gg.bannerPremium-2hSAwz {
+  width: 450px !important;
+}
+.customStatus-3NamXG {
+  margin-top: 20px !important;
+}
+.avatar-37jOim.wrapper-3t9DeA {
+  width: 160px !important;
+  height: 160px !important;
+}
+.avatarHint-2A3RNb {
+  display: none !important;
+}
+.userPopout-xaxa6l {
+  width: 450px !important;
+}
+.banner-2QYc2d.popoutBanner-19WKGg {
+  width: 430px !important;
 }
 
 /* Comfy Colors - Mini Modal */
