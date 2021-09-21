@@ -9,6 +9,7 @@ body #app-mount .guilds-1SWlCJ {
   bottom: 0 !important;
   transform-origin: bottom left;
 }
+/*
 #app-mount .members-1998pB::after,
 #app-mount .searchResultsWrap-3-pOjs::after {
     content: "";
@@ -18,3 +19,4 @@ body #app-mount .guilds-1SWlCJ {
     height: calc(var(--bar-height) + 60px);
     bottom: 0;
 }
+*/
