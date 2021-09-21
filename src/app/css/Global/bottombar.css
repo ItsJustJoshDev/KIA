@@ -1,0 +1,20 @@
+/* Base Imports */
+@import url("https://discordstyles.github.io/Addons/bottomhsl.css");
+@import url("https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css");
+@import url('https://discord-theme-addons.github.io/bottom-bar/src/support/compiled.css');
+
+body #app-mount .guilds-1SWlCJ {
+  top: unset !important;
+  left: 106.3vw !important;
+  bottom: 0 !important;
+  transform-origin: bottom left;
+}
+#app-mount .members-1998pB::after,
+#app-mount .searchResultsWrap-3-pOjs::after {
+    content: "";
+    position: fixed;
+    background-color: var(--bar-background-primary);
+    width: 100%;
+    height: calc(var(--bar-height) + 60px);
+    bottom: 0;
+}
