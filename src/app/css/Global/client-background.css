@@ -1,0 +1,7 @@
+  :root {
+   background:var(--background-image) center/cover no-repeat
+  }
+
+   body {
+    opacity:var(--opacity)
+  }
