@@ -1,0 +1,16 @@
+/* USRBG*/
+.avatar-3W3CeO.wrapper-3t9DeA:before {
+  content: '';
+  position: absolute !important;
+  top: -15px !important;
+  left: -13px !important;
+  width: 197.5px !important;
+  border-top-left-radius: 4px !important;
+  border-top-right-radius: 4px !important;
+
+}
+ 
+.peopleColumn-29fq28 .userInfo-2zN2z8::before {
+  border-top-left-radius: 8px !important;
+  border-top-right-radius: 8px !important;
+}
