@@ -1,5 +1,4 @@
 @import url(https://kewlsage.github.io/BorderShapes/addons/radial-statuses.css);
-@import url("https://therealgwjosh.github.io/KIA/src/app/css/BetterBG/Friend-Grid/config.css");
 
 :root {
   --rs-small-spacing: 0px; /* Gap between avatar and status for members list/dms | MUST end in px */
@@ -21,21 +20,4 @@
 
 /* Don't touch below this, makes it work with bordershapes. */
   --rs-avatar-shape: var(--borders-avatars, var(--avatar-radius));
-}
-
-/* USRBG*/
-.avatar-3W3CeO.wrapper-3t9DeA:before {
-  content: '';
-  position: absolute !important;
-  top: -15px !important;
-  left: -13px !important;
-  width: 197.5px !important;
-  border-top-left-radius: 4px !important;
-  border-top-right-radius: 4px !important;
-
-}
- 
-.peopleColumn-29fq28 .userInfo-2zN2z8::before {
-  border-top-left-radius: 8px !important;
-  border-top-right-radius: 8px !important;
 }
