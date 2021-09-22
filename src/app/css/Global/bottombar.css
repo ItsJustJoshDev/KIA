@@ -118,6 +118,15 @@ body #app-mount .guilds-1SWlCJ {
 height: 41px;
 }
 
+.wrapper-3NnKdC .closedFolderIconWrapper-2sTcE6 {
+  background: var(--background-primary);
+  transition: 400ms ease-in-out;
+}
+
+.wrapper-3NnKdC .closedFolderIconWrapper-2sTcE6:hover {
+  background: transparent;
+}
+
 [class*="attachedBars"] {
 position: absolute;
 margin-top: -94px;
