@@ -1,16 +1,24 @@
 /* USRBG*/
 .avatar-3W3CeO.wrapper-3t9DeA:before {
-  content: '';
-  position: absolute !important;
-  top: -15px !important;
-  left: -13px !important;
-  width: 197.5px !important;
-  border-top-left-radius: 4px !important;
-  border-top-right-radius: 4px !important;
-
+	content: '';
+	position: absolute !important;
+	top: -15px !important;
+	left: -13px !important;
+	height: 42px !important;
+	width: 178px !important;
+	border-top-left-radius: 4px !important;
+	border-top-right-radius: 4px !important;
 }
- 
 .peopleColumn-29fq28 .userInfo-2zN2z8::before {
-  border-top-left-radius: 8px !important;
-  border-top-right-radius: 8px !important;
+	border-top-left-radius: 8px !important;
+	border-top-right-radius: 8px !important;
+	width:100%;
+	height: calc( var(--FG-banner-height) + 38px ) !important;
+	opacity: calc( var(--FG-banner-opacity) * 0.8 ) !important;
+	background-image:var(--user-background);
+	background-position:center;
+	background-color:var(--user-accent-color);
+	background-size:cover;
+	content:"";
+	position:absolute;
 }
