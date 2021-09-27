@@ -110,6 +110,10 @@ background: var(--brand-color);
 	border-radius: 50%;
 }
 
+[class*="lowerBadge"] [class*="numberBadge"] {
+	margin-left: 32px;
+}
+
 /* Unread/Active Indicator */
 [class*="wrapper-3NnKdC"] [class*="item-2hkk8m"] {
 	content: "";
