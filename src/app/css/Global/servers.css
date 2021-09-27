@@ -107,7 +107,7 @@ background: var(--brand-color);
 [class*="mentionsBadge"] {
 	animation: var(--disable-animations), 2s server-mention infinite;
 	background-color: var(--mention-color) !important;
-	border-radius: 50%;
+	border-radius: var(--unread-radius);
 }
 
 [class*="lowerBadge"] [class*="numberBadge"] {
@@ -125,7 +125,7 @@ background: var(--brand-color);
 	height: 15px !important;
 	margin-top: 10px; 
 	background: var(--unread-color);
-	border-radius: 50%;
+	border-radius: var(--unread-radius);
 	animation: var(--disable-animations), 2s server-unread infinite;
 }
 
