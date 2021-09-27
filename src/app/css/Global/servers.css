@@ -113,7 +113,7 @@ background: var(--brand-color);
 /* Unread/Active Indicator */
 [class*="wrapper-3NnKdC"] [class*="item-2hkk8m"] {
 	content: "";
-    z-index: 4 !important;
+    z-index: 1 !important;
 	position: fixed; 
 	top: -0px;
 	left: 15px;
