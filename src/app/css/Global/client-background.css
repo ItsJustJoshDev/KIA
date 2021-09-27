@@ -1,9 +1,0 @@
-	[class*="root"],
-	:root {
-   		background:var(--background-image) center/cover no-repeat !important;
-  	}
-
-	[class*="body"],
-	body {
-		opacity:var(--opacity) !important;
-  	}
