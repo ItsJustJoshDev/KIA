@@ -1,0 +1,57 @@
+/* Couve Move Avatar To Server List */ 
+:root .panels-j1Uci_ > .container-3baos1 .avatarWrapper-2yR4wp[aria-expanded=false] {
+	position: fixed;
+    bottom: 12px; left: 18px; z-index: 1;
+}
+
+/* PATCH for scrollers above the user panel to make space */
+.guilds-1SWlCJ {
+	height: calc(100% - 132px);
+}
+
+/* Comfy Move User Buttons To Server List */
+.panels-j1Uci_ > .container-3baos1 > .flex-1xMQg5 {
+	position: fixed;
+    bottom: 70px; left: 15px; z-index: 1;
+	width: 40px;
+}
+.panels-j1Uci_ > .container-3baos1 > .flex-1xMQg5 > .button-14-BFJ {
+	color: var(--user-buttons-color);
+	margin: var(--user-buttons-spacing) auto 0;
+}
+
+/* User Buttons Hide till Hover */
+.button-14-BFJ[aria-label="Mute"], .button-14-BFJ[aria-label="Deafen"] {
+	margin-bottom: 8px;
+}
+.container-3baos1 .flex-1xMQg5 {
+	flex-direction: column;
+	background-color: var(--background-secondary);
+	padding: 0px 0px 5px 0px;
+	border-radius: 4px;
+	right: -8px !important;
+	position: relative;
+	transition: 350ms ease all !important;
+}
+
+.container-3baos1 .flex-1xMQg5 .button-14-BFJ:not(:last-child) {
+	display: none;
+}
+.container-3baos1 .flex-1xMQg5:hover {
+	transform: translate(0px, -10px);
+	transition: 250ms ease all !important;
+}
+.container-3baos1 .flex-1xMQg5:hover .button-14-BFJ:not(:last-child) {
+	display: block;
+}
+
+.button-14-BFJ:hover {
+	background-color: var(--brand-experiment) !important;
+	filter: opacity(0.5);
+	transition: 250ms ease all !important;
+}
+
+.button-14-BFJ:hover[aria-label="Deafen"][aria-checked="true"],[aria-label="Mute"][aria-checked="true"] {
+	background-color: var(--brand-experiment) !important;
+	filter: brightness(0.9);
+}
