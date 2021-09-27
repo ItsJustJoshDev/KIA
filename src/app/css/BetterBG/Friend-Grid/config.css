@@ -1,34 +1,62 @@
 @import url("https://therealgwjosh.github.io/KIA/src/app/css/BetterBG/Friend-Grid/main.css");
 
 :root {
+  --version: "v1.0.2";
+
+  --FG-row: 1fr 1fr 1fr;
+
   --FG-cards-radius: 8px;
   --FG-cards-height: 180px;
-  --FG-banner-height: 36px;
-  --FG-cards-margin-bottom: 26px;
   --FG-cards-banner-background: var(--brand-experiment);
-  --FG-global-banner: var(--banner-off);
- /* Use This to Add a Global Image url('https://imgur.com/8twCdCN.jpg') *//* Use This To Remove the Global Image var(--banner-off) */
+  --FG-cards-margin-bottom: 26px;
+  --FG-cards-banner-height: 20px;
   --FG-cards-border-width: 1px;
 
-  --FG-banner-opacity: 1.0;
+  --FG-avatar-margin-top: 46px;
+  --FG-avatar-margin-left: 20px;
+  --FG-text-margin-left: 20px;
+
+  --FG-cards-banner-opacity-normal: 1.0;
+  --FG-cards-banner-opacity-hover: 1.0;
+  --FG-cards-banner-opacity-active: 1.0;
+
+  --FG-cards-avatar-opacity-normal: 1.0;
+  --FG-cards-avatar-opacity-hover: 1.0;
+  --FG-cards-avatar-opacity-active: 1.0;
+
   --FG-cards-username-opacity-normal: 1.0;
   --FG-cards-username-opacity-hover: 1.0;
+  --FG-cards-username-opacity-active: 1.0;
+
   --FG-cards-discriminator-opacity-normal: 1.0;
   --FG-cards-discriminator-opacity-hover: 1.0;
+  --FG-cards-discriminator-opacity-active: 1.0;
+
   --FG-cards-status-opacity-normal: 1.0;
   --FG-cards-status-opacity-hover: 1.0;
+  --FG-cards-status-opacity-active: 1.0;
 
   --FG-cards-button-opacity-normal: 0.0;
   --FG-cards-button-opacity-hover: 1.0;
+  --FG-cards-button-opacity-active: 0.0;
 
   --FG-mutal-guilds-normal: 0.0;
   --FG-mutal-guilds-hover: 1.0;
+  --FG-mutal-guilds-active: 1.0;
+
+  --FG-avatar-shape: 50%;
+
+  --transition: all 0.4s ease;
 }
 
 .theme-dark {
   --FG-cards-background-normal: var(--background-secondary);
   --FG-cards-background-hover: var(--activity-card-background);
-  --FG-cards-border-color: var(--background-modifier-accent);
+
+  --FG-cards-background-active: var(--activity-card-background);
+
+  --FG-cards-border-color-normal: var(--background-modifier-accent);
+  --FG-cards-border-color-hover: var(--background-modifier-accent);
 
   --FG-cards-username-normal: var(--header-primary);
   --FG-cards-username-hover: var(--header-primary);
@@ -43,10 +71,14 @@
   --FG-cards-button-background-hover: rgba(0, 0, 0, 0.6);
 }
 
-.theme-light {
+.theme-light  {
   --FG-cards-background-normal: var(--background-secondary);
   --FG-cards-background-hover: var(--activity-card-background);
-  --FG-cards-border-color: var(--background-modifier-accent);
+
+  --FG-cards-background-active: var(--activity-card-background);
+
+  --FG-cards-border-color-normal: var(--background-modifier-accent);
+  --FG-cards-border-color-hover: var(--background-modifier-accent);
 
   --FG-cards-username-normal: var(--header-primary);
   --FG-cards-username-hover: var(--header-primary);
@@ -57,7 +89,6 @@
 
   --FG-cards-button-icon-normal: var(--interactive-active);
   --FG-cards-button-icon-hover: var(--activity-card-background);
-
-  --FG-button-normal: rgba(255, 255, 255, 0.3);
-  --FG-button-hover: rgba(255, 255, 255, 0.6);
+  --FG-cards-button-background-normal: rgba(255, 255, 255, 0.3);
+  --FG-cards-button-background-hover: rgba(255, 255, 255, 0.6);
 }
