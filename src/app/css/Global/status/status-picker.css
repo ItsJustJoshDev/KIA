@@ -1,0 +1,133 @@
+.full-motion .animatorTop-2Y7x2r.didRender-33z1u8 {
+	transform: unset !important;
+	transition: opacity 0.15s linear 0s;
+}
+ :root #status-picker {
+	position: fixed;
+	bottom: 8px;
+	left: 77px;
+	width: 230px;
+	height: 225px;
+	background: var(--background-tertiary);
+	border-radius: 5px;
+}
+ :root #status-picker > .scroller-3BxosC {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-template-rows: 40px 40px;
+	margin: auto 4px 4px;
+}
+:root #status-picker > .scroller-3BxosC .item-1tOPte:not(#status-picker-custom-status) > .statusItem-33LqPf {
+	grid-template-columns: 100% 1fr;
+}
+ :root #status-picker > .scroller-3BxosC .item-1tOPte,
+:root #status-picker > .scroller-3BxosC .submenuContainer-2gbm7M > .item-1tOPte {
+	border-radius: 5px;
+	margin: 3px;
+	padding: 0;
+	transition: background 120ms;
+}
+ :root #status-picker > .scroller-3BxosC .item-1tOPte .mask-1qbNWk.icon-1IxfJ2,
+:root #status-picker > .scroller-3BxosC .submenuContainer-2gbm7M > .item-1tOPte .mask-1qbNWk.icon-1IxfJ2 {
+	height: 18px;
+	width: 18px;
+	margin: auto;
+}
+:root #status-picker > .scroller-3BxosC .item-1tOPte .mask-1qbNWk.icon-1IxfJ2 foreignObject{
+    mask: none;
+	border-radius: var(--status-radius-alt);
+    overflow: hidden;
+}
+ :root #status-picker > .scroller-3BxosC .customEmoji-2_2FwB {
+	width: 20px;
+	height: 20px;
+}
+ :root #status-picker > .scroller-3BxosC .customText-tY5LJn {
+	font-size: 15px;
+}
+ :root #status-picker > .scroller-3BxosC #status-picker-custom-status {
+	grid-column: 1/5;
+	margin: auto 3px !important;
+}
+ :root #status-picker > .scroller-3BxosC #status-picker-custom-status .customEmojiPlaceholder-37iZ_j {
+	background-image: var(--emoji);
+}
+ :root #status-picker > .scroller-3BxosC #status-picker-custom-status .status-1fhblQ {
+	display: block;
+}
+ :root #status-picker > .scroller-3BxosC .separator-2I32lJ,
+:root #status-picker > .scroller-3BxosC .status-1fhblQ,
+:root #status-picker > .scroller-3BxosC .description-2L932D {
+	display: none;
+}
+ :root .select-2fjwPw,
+:root .popout-VcNcHB {
+	border: none;
+}
+ :root .select-2fjwPw.open-kZ53_U,
+:root .popout-VcNcHB {
+	background-color: var(--background-secondary-alt);
+	transition: 0.15s;
+}
+ :root .footer-2gL1pp {
+	background: var(--background-tertiary);
+}
+
+ :root .panels-j1Uci_ {
+	z-index: unset;
+}
+
+ :root .panels-j1Uci_ > .container-3baos1 .avatarWrapper-2yR4wp[aria-expanded="true"] {
+	position: absolute;
+	left: 90px;
+	bottom: 160px;
+	margin: 0;
+	z-index: 1005;
+	pointer-events: none;
+}
+ :root .panels-j1Uci_ > .container-3baos1 .avatarWrapper-2yR4wp[aria-expanded="true"] .wrapper-3t9DeA {
+	width: 60px !important;
+	height: 60px !important;
+	opacity: 1;
+}
+:root .panels-j1Uci_ > .container-3baos1 .avatarWrapper-2yR4wp[aria-expanded="true"] .wrapper-3t9DeA::before {
+	content: '' !important;
+	position: absolute;
+	top: -13px;
+	left: -85px;
+	width: 230px;
+	height: 140px;
+	pointer-events: none;
+	background: var(--status-background, var(--user-background));
+	background-color: var(--background-secondary-alt);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 3px;
+	-webkit-mask: linear-gradient(black, transparent 100%);
+	mask: linear-gradient(black, transparent 100%);
+	opacity: 0.8;
+}
+ :root .panels-j1Uci_ > .container-3baos1 .avatarWrapper-2yR4wp[aria-expanded="true"] + .nameTag-3uD-yy {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	bottom: 115px;
+	left: 50px;
+	width: 145px;
+	z-index: 10005;
+	margin: 0;
+	align-items: center;
+}
+ :root .panels-j1Uci_ > .container-3baos1 .avatarWrapper-2yR4wp[aria-expanded="true"] + .nameTag-3uD-yy .title-eS5yk3 {
+	font-size: 18px;
+}
+ :root .panels-j1Uci_ > .container-3baos1 .avatarWrapper-2yR4wp[aria-expanded="true"] + .nameTag-3uD-yy .subtext-3CDbHg {
+	font-size: 15px;
+	line-height: 20px;
+	width: 100%;
+	text-align: center;
+}
+ :root .panels-j1Uci_ > .container-3baos1 .avatarWrapper-2yR4wp[aria-expanded="true"] + .nameTag-3uD-yy .subtext-3CDbHg .hoverRoll-YK53gQ {
+	text-align: center;
+}
