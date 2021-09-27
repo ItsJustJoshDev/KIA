@@ -135,72 +135,7 @@ background: var(--brand-color);
 	z-index: 1;
 }
 
-/* Unreads Channel List */
-[class*="unread-2lAfLh"] {
-	content: "";
-	position: absolute;
-	display: block !important;
-	top: 18px;
-	left: 7px;
-	z-index: 1 !important;
-	width: 5px !important;
-	height: 5px !important;
-	background: var(--unread-color);
-	border-radius: 50%;
-	animation: var(--disable-animations), 2s server-unread infinite;
-}
 
-:root [class*="unreadTop-3rAB3r"] {
-	top: -0px;
-	z-index: 2;
-	width: 100%;
-	padding: 0;
-}
-
-:root [class*="unreadTop-3rAB3r"] [class*="unreadBar-3t3sYc mention-1f5kbO"] {
-	border-radius: 0;
-	background: linear-gradient(var(--mention-color), #0000);
-}
-
-:root [class*="unreadTop-3rAB3r"] [class*="unreadBar-3t3sYc unread-1xRYoj"] {
-	border-radius: 0;
-	background: linear-gradient(var(--unread-color), #0000);
-}
-
-:root [class*="unreadBottom-1_LF_w"] {
-	width: 100%;
-	height: 15px;
-	padding: 0;
-}
-
-:root [class*="unreadBottom-1_LF_w"] [class*="unreadBar-3t3sYc mention-1f5kbO"] {
-	border-radius: 0;
-	background: linear-gradient(#0000, var(--mention-color));
-}
-
-:root [class*="unreadBottom-1_LF_w"] [class*="unreadBar-3t3sYc unread-1xRYoj"] {
-	border-radius: 0;
-	background: linear-gradient(#0000, var(--unread-color));
-}
-
-:root [class*="unreadBar-3t3sYc"] > [class*="text-2e2ZyG"] {
-	display: none;
-}
-
-:root [class*="mentionsBadge-3tC7Mi"] [class*="numberBadge-2s8kKX"] {
-	animation: var(--disable-animations), 2s channel-mention infinite;
-}
-
-:root [class*="unread-2lAfLh"] {
-	top: 54%;
-	left: 5px;
-	width: 6px;
-	height: 6px;
-	z-index: 1;
-	background-color: var(--unread-color);
-	border-radius: 10px;
-	animation: var(--disable-animations), 2s channel-unread infinite;
-}
 
 /* Keyframes */
 @keyframes server-unread {
@@ -224,34 +159,6 @@ background: var(--brand-color);
 
 	70% {
 		box-shadow: 0 0 0 8px rgba(0, 0, 0, 0);
-	}
-
-	100% {
-		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-	}
-}
-
-@keyframes channel-mention {
-	0% {
-		box-shadow: 0 0 0 0 var(--mention-color);
-	}
-
-	70% {
-		box-shadow: 0 0 0 5px rgba(0, 0, 0, 0);
-	}
-
-	100% {
-		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-	}
-}
-
-@keyframes channel-unread {
-	0% {
-		box-shadow: 0 0 0 0 var(--unread-color);
-	}
-
-	70% {
-		box-shadow: 0 0 0 4px rgba(0, 0, 0, 0);
 	}
 
 	100% {
