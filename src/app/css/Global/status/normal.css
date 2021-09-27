@@ -1,0 +1,150 @@
+
+:root .userPopout-xaxa6l .pointerEvents-2zdfdO {
+  x: 66;
+  y: 66;
+  width: 20px;
+  height: 20px;
+  rx: calc(var(--status-radius) + 1px) !important;
+  stroke-width: 4px;
+  stroke: var(--background-tertiary);
+}
+:root .userPopout-xaxa6l .pointerEvents-2zdfdO[mask="url(#svg-mask-status-online-mobile)"] {
+  x: 64;
+  y: 56;
+  height: 28px;
+  rx: 8px !important;
+}
+:root .pointerEvents-2zdfdO {
+  mask: none;
+  pointer-events: none;
+}
+:root .pointerEvents-2zdfdO[width="8"]:not([mask="url(#svg-mask-status-online-mobile)"]), :root .pointerEvents-2zdfdO[width="10"]:not([mask="url(#svg-mask-status-online-mobile)"]), :root .pointerEvents-2zdfdO[width="12"]:not([mask="url(#svg-mask-status-online-mobile)"]), :root .pointerEvents-2zdfdO[width="16"]:not([mask="url(#svg-mask-status-online-mobile)"]) {
+  rx: var(--status-radius);
+}
+:root .pointerEvents-2zdfdO[width="25"], :root .pointerEvents-2zdfdO[mask="url(#svg-mask-status-online-mobile)"] {
+  rx: 5px;
+}
+:root .mask-1l8v16, :root .userInfo-2zN2z8 {
+  overflow: visible;
+}
+:root .cursorDefault-dsQJ1n, :root .mask-1l8v16 > svg {
+  overflow: visible;
+}
+:root .userPopout-xaxa6l .mask-1l8v16 > svg > mask > rect:first-child {
+  x: 18;
+  y: 14 !important;
+  ry: var(--status-radius);
+}
+:root div:not(.avatarWrapper-2yR4wp) .mask-1l8v16 > svg > mask > rect:first-child {
+  y: 8;
+  rx: var(--status-radius);
+}
+:root .mask-1l8v16 > svg > mask > rect[width="10"]:first-child {
+  x: 8;
+  width: 14px;
+  height: 11px;
+}
+:root .avatarWrapper-2yR4wp .wrapper-3t9DeA > .mask-1l8v16 > svg > rect {
+  height: calc(25px * 10px);
+  mask: none;
+  x: 10;
+  y: 8;
+  width: 10px;
+  rx: var(--status-radius);
+}
+:root .mask-1l8v16 > svg > rect {
+  height: 40px;
+}
+:root .mask-1l8v16 > svg > mask > rect:nth-child(2), :root .mask-1l8v16 > svg > mask > circle, :root .mask-1l8v16 > svg > mask > polygon {
+  display: none;
+}
+:root .channel-2QD9_O .pointerEvents-2zdfdO,
+:root .members-1998pB .pointerEvents-2zdfdO,
+:root .avatarWrapper-2yR4wp[aria-expanded=false] .pointerEvents-2zdfdO,
+:root .peopleListItem-2nzedh .pointerEvents-2zdfdO,
+:root .nowPlayingColumn-2sl4cE .pointerEvents-2zdfdO {
+  height: 12px;
+  y: 24;
+  stroke-width: 2.5px;
+}
+:root .channel-2QD9_O .pointerEvents-2zdfdO[width="10"]:not([mask="url(#svg-mask-status-online-mobile)"]),
+:root .members-1998pB .pointerEvents-2zdfdO[width="10"]:not([mask="url(#svg-mask-status-online-mobile)"]),
+:root .avatarWrapper-2yR4wp[aria-expanded=false] .pointerEvents-2zdfdO,
+:root .peopleListItem-2nzedh .pointerEvents-2zdfdO[width="10"]:not([mask="url(#svg-mask-status-online-mobile)"]),
+:root .nowPlayingColumn-2sl4cE .pointerEvents-2zdfdO[width="10"]:not([mask="url(#svg-mask-status-online-mobile)"]) {
+  width: 12px;
+  x: 24;
+}
+:root .channel-2QD9_O .pointerEvents-2zdfdO[mask="url(#svg-mask-status-online-mobile)"],
+:root .members-1998pB .pointerEvents-2zdfdO[mask="url(#svg-mask-status-online-mobile)"],
+:root .peopleListItem-2nzedh .pointerEvents-2zdfdO[mask="url(#svg-mask-status-online-mobile)"],
+:root .nowPlayingColumn-2sl4cE .pointerEvents-2zdfdO[mask="url(#svg-mask-status-online-mobile)"],
+:root .menu-3sdvDG .pointerEvents-2zdfdO[mask="url(#svg-mask-status-online-mobile)"] {
+  width: 12px;
+  height: 16px;
+  x: 24;
+  y: 20;
+}
+:root .avatarWrapper-2yR4wp[aria-expanded=true] .pointerEvents-2zdfdO {
+  x: 24;
+  y: 24;
+}
+:root .listAvatar-1NlAhb .pointerEvents-2zdfdO {
+  x: 30;
+  y: 30;
+  stroke-width: 2.5px;
+}
+:root .menu-3sdvDG .pointerEvents-2zdfdO:not([mask="url(#svg-mask-status-online-mobile)"]) {
+  width: 10px;
+  height: 10px;
+  stroke-width: 2.5px;
+}
+:root .menu-3sdvDG .pointerEvents-2zdfdO {
+  stroke: var(--background-tertiary);
+}
+:root .channel-2QD9_O .pointerEvents-2zdfdO, :root .members-1998pB .pointerEvents-2zdfdO, :root .listAvatar-1NlAhb .pointerEvents-2zdfdO, :root .nowPlayingColumn-2sl4cE .pointerEvents-2zdfdO {
+  stroke: var(--background-secondary-alt);
+}
+:root .avatarWrapper-2yR4wp[aria-expanded=false] .pointerEvents-2zdfdO, :root .peopleListItem-2nzedh .pointerEvents-2zdfdO {
+  stroke: var(--background-primary);
+}
+:root .wrapper-3t9DeA .dots-3Bkt3k {
+  overflow: visible;
+}
+:root .wrapper-3t9DeA .dots-3Bkt3k g {
+  transform: translateY(2.5px);
+}
+:root .accountProfileCard-1XCH88 .avatar-1uQSZT .pointerEvents-2zdfdO {
+  x: 66px;
+  y: 66px;
+  width: 20px;
+  height: 20px;
+  rx: calc(var(--status-radius) + 1px) !important;
+  stroke: var(--background-secondary);
+  stroke-width: 4px;
+}
+
+#app-mount .wrapper-3t9DeA rect[fill="#43b581"], #app-mount .wrapper-3t9DeA rect[fill="#3ba55c"], #app-mount .wrapper-3t9DeA rect[fill="rgba(67, 181, 129, 1)"], #app-mount .wrapper-3t9DeA rect[mask*=online], #app-mount .wrapper-3t9DeA rect[fill*="hsl(139"] {
+  stroke: var(--background-secondary) !important;
+  fill: var(--brand-color) !important;
+}
+#app-mount .wrapper-3t9DeA rect[fill="#faa61a"], #app-mount .wrapper-3t9DeA rect[fill="rgba(250, 166, 26, 1)"], #app-mount .wrapper-3t9DeA rect[mask*=idle], #app-mount .wrapper-3t9DeA rect[fill*="hsl(38"] {
+  stroke: var(--background-secondary) !important;
+  fill: var(--idle-color) !important;
+}
+#app-mount .wrapper-3t9DeA rect[fill="#f04747"], #app-mount .wrapper-3t9DeA rect[fill="rgba(240, 71, 71, 1)"], #app-mount .wrapper-3t9DeA rect[fill="#ed4245"], #app-mount .wrapper-3t9DeA rect[mask*=dnd], #app-mount .wrapper-3t9DeA rect[fill*="hsl(359"] {
+  stroke: var(--background-secondary) !important;
+  fill: var(--dnd-color) !important;
+}
+#app-mount .wrapper-3t9DeA rect[fill="#593695"], #app-mount .wrapper-3t9DeA rect[mask*=streaming] {
+  fill: var(--streaming-color) !important;
+  stroke: var(--background-secondary) !important;
+}
+#app-mount .wrapper-3t9DeA rect[fill="#747f8d"], #app-mount .wrapper-3t9DeA rect[mask*=offline], #app-mount .wrapper-3t9DeA rect[fill=NaN] {
+  fill: var(--offline-color) !important;
+  stroke: var(--background-secondary) !important;
+}
+#app-mount .wrapper-3t9DeA rect[fill="#747f8d"], #app-mount .wrapper-3t9DeA rect[mask*=invisible], #app-mount .wrapper-3t9DeA rect[fill="rgba(116, 127, 141, 1)"], #app-mount .wrapper-3t9DeA rect[fill*="hsl(214"] {
+  fill: var(--invisible-color) !important;
+  stroke: var(--background-secondary) !important;
+}
