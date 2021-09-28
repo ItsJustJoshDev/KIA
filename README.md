@@ -6,7 +6,11 @@ Discord Theme From a Car Name lol
 
 [Friends-Grid](https://github.com/CorellanStoma/Friends-Grid) By [CorellanStoma](https://github.com/CorellanStoma)
 
+[CreArts](https://github.com/CorellanStoma/CreArts-Discord) By [CorellanStoma](https://github.com/CorellanStoma) *Some Imports Used*
+
 [Context Icons](https://github.com/CorellanStoma/Context-Icons) By [CorellanStoma](https://github.com/CorellanStoma)
+
+[Discolored](https://github.com/NYRI4/Discolored) By [NYRI4]((https://github.com/NYRI4)
 
 [Nebula](https://github.com/Pavui/Nebula) By [Pavui](https://github.com/Pavui) *Modified - Mini Modal Content Added*
 
