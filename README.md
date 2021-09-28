@@ -4,6 +4,8 @@ Discord Theme From a Car Name lol
 ## Credit To The Awsome Pepole and Content :3
 **Cryptogenic#0750** For FInding CSS Classes
 
+LuckFire's FullyThemedDiscord, V-briese's Channel Icons and The Support Of Powercord, BetterDiscord For Sinppets and Imports :3
+
 [Friends-Grid](https://github.com/CorellanStoma/Friends-Grid) By [CorellanStoma](https://github.com/CorellanStoma)
 
 [CreArts](https://github.com/CorellanStoma/CreArts-Discord) By [CorellanStoma](https://github.com/CorellanStoma) *Some Imports Used*
