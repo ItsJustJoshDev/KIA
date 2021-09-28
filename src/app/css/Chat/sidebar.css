@@ -139,6 +139,82 @@
 	border-radius: var(--unread-radius);
 	animation: var(--disable-animations), 2s channel-unread infinite;
 }
+
+/* Server List */
+[class*="wrapper-"][class*="guilds-"][aria-label] {
+    z-index: 30; 
+}
+
+[class*="sidebar-"] [aria-controls*="popout_"]{
+    z-index: 50;
+}
+
+/* Channel List */
+[class*="base-"] [class*="sidebar-"] {
+    position: fixed;
+    z-index: 20;
+    top: 48px;
+    bottom: 0;
+    left: -240px;
+    border-radius: 0;
+    box-shadow: 2px 0 5px -2px rgba(0, 0, 0, 0.5);
+    transition: left 200ms;
+    transition-delay: 150ms;
+}
+
+/* Hover to channelname and sidebar */
+[class*="base-"] [class*="sidebar-"]:hover {
+    left: 72px;
+}
+
+/* Hover to channelname and sidebar to hide pill */
+[class*="base-"] [class*="sidebar-"]:hover [class*="modeUnread-"]::after {
+    transform: scale(0);
+    transition: transform 100ms;
+}
+
+
+/* Titlebar */
+[class*="base-"] [class*="title-"] {
+    z-index: 10;
+	padding-left: 15px;
+}
+
+/* Add mask for titlebar */
+[class*="base-"] [class*="sidebar-"]::before {
+    content: "";
+    position: fixed;
+    left: 72px;
+    top: 22px;
+    width: 240px;
+    height: 68px;
+    z-index: 30; 
+}
+
+/* Unread Channel Pill */
+[class*="base-"] [class*="sidebar-"] [class*="modeUnread-"]::after {
+    content: ""; 
+    position: fixed;
+    border-radius: var(--unread-radius);
+    top: 21px;
+    left: 81px;
+    width: 8px;
+    height: 8px;
+    background-color: var(--unread-color);
+    transition: transform 100ms ease-out 350ms;
+}
+
+/* Move the mask, pill, and channel down when streamer mode is enabled */
+[class*="notice-"][class*="colorStreamerMode-"] + [class*="content-"] > [class*="sidebar-"],
+[class*="notice-"][class*="colorStreamerMode-"] + [class*="content-"] > [class*="sidebar-"]::before {
+    top: 58px;
+}
+
+[class*="notice-"][class*="colorStreamerMode-"] + [class*="content-"] > [class*="sidebar-"] [class*="modeUnread-"]::after {
+    top: 56px !important;
+}
+
+
 @keyframes channel-mention {
 	0% {
 		box-shadow: 0 0 0 0 var(--mention-color);
