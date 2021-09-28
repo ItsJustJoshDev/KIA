@@ -1,0 +1,70 @@
+/* USRBG/BetterBG - KIA Modals */
+@import url("https://therealgwjosh.github.io/KIA/src/app/css/BetterBG/Modals/mini-modal.css");
+@import url("https://therealgwjosh.github.io/KIA/src/app/css/BetterBG/Modals/modal-expanded.css");
+
+/* Chat Content */
+@import url("https://therealgwjosh.github.io/KIA/src/app/css/Chat/bubble-messages.css");
+@import url("https://therealgwjosh.github.io/KIA/src/app/css/Chat/emoji.css");
+@import url("https://therealgwjosh.github.io/KIA/src/app/css/Chat/main.css");
+@import url("https://therealgwjosh.github.io/KIA/src/app/css/Chat/sidebar.css");
+@import url("https://therealgwjosh.github.io/KIA/src/app/css/Chat/searchsc.css");
+
+/* Version Imports */
+@import url("https://therealgwjosh.github.io/KIA/src/app/css/version/version.css");
+@import url("https://therealgwjosh.github.io/KIA/src/app/css/version/config.css");
+
+/* Global Content */
+@import url("https://therealgwjosh.github.io/KIA/src/app/css/Global/settings.css");
+@import url("https://therealgwjosh.github.io/KIA/src/app/css/Global/user-buttons.css");
+@import url("https://therealgwjosh.github.io/KIA/src/app/css/Global/servers.css");
+@import url("https://therealgwjosh.github.io/KIA/src/app/css/Global/main.css");
+@import url("https://therealgwjosh.github.io/KIA/src/app/css/Global/context-icons.css");
+
+/* Loading Screen */
+@import url("https://therealgwjosh.github.io/KIA/src/app/css/Global/offline.css");
+
+/* Status - Pick One Radial or Normal */
+@import url("https://therealgwjosh.github.io/KIA/src/app/css/Global/status/status-picker.css");
+@import url("https://therealgwjosh.github.io/KIA/src/app/css/Global/status/normal.css"); /* radial-statuses.css */
+
+/* Friend-Grid */
+@import url("https://therealgwjosh.github.io/KIA/src/app/css/BetterBG/Friend-Grid/config.css");
+
+/* Import the Name Gradient Database */
+@import url('https://discord-database.github.io/Gradient-Names/src/main.css');
+
+/* AddonPack+ Content */
+@import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/UserWindow.css");
+@import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Minimal-Members.css");
+
+/* Revolution Content */
+@import url("https://therealgwjosh.github.io/Revolution/src/app/settings/settingsicons.css");
+@import url("https://therealgwjosh.github.io/Revolution/src/app/main/colorful-urls.css");
+
+/* Other Imports */
+@import url("https://luckfire.github.io/theme-source/src/css-compile/ThemeSource-Compiled.css");
+@import url("https://raw.githack.com/v-briese/Channel-Icons/main/channelicons.theme.css");
+@import url("https://corellanstoma.github.io/CreArts-Discord/addons/minimal-panel.css");
+@import url("https://corellanstoma.github.io/CreArts-Discord/addons/blur-details.css");
+@import url("https://raw.githack.com/LuckFire/theme-source/main/old-theme-source.css");
+@import url("https://corellanstoma.github.io/CreArts-Discord/addons/blur-spoiler.css");
+@import url("https://corellanstoma.github.io/CreArts-Discord/addons/bad-http.css");
+@import url("https://raw.githack.com/leeprky/FullyThemedDiscord/main/source.css");
+@import url("https://nyri4.github.io/Discolored/main.css");
+
+:root {
+	--classic-spotify: #1EDC62;
+	--rebrand-spotify: rgb(19, 185, 4);
+	--rebrand-color: #5865F2;
+	--classic-color: #7289da;
+	--mention-color-bar: var(--mention-color);
+	--offline-color: var(--interactive-active);
+	--user-buttons-color: var(--interactive-active);
+	--invisible-color: var(--interactive-active);
+	--brand-experiment: var(--brand-color) !important;
+	--off: 2s;
+	--on: !important;
+	--user-buttons-spacing: 4px;
+	--emoji-normal: url("https://nyri4.github.io/Comfy/assets/emoji.png");
+	--emoji-ms: url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/emojis/Microsoft/people/smile.png");
+}
