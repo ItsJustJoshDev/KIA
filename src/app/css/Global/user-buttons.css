@@ -6,7 +6,7 @@
 
 /* PATCH for scrollers above the user panel to make space */
 .guilds-1SWlCJ {
-	height: calc(100% - 132px);
+	height: calc(100% - 107px);
 }
 
 /* Comfy Move User Buttons To Server List */
@@ -25,13 +25,18 @@
 	margin-bottom: 8px;
 }
 .container-3baos1 .flex-1xMQg5 {
-	flex-direction: column;
-	background-color: var(--background-secondary);
+	flex-direction: row-reverse !important;
+	background-color: var(--background-secondary-alt);
 	padding: 0px 0px 5px 0px;
 	border-radius: 4px;
 	right: -8px !important;
+	bottom: 50px !important;
 	position: relative;
-	transition: 350ms ease all !important;
+	transition: 250ms ease all !important;
+}
+.container-3baos1 .flex-1xMQg5:hover {
+	width: 150px !important;
+	transition: 50ms ease all !important;
 }
 
 .container-3baos1 .flex-1xMQg5 .button-14-BFJ:not(:last-child) {
