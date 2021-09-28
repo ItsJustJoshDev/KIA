@@ -12,7 +12,7 @@ LuckFire's FullyThemedDiscord, V-briese's Channel Icons and The Support Of Power
 
 [Context Icons](https://github.com/CorellanStoma/Context-Icons) By [CorellanStoma](https://github.com/CorellanStoma)
 
-[Discolored](https://github.com/NYRI4/Discolored) By [NYRI4]((https://github.com/NYRI4)
+[Discolored](https://github.com/NYRI4/Discolored) By [NYRI4](https://github.com/NYRI4)
 
 [Nebula](https://github.com/Pavui/Nebula) By [Pavui](https://github.com/Pavui) *Modified - Mini Modal Content Added*
 
