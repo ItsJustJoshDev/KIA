@@ -82,8 +82,12 @@
     background-color: var(--background-tertiary) !important;
 }
 .cozy-3raOZG.message-2qnXI6.mentioned-xhSam7 .messageContent-2qWWxC:not(.repliedTextContent-1R3vnK) {
-    background-color: var(--background-mentioned) !important;
-    border-left: 2px solid #faa61a;
+    background-color: var(--mention-color-background) !important;
+    border-left: 2px solid var(--mention-color-bar);
+}
+.cozy-3raOZG.message-2qnXI6.mentioned-xhSam7 .messageContent-2qWWxC:not(.repliedTextContent-1R3vnK):hover {
+    background-color: var(--mention-color-hover) !important;
+
 }
 
 .theme-dark .cozy-3raOZG.message-2qnXI6.selected-2P5D_Z .messageContent-2qWWxC:not(.repliedTextContent-1R3vnK),
