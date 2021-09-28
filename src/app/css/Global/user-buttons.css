@@ -36,14 +36,14 @@
 }
 .container-3baos1 .flex-1xMQg5:hover {
 	width: 150px !important;
-	transition: 50ms ease all !important;
+	transition: 150ms ease all !important;
 }
 
 .container-3baos1 .flex-1xMQg5 .button-14-BFJ:not(:last-child) {
 	display: none;
 }
 .container-3baos1 .flex-1xMQg5:hover {
-	transform: translate(0px, -10px);
+	transform: translate(0px, -0px);
 	transition: 250ms ease all !important;
 }
 .container-3baos1 .flex-1xMQg5:hover .button-14-BFJ:not(:last-child) {
