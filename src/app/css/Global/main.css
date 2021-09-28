@@ -44,3 +44,16 @@ to { transform: rotate(360deg); } }
 
 ::-webkit-scrollbar { display: none;}.content-1x5b-n { margin: 0 !important; border-radius: 0; }.mainContent-u_9PKf { padding-left: 8px;}.container-2Pjhx- { margin: 0; max-width: unset; }.layout-2DM8Md { border-radius: 0; padding: 0 16px;}.unread-2lAfLh { z-index: 1;} .buttons-3JBrkn { padding-right: 10px !important;}
 
+/* Make Active Now Resizeable */
+.nowPlayingColumn-2sl4cE, .nowPlayingSidebar-2OFn0o {
+  flex: unset; max-width: unset;
+  overflow: hidden;
+  height: var(--active-now-height); 
+  min-height: var(--active-now-height);
+  max-height: var(--active-now-height);
+}
+/* Make The Tab Body a Column */
+.tabBody-3YRQ8W, .pageContent-1xgXch, .stageSection-3mAD8V  {
+  display: flex;
+  flex-flow: column nowrap;
+}
