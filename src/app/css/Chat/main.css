@@ -109,4 +109,10 @@
     display: none
   }
 
-
+/* Captilize Channel Names & Headers */
+.headerIcon-1qrXTN+.headerLabel-3dG4M-,
+.children-19S4PO >h3,
+.item-PXvHYJ,
+.name-23GUGE {
+	text-transform: capitalize;
+}
