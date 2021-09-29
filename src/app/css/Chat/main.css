@@ -103,3 +103,10 @@
 .search-36MZv- .searchFilter-2ESiM3 {
 	background-color: var(--background-primary);
 }
+
+/* Hides Textbox when you don't have permission to talk in the channel */
+.channelTextAreaDisabled-8rmlrp > div {
+    display: none
+  }
+
+
