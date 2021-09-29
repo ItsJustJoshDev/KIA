@@ -1,19 +1,20 @@
 /* Couve Move Avatar To Server List */ 
 :root .panels-j1Uci_ > .container-3baos1 .avatarWrapper-2yR4wp[aria-expanded=false] {
 	position: fixed;
-    bottom: 12px; left: 18px; z-index: 1;
+    bottom: 12px; left: 19px; z-index: 1;
 }
 
 /* PATCH for scrollers above the user panel to make space */
 .guilds-1SWlCJ {
-	height: calc(100% - 107px);
+	height: calc(100% - 50px);
 }
 
 /* Comfy Move User Buttons To Server List */
 .theme-dark .panels-j1Uci_ > .container-3baos1 > .flex-1xMQg5 {
-	position: fixed;
-    bottom: 70px; left: 15px; z-index: 1;
+    top: 0px; right: 5px !important; z-index: 1;
+	margin-left: 10px;
 	width: 40px;
+	height: 30px;
 }
 .theme-dark .panels-j1Uci_ > .container-3baos1 > .flex-1xMQg5 > .button-14-BFJ {
 	color: var(--user-buttons-color);
@@ -25,7 +26,7 @@
 	margin-bottom: 8px;
 }
 .theme-dark .container-3baos1 .flex-1xMQg5 {
-	flex-direction: row-reverse !important;
+	flex-direction: column-reverse !important;
 	background-color: var(--background-secondary-alt);
 	padding: 0px 0px 5px 0px;
 	border-radius: 4px;
@@ -35,7 +36,7 @@
 	transition: 250ms ease all !important;
 }
 .theme-dark .container-3baos1 .flex-1xMQg5:hover {
-	width: 150px !important;
+	width: 50px !important;
 	transition: 150ms ease all !important;
 }
 
@@ -43,7 +44,8 @@
 	display: none;
 }
 .theme-dark .container-3baos1 .flex-1xMQg5:hover {
-	transform: translate(0px, -0px);
+	transform: translate(0px, 40px);
+	height: 100px;
 	transition: 250ms ease all !important;
 }
 .theme-dark .container-3baos1 .flex-1xMQg5:hover .button-14-BFJ:not(:last-child) {
