@@ -116,3 +116,47 @@
 .name-23GUGE {
 	text-transform: capitalize;
 }
+
+
+
+.jumpToPresentBar-G1R9s6 {
+     padding: 0;
+	 background-color: var(--background-tertiary);
+     border-radius: var(--secondary-rounding);
+     right: 25px;
+     bottom: 15px !important;
+     left: unset;
+     height: 45px;
+     width: 45px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     animation-duration: 0.3s;
+     animation-name: slidein;
+     animation-fill-mode: forwards;
+}
+ .jumpToPresentBar-G1R9s6 .spinner-2enMB9 {
+     padding: 0;
+}
+ .jumpToPresentBar-G1R9s6 .barButtonMain-3K-jeJ {
+     display: none;
+}
+ .jumpToPresentBar-G1R9s6 .barButtonAlt-mYL1lj {
+     font-size: 0px;
+     padding: 0;
+     width: 40px;
+     height: 40px;
+}
+ .jumpToPresentBar-G1R9s6 .barButtonIcon-3t4V3d {
+     margin: auto;
+     width: 40px;
+     height: 40px;
+}
+ @keyframes slidein {
+     from {
+         bottom: -50px;
+    }
+     to {
+         bottom: 45px;
+    }
+} 
