@@ -33,20 +33,6 @@
    font-size: 15px;
    margin-left: 3px;
  }
-/* USRBG Settings - Account Details */
-[class*="settingsBanner"]{
-	content: '';
-	position: absolute;
-	background: fixed center cover no-repeat;
-	opacity: 1.0;
-	top:  0px;
-	height: 260px;
-	background-image: var(--user-background, var(--settings-image));
-}
-.avatar-1uQSZT {
-	margin-top:  160px;
-	border: 0px;
-}
 /* USRBG Settings - Mini Modal */
 [class*="avatarUploaderInner"] {
 	margin-top:  130px;
