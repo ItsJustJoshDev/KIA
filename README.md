@@ -2,7 +2,9 @@
 Discord Theme From a Car Name lol
 
 ## Credit To The Awsome Pepole and Content :3
-**Cryptogenic#0750** For FInding CSS Classes
+[Cryptogenic#0750](https://discord.com/users/220239731273760768) For FInding CSS Classes
+
+[Kewl Sage from Hypesquad#8906](https://discord.com/users/497161437051879444) For FInding CSS Classes
 
 LuckFire's FullyThemedDiscord, V-briese's Channel Icons and The Support Of Powercord, BetterDiscord For Sinppets and Imports :3
 
