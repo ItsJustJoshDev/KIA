@@ -1,0 +1,92 @@
+/* Give More Room For The Panel and Add Brand/Banner Color */
+.panels-j1Uci_, .sidebar-2K8pFh {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+[class*="sidebar-2K8pFh"] {
+	padding-top: 68px; 
+}
+
+[class*="panels-j1Uci"]::before {
+    content: '';
+    position: absolute;
+    width: 240px;
+    height: 68px;
+	top: 0 !important;
+	left: -0px !important;
+	z-index: 2 !important;
+    background: var(--user-accent-color, var(--brand-experiment));
+    background-size: cover;
+    background-repeat: no-repeat;
+	pointer-events: none;
+}
+
+/* Reposition The Avatar And Rescale it */
+[class*="panels-j1Uci"] > [class*="container-3baos1"] > [class*="avatarWrapper-2yR4wp"] {
+	position: fixed;
+	top: 40px;
+	left: 85px;
+	margin: 0;
+	z-index: 8;
+}
+
+/* USRBG/BetterBG Support For The User Panel */
+[class*="panels-j1Uci"] [class*="avatar-SmRMf2"]::before {
+    content: '';
+    position: absolute;
+    width: 240px;
+    height: 70px;
+    bottom: 4px !important;
+	left: -13px !important;
+	z-index: -1;
+    background: var(--user-background, var(--user-accent-color));
+    background-size: cover;
+    background-repeat: no-repeat;
+	pointer-events: none;
+}
+
+/* Resize The Nametag and Status Text */
+[class*="panels"] > [class*="container"] [class*="avatarWrapper"][aria-expanded=false] + [class*="nameTag"] [class*="subtext"]{max-width: 170px;}
+
+/* User Buttons Hide till Hover */
+[class*="button-14-BFJ"][aria-label="Mute"], [class*="button-14-BFJ"][aria-label="Deafen"] {
+	margin-bottom: 8px;
+}
+[class*="container-3baos1"] [class*="flex-1xMQg5"] {
+	flex-direction: column-reverse !important;
+	background-color: var(--background-secondary);
+	padding: 3px;
+	border-radius: 4px;
+	right: 8px !important;
+	bottom: -1px !important;
+	position: relative;
+	transition: 250ms ease all !important;
+}
+[class*="container-3baos1"] [class*="flex-1xMQg5"]:hover {
+	z-index: 9 !important;
+	transition: 150ms ease all !important;
+}
+
+[class*="container-3baos1"] [class*="flex-1xMQg5"] [class*="button-14-BFJ"]:not(:last-child) {
+	display: none;
+}
+[class*="container-3baos1"] [class*="flex-1xMQg5"]:hover {
+	transform: translate(0px, 35px);
+	height: 100px;
+	transition: 250ms ease all !important;
+}
+[class*="container-3baos1"] [class*="flex-1xMQg5"]:hover [class*="button-14-BFJ"]:not(:last-child) {
+	display: block;
+}
+
+[class*="button-14-BFJ"]:hover {
+	background-color: var(--brand-experiment) !important;
+	filter: opacity(0.5);
+	transition: 250ms ease all !important;
+}
+
+[class*="button-14-BFJ"]:hover[aria-label="Deafen"][aria-checked="true"],[aria-label="Mute"][aria-checked="true"] {
+	background-color: var(--brand-experiment) !important;
+	filter: brightness(0.9);
+}
