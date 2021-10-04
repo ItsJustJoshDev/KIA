@@ -16,6 +16,7 @@
 
 /* Global Content */
 @import url("https://therealgwjosh.github.io/KIA/src/app/css/Global/light-warning.css");
+@import url("https://therealgwjosh.github.io/KIA/src/app/css/Global/panel.css");
 @import url("https://therealgwjosh.github.io/KIA/src/app/css/Global/settings.css");
 @import url("https://therealgwjosh.github.io/KIA/src/app/css/Global/servers.css");
 @import url("https://therealgwjosh.github.io/KIA/src/app/css/Global/main.css");
@@ -25,7 +26,7 @@
 @import url("https://therealgwjosh.github.io/KIA/src/app/css/Global/offline.css");
 
 /* Status - Pick One Radial or Normal */
-@import url("https://therealgwjosh.github.io/KIA/src/app/css/Global/status/status-picker.css");
+@import url("https://therealgwjosh.github.io/KIA/src/app/css/Global/status/picker.css");
 @import url("https://therealgwjosh.github.io/KIA/src/app/css/Global/status/normal.css"); /* radial-statuses.css */
 
 /* Friend-Grid */
