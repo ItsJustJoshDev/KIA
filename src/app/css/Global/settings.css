@@ -15,10 +15,6 @@
         margin-top: 52px;
      }
  /* My Account */
- .accountProfileCard-1XCH88 {
-   padding-top:  260px;
-   border-radius: 8px;
- }
  .profile-1eT9hT {
    margin-left: 48%;
  }
@@ -173,4 +169,60 @@ display: none;
 }
 .sidebarRegion-VFTUkN {
   margin-top: -40px;
+}
+
+/* Settings Banner Support - User Account */
+[class*="avatar-1uQSZT"]::before {
+	content: "";
+	position: absolute;
+	background: #000 var(--user-background) var(--user-popout-position, center)/cover no-repeat;
+	background-attachment: var(--user-background, fixed);
+	top: -248px;
+	left: -16px;
+	width: 1032%;
+	height: 350%;
+}
+[class*="settingsBanner"]:not([style*="cdn.discordapp.com/banners"]) {
+	padding-top: 270px;
+}
+[class*="avatar-1uQSZT"]:not([style*="cdn.discordapp.com/banners"]) {
+	margin-top: 170px !important;
+}
+
+[class*="popoutInfo-pKbpvG"] {
+	margin-top: -5px;
+}
+
+/* Remove The Trash */
+[class*="preview-yzOwK1"] [class*="profileBadges-ohc0Vu"],
+[class*="preview-yzOwK1"] [class*="customStatus-oN4ZZY"],
+[class*="fakeActivity"],
+[class*="avatarHint"] {
+	display: none;
+}
+
+[class*="avatar"] {
+	border: none !important;
+}
+
+[class*="theme-dark"] [class*="preview-yzOwK1"]::after {
+	content: "USRBG/BetterBG is not supported in this place due to style issues. Thanks!";
+	background: #7b2d2d;
+	color: var(--interactive-active);
+	padding: 5px;
+	margin-top: 15px;
+	border-radius: 8px;
+	display: block;
+	max-width: 292px;
+}
+
+[class*="theme-light"] [class*="preview-yzOwK1"]::after {
+	content: "USRBG/BetterBG is not supported in this place due to style issues. Thanks!";
+	background: #e57d7d;
+	color: var(--interactive-active);
+	padding: 5px;
+	margin-top: 15px;
+	border-radius: 8px;
+	display: block;
+	max-width: 292px;
 }
