@@ -33,25 +33,6 @@
    font-size: 15px;
    margin-left: 3px;
  }
-/* USRBG Settings - Mini Modal */
-[class*="avatarUploaderInner"] {
-	margin-top:  130px;
-	border: 0px;
-}
-[class*="fakeActivity"] {
-	display: none;
-}
-[class*="bannerNormal"] {
-	content: "";
-	background: #000 var(--user-background, var(--settings-image)) var(--user-popout-position, center)/cover no-repeat;
-	background-attachment: var(--user-background, var(--settings-image), fixed);
-    height: 180px;
-    margin-top: 0px;
-	top: 0px;
-	right: 0;
-	bottom: 0;
-	left: 0;
-}
  .menu-319q29 {
    margin-top: -120px;
    margin-right: -0px;
