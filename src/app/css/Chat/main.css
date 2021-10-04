@@ -51,25 +51,6 @@
     width: 30px;
 }
 
-:root .panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp[aria-expanded=false] + .nameTag-3uD-yy {
-	padding: 5px;
-	z-index: unset !important;
-	border-radius: var(--primary-rounding);
-	background: var(--background-tertiary);
-}
-:root .panels-j1Uci_ > .container-3baos1 {
-	position: fixed;
-	background: transparent;
-	height: 0px;
-	max-width: 160px;
-	top: 24px;
-	right: -7px;
-}
-
-[class*="container-1r6BKw"] {
-	padding-right: 165px;
-}
-
 #private-channels [href="/discovery"] {display: none}
 #private-channels [href="/store"] {display: none}
 
