@@ -1,32 +1,64 @@
-/* Give More Room For The Panel and Add Brand/Banner Color */
-.panels-j1Uci_, .sidebar-2K8pFh {
+/* Main Var */
+:root {
+	--Panel-Border-Radius: 4px;
+}
+
+/* Move The Panel To The Top */
+[class*="panels-j1Uci"], [class*="sidebar-2K8pFh"] {
     display: flex;
     flex-direction: column-reverse;
 }
 
-[class*="sidebar-2K8pFh"] {
-	padding-top: 68px; 
+/* Resize The User Buttons */
+[class*="container-3baos1"] [class*="button-14-BFJ"] {
+	background-color: var(--background-floating) !important;
+	margin: 2px 7px 2px -4px;
+	width: 75px;
+	top: -6px !important;
 }
 
+/* Get Rid Of The NameTag And Status */
+[class*="panels"] > [class*="container"] [class*="avatarWrapper"][aria-expanded=false] + [class*="nameTag"] [class*="subtext"],
+[class*="panels"] > [class*="container"] [class*="avatarWrapper"][aria-expanded=false] + [class*="nameTag"] {
+	display: none;
+}
+
+/* Add More Height To The Panel + Change The Border Radius And Recolor The User Buttons */
+[class*="panels-j1Uci"] {
+	padding-bottom: 65px;
+	border-top-left-radius: var(--Panel-Border-Radius) !important;
+	border-top-right-radius: var(--Panel-Border-Radius) !important; 
+	background-color: var(--background-secondary-alt) !important;
+	color: var(--background-secondary-alt) !important;
+}
+[class*="panels-j1Uci"] > [class*="container-3baos1"] {
+	border-top-left-radius: var(--Panel-Border-Radius) !important;
+	border-top-right-radius: var(--Panel-Border-Radius) !important;
+	background-color: var(--background-secondary-alt) !important;
+	color: var(--background-secondary-alt) !important;
+}
+
+/* Add The Brand Color To The Panel When There is No USRBG/BetterBG */
 [class*="panels-j1Uci"]::before {
     content: '';
     position: absolute;
-    width: 240px;
-    height: 68px;
-	top: 0 !important;
-	left: -0px !important;
+    width: 234px;
+    height: 74px;
+	top: 40px !important;
+	left: 3px !important;
 	z-index: 2 !important;
+	border-radius: var(--Panel-Border-Radius);
     background: var(--user-accent-color, var(--brand-experiment));
     background-size: cover;
     background-repeat: no-repeat;
 	pointer-events: none;
 }
 
-/* Reposition The Avatar And Rescale it */
+/* Reposition The Avatar */
 [class*="panels-j1Uci"] > [class*="container-3baos1"] > [class*="avatarWrapper-2yR4wp"] {
 	position: fixed;
-	top: 40px;
-	left: 85px;
+	top: 75px;
+	left: 80px;
 	margin: 0;
 	z-index: 8;
 }
@@ -35,58 +67,14 @@
 [class*="panels-j1Uci"] [class*="avatar-SmRMf2"]::before {
     content: '';
     position: absolute;
-    width: 240px;
-    height: 70px;
-    bottom: 4px !important;
-	left: -13px !important;
+    width: 234px;
+    height: 74px;
+	border-radius: var(--Panel-Border-Radius);
+    bottom: -7px !important;
+	left: -5px !important;
 	z-index: -1;
     background: var(--user-background, var(--user-accent-color));
     background-size: cover;
     background-repeat: no-repeat;
 	pointer-events: none;
-}
-
-/* Resize The Nametag and Status Text */
-[class*="panels"] > [class*="container"] [class*="avatarWrapper"][aria-expanded=false] + [class*="nameTag"] [class*="subtext"]{max-width: 170px;}
-
-/* User Buttons Hide till Hover */
-[class*="button-14-BFJ"][aria-label="Mute"], [class*="button-14-BFJ"][aria-label="Deafen"] {
-	margin-bottom: 8px;
-}
-[class*="container-3baos1"] [class*="flex-1xMQg5"] {
-	flex-direction: column-reverse !important;
-	background-color: var(--background-secondary);
-	padding: 3px;
-	border-radius: 4px;
-	right: 8px !important;
-	bottom: -1px !important;
-	position: relative;
-	transition: 250ms ease all !important;
-}
-[class*="container-3baos1"] [class*="flex-1xMQg5"]:hover {
-	z-index: 9 !important;
-	transition: 150ms ease all !important;
-}
-
-[class*="container-3baos1"] [class*="flex-1xMQg5"] [class*="button-14-BFJ"]:not(:last-child) {
-	display: none;
-}
-[class*="container-3baos1"] [class*="flex-1xMQg5"]:hover {
-	transform: translate(0px, 35px);
-	height: 100px;
-	transition: 250ms ease all !important;
-}
-[class*="container-3baos1"] [class*="flex-1xMQg5"]:hover [class*="button-14-BFJ"]:not(:last-child) {
-	display: block;
-}
-
-[class*="button-14-BFJ"]:hover {
-	background-color: var(--brand-experiment) !important;
-	filter: opacity(0.5);
-	transition: 250ms ease all !important;
-}
-
-[class*="button-14-BFJ"]:hover[aria-label="Deafen"][aria-checked="true"],[aria-label="Mute"][aria-checked="true"] {
-	background-color: var(--brand-experiment) !important;
-	filter: brightness(0.9);
 }
