@@ -85,48 +85,6 @@
 
 }
 
-/* Panels */
-[class*="theme-dark"] [class*="panels-j1Uci"] > [class*="container"] > [class*="avatarWrapper"]::before {
-	content: var(--USRBG-WM-Type-Dark);
-	position: absolute;
-	font-weight: bold;
-	background-color:  var(--bg-brand);
-	transform: scale(0.6);
-	padding: 2px 6px;
-	padding-bottom: 1.1px;
-	border-radius: var(--bg-wm-border-radius);
-	color:  var(--bg-text);
-	margin-bottom: 7px;
-	top: -40px !important;
-	left: -16px !important;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-	z-index: 0 !important;
-	opacity: var(--BetterBG-Opacity);
-
-}
-
-[class*="theme-light"] [class*="panels-j1Uci"] > [class*="container"] > [class*="avatarWrapper"]::before {
-	content: var(--USRBG-WM-Type-Light);
-	position: absolute;
-	font-weight: bold;
-	background-color:  var(--bg-brand);
-	transform: scale(0.6);
-	padding: 2px 6px;
-	padding-bottom: 1.1px;
-	border-radius: var(--bg-wm-border-radius);
-	color:  var(--bg-text);
-	margin-bottom: 7px;
-	top: -40px !important;
-	left: -16px !important;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-	z-index: 0 !important;
-	opacity: var(--BetterBG-Opacity);
-}
-
 /* Settings */
 [class*="theme-dark"] [class*="avatar-1uQSZT"]::after {
 	content: var(--USRBG-WM-Type-Dark);
