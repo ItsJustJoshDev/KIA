@@ -4,7 +4,7 @@
 }
  :root #status-picker {
 	position: fixed;
-	top: 8px;
+	top: 42px;
 	left: 77px;
 	width: 230px;
 	height: 225px;
@@ -86,8 +86,8 @@
 	pointer-events: none;
 }
  :root .panels-j1Uci_ > .container-3baos1 .avatarWrapper-2yR4wp[aria-expanded="true"] .wrapper-3t9DeA {
-	width: 60px !important;
-	height: 60px !important;
+	width: 0px !important;
+	height: 0px !important;
 	opacity: 1;
 }
 :root .panels-j1Uci_ > .container-3baos1 .avatarWrapper-2yR4wp[aria-expanded="true"] .wrapper-3t9DeA::before {
@@ -98,36 +98,21 @@
 	width: 230px;
 	height: 140px;
 	pointer-events: none;
-	background: var(--status-background, var(--user-background));
-	background-color: var(--background-secondary-alt);
+	background: var(--user-background);
+	background-color: var(--background-secondary-alt, var(--user-accent-color));
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 	border-radius: 3px;
-	-webkit-mask: linear-gradient(black, transparent 100%);
-	mask: linear-gradient(black, transparent 100%);
-	opacity: 0.8;
+	-webkit-mask: linear-gradient(var(--background-secondary-alt), transparent 100%);
+	mask: linear-gradient(var(--background-secondary-alt), transparent 100%);
+	opacity: 1;
 }
- :root .panels-j1Uci_ > .container-3baos1 .avatarWrapper-2yR4wp[aria-expanded="true"] + .nameTag-3uD-yy {
-	position: absolute;
-	display: flex;
-	flex-direction: column;
-	bottom: 115px;
-	left: 50px;
-	width: 145px;
-	z-index: 10005;
-	margin: 0;
-	align-items: center;
-}
- :root .panels-j1Uci_ > .container-3baos1 .avatarWrapper-2yR4wp[aria-expanded="true"] + .nameTag-3uD-yy .title-eS5yk3 {
-	font-size: 18px;
-}
+ :root .panels-j1Uci_ > .container-3baos1 .avatarWrapper-2yR4wp[aria-expanded="true"] + .nameTag-3uD-yy,
+ :root .panels-j1Uci_ > .container-3baos1 .avatarWrapper-2yR4wp[aria-expanded="true"] + .nameTag-3uD-yy .title-eS5yk3,
  :root .panels-j1Uci_ > .container-3baos1 .avatarWrapper-2yR4wp[aria-expanded="true"] + .nameTag-3uD-yy .subtext-3CDbHg {
-	font-size: 15px;
-	line-height: 20px;
-	width: 100%;
-	text-align: center;
-}
- :root .panels-j1Uci_ > .container-3baos1 .avatarWrapper-2yR4wp[aria-expanded="true"] + .nameTag-3uD-yy .subtext-3CDbHg .hoverRoll-YK53gQ {
-	text-align: center;
+	display: none;
+	font-size: 0px;
+	line-height: 0px;
+	width: 0%;
 }
