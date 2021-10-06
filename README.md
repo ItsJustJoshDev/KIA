@@ -1,5 +1,5 @@
 # KIA
-Discord Theme From a Car Name lol
+A Sleek Nord Based Discord Theme Named By a Car.
 
 ## Credit To The Awsome Pepole and Content :3
 [Cryptogenic#0750](https://discord.com/users/220239731273760768) For FInding CSS Classes
