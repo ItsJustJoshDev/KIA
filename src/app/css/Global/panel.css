@@ -78,3 +78,8 @@
     background-repeat: no-repeat;
 	pointer-events: none;
 }
+
+/* Change The Red Strikethrough's Color */
+[class*="strikethrough"] {
+  color: var(--brand-experiment);
+}
