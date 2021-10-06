@@ -14,7 +14,7 @@
 	background-color: var(--background-floating) !important;
 	margin: 2px 7px 2px -4px;
 	width: 75px;
-	top: -6px !important;
+	bottom: -6px !important;
 }
 
 /* Get Rid Of The NameTag And Status */
@@ -25,15 +25,15 @@
 
 /* Add More Height To The Panel + Change The Border Radius And Recolor The User Buttons */
 [class*="panels-j1Uci"] {
-	padding-bottom: 65px;
-	border-top-left-radius: var(--Panel-Border-Radius) !important;
-	border-top-right-radius: var(--Panel-Border-Radius) !important; 
+	padding-top: 66px;
+	border-bottom-left-radius: var(--Panel-Border-Radius) !important;
+	border-bottom-right-radius: var(--Panel-Border-Radius) !important; 
 	background-color: var(--background-secondary-alt) !important;
 	color: var(--background-secondary-alt) !important;
 }
 [class*="panels-j1Uci"] > [class*="container-3baos1"] {
-	border-top-left-radius: var(--Panel-Border-Radius) !important;
-	border-top-right-radius: var(--Panel-Border-Radius) !important;
+	border-bottom-left-radius: var(--Panel-Border-Radius) !important;
+	border-bottom-right-radius: var(--Panel-Border-Radius) !important;
 	background-color: var(--background-secondary-alt) !important;
 	color: var(--background-secondary-alt) !important;
 }
@@ -44,7 +44,7 @@
     position: absolute;
     width: 234px;
     height: 74px;
-	top: 40px !important;
+	top: 3px !important;
 	left: 3px !important;
 	z-index: 2 !important;
 	border-radius: var(--Panel-Border-Radius);
@@ -57,7 +57,7 @@
 /* Reposition The Avatar */
 [class*="panels-j1Uci"] > [class*="container-3baos1"] > [class*="avatarWrapper-2yR4wp"] {
 	position: fixed;
-	top: 75px;
+	top: 38px;
 	left: 80px;
 	margin: 0;
 	z-index: 8;
