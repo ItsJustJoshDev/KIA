@@ -55,7 +55,7 @@
 	content: var(--USRBG-WM-Type-Dark);
 	position: absolute;
 	right: -530px !important;
-	bottom: -15px !important;
+	bottom: 80px !important;
 	font-weight: bold;
 	background-color:  var(--bg-brand);
 	transform: scale(0.8);
@@ -72,7 +72,7 @@
 	content: var(--USRBG-WM-Type-Light);
 	position: absolute;
 	right: -530px !important;
-	bottom: -15px !important;
+	bottom: 80px !important;
 	font-weight: bold;
 	background-color:  var(--bg-brand);
 	transform: scale(0.8);
