@@ -118,24 +118,15 @@
 	left: 0;
 }
 
-.banner-2QYc2d.popoutBannerPremium-1n96gg.bannerPremium-2hSAwz {
+.banner-2QYc2d.popoutBannerPremium-1n96gg.bannerPremium-2hSAwz,
+.banner-2QYc2d.popoutBanner-19WKGg {
   width: 430px !important;
-}
-.customStatus-3NamXG {
-  margin-top: 20px !important;
-}
-.avatar-37jOim.wrapper-3t9DeA {
-  width: 160px !important;
-  height: 160px !important;
 }
 .avatarHint-2A3RNb {
   display: none !important;
 }
 .userPopout-xaxa6l {
-  width: 450px !important;
-}
-.banner-2QYc2d.popoutBanner-19WKGg {
-  width: 430px !important;
+  width: 350px !important;
 }
 
 /* Comfy Colors - Mini Modal */
