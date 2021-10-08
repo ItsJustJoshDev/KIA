@@ -37,22 +37,17 @@
 /* Import the Name Gradient Database */
 @import url('https://discord-database.github.io/Gradient-Names/src/main.css');
 
-/* AddonPack+ Content */
-@import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/UserWindow.css");
-@import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Minimal-Members.css");
-
 /* It'sJustJosh's Snippets :3 */
 @import url("https://therealgwjosh.github.io/Snippets/CSS/Settings/grid.css");
+@import url("https://therealgwjosh.github.io/Snippets/CSS/Chat/members-list.css");
 @import url("https://therealgwjosh.github.io/Snippets/CSS/Extra/colorful-urls.css");
 
 /* Other Imports */
 @import url("https://luckfire.github.io/theme-source/src/css-compile/ThemeSource-Compiled.css");
 @import url("https://raw.githack.com/v-briese/Channel-Icons/main/channelicons.theme.css");
-@import url("https://corellanstoma.github.io/CreArts-Discord/addons/minimal-panel.css");
 @import url("https://corellanstoma.github.io/CreArts-Discord/addons/blur-details.css");
 @import url("https://raw.githack.com/LuckFire/theme-source/main/old-theme-source.css");
 @import url("https://corellanstoma.github.io/CreArts-Discord/addons/blur-spoiler.css");
-@import url("https://corellanstoma.github.io/CreArts-Discord/addons/bad-http.css");
 @import url("https://raw.githack.com/leeprky/FullyThemedDiscord/main/source.css");
 @import url("https://nyri4.github.io/Discolored/main.css");
 
