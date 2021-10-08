@@ -1,6 +1,6 @@
 /* KIA User Popout */
  .userPopout-xaxa6l {
-     background-color: var(--background-secondary-alt);
+     background-color: var(--background-secondary);
      border-radius: var(--primary-rounding);
 }
 
@@ -81,7 +81,7 @@
 }
 
  .userPopout-xaxa6l .body-3HBlXn {
-     background-color: var(--background-secondary);
+     background-color: var(--background-secondary-alt);
      border-radius: var(--primary-rounding);
      margin: var(--primary-spacing);
      max-height: 400px;
@@ -89,13 +89,13 @@
 }
 
  .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj {
-     background-color: var(--background-tertiary);
+     background-color: var(--background-primary);
      border-radius: var(--primary-rounding);
      padding: 6px;
 }
 
  .userPopout-xaxa6l .footer-3UKYOU {
-     background-color: var(--background-secondary); 
+     background-color: var(--background-secondary-alt); 
      border-radius: var(--primary-rounding);
      margin: var(--primary-spacing);
      margin-top: 0 !important;
