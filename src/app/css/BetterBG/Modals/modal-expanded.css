@@ -19,6 +19,11 @@
 	position: absolute;
 }
 
+/* Profile Badges */
+.badgeList-1R1WgZ {
+	margin-left: -140px;
+}
+
 /* Custom Status & Extra Buttons */
 .customStatusActivity-nmH3DF {
 	position: absolute;
@@ -46,7 +51,8 @@
 
 /* User Tabs */
 .tabBar-3nvOPa {
-	margin-left: 20px;
+	margin-right: 10px !important;
+	flex-direction: row-reverse;
 }
 
 /* Modal Expanded Base */
