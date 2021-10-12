@@ -1,3 +1,4 @@
+
 /* KIA User Popout */
  .userPopout-xaxa6l {
      background-color: var(--background-secondary);
@@ -64,20 +65,20 @@
      padding: var(--secondary-spacing) 0 0 0;
      right: var(--primary-spacing);
      position: absolute;
-     height: 100px;
+     height: 180px;
      width: 171px;
+}
+
+ .userPopout-xaxa6l .headerTop-3vNv-a .headerText-1vVs-U {
+	 position: fixed !important;
+	 display: block !important;
+	 margin-left: -45px !important;
 }
 
  .userPopout-xaxa6l .headerTop-3vNv-a .profileBadges-ohc0Vu {
      right: var(--primary-spacing);
      top: unset;
      bottom: 0;
-}
-
- .userPopout-xaxa6l .headerTop-3vNv-a .headerText-1vVs-U {
-	 position: fixed !important;
-	 display: block !important;
-	 margin-left: -130px !important;
 }
 
  .userPopout-xaxa6l .body-3HBlXn {
@@ -120,7 +121,8 @@
 
 .banner-2QYc2d.popoutBannerPremium-1n96gg.bannerPremium-2hSAwz,
 .banner-2QYc2d.popoutBanner-19WKGg {
-  width: 430px !important;
+  width: 330px !important;
+  height: 200px !important;
 }
 .avatarHint-2A3RNb {
   display: none !important;
