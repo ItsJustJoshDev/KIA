@@ -3,18 +3,12 @@
 	--Panel-Border-Radius: 4px;
 }
 
-/* Move The Panel To The Top */
-[class*="panels-j1Uci"], [class*="sidebar-2K8pFh"] {
-    display: flex;
-    flex-direction: column-reverse;
-}
-
 /* Resize The User Buttons */
 [class*="container-3baos1"] [class*="button-14-BFJ"] {
 	background-color: var(--background-floating) !important;
 	margin: 2px 7px 2px -4px;
 	width: 75px;
-	bottom: -6px !important;
+	top: -6px !important;
 }
 
 /* Get Rid Of The NameTag And Status */
@@ -25,7 +19,7 @@
 
 /* Add More Height To The Panel + Change The Border Radius And Recolor The User Buttons */
 [class*="panels-j1Uci"] {
-	padding-top: 66px;
+	padding-bottom: 66px;
 	border-bottom-left-radius: var(--Panel-Border-Radius) !important;
 	border-bottom-right-radius: var(--Panel-Border-Radius) !important; 
 	background-color: var(--background-secondary-alt) !important;
@@ -44,7 +38,7 @@
     position: absolute;
     width: 234px;
     height: 74px;
-	top: 3px !important;
+	bottom: 3px !important;
 	left: 3px !important;
 	z-index: 2 !important;
 	border-radius: var(--Panel-Border-Radius);
@@ -57,7 +51,7 @@
 /* Reposition The Avatar */
 [class*="panels-j1Uci"] > [class*="container-3baos1"] > [class*="avatarWrapper-2yR4wp"] {
 	position: fixed;
-	top: 38px;
+	bottom: 10px;
 	left: 80px;
 	margin: 0;
 	z-index: 8;
