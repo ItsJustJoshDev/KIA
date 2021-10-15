@@ -1,0 +1,134 @@
+:root {
+	
+	--chatbar-border-radius: 10px;
+	
+}
+
+[class*="attachedBars"],
+[class*="messagesErrorBar"],
+[class*="barBase"] {
+	border-radius: var(--chatbar-border-radius) !important;
+	margin-bottom: 5px;
+	padding: 5px;
+}
+
+.scrollableContainer-2NUZem {
+	border-radius: var(--chatbar-border-radius);
+}
+
+.attachWrapper-2TRKBi .lookBlank-3eh9lL {
+	background: var(--background-secondary-alt);
+	border-radius: var(--chatbar-border-radius);
+}
+
+.attachButton-2dnuIu {
+	padding: 0;
+	margin: 0;
+	height: 44px;
+	width: 44px;
+}
+
+.buttonContainer-28fw2U:last-child {
+	order: -1;
+	margin: 0;
+}
+
+.attachWrapper-2TRKBi {
+	order: 2 !important;
+	border-radius: var(--chatbar-border-radius);
+	margin: 0;
+	margin-left: -6px;
+}
+
+.buttons-3JBrkn {
+	order: 1 !important;
+	background: var(--background-secondary-alt);
+	border-radius: var(--chatbar-border-radius);
+	padding-right: 0;
+	padding-left: 5px;
+}
+
+/* Mobile Jump To Present & New Messages Bar */
+.newMessagesBar-265mhP {
+	padding: 0;
+	border-radius: var(--secondary-rounding);
+	right: 25px;
+	top: 10px !important;
+	left: unset;
+	height: 45px;
+	width: 45px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	animation-duration: 0.3s;
+	animation-name: slidein;
+	animation-fill-mode: forwards;
+	position: absolute !important;
+}
+
+.barButtonAlt-mYL1lj > svg {
+	margin: auto;
+	width: 20px;
+	height: 20px;
+}
+
+.barButtonAlt-mYL1lj {
+	font-size: 0px;
+	padding: 0;
+	width: 20px;
+	height: 20px;
+}
+
+.barButtonMain-3K-jeJ {
+	display: none;
+	padding: 0;
+	font-size: 0px;
+}
+
+.jumpToPresentBar-G1R9s6 {
+	padding: 0;
+	background-color: var(--background-tertiary);
+	border-radius: var(--secondary-rounding);
+	right: 25px;
+	bottom: 15px !important;
+	left: unset;
+	height: 45px;
+	width: 45px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	animation-duration: 0.3s;
+	animation-name: slidein;
+	animation-fill-mode: forwards;
+}
+
+.jumpToPresentBar-G1R9s6 .spinner-2enMB9 {
+	padding: 0;
+}
+
+.jumpToPresentBar-G1R9s6 .barButtonMain-3K-jeJ {
+	display: none;
+}
+
+.jumpToPresentBar-G1R9s6 .barButtonAlt-mYL1lj {
+	font-size: 0px;
+	padding: 0;
+	width: 40px;
+	height: 40px;
+}
+
+.jumpToPresentBar-G1R9s6 .barButtonIcon-3t4V3d {
+	margin: auto;
+	width: 40px;
+	height: 40px;
+}
+
+@keyframes slidein {
+	from {
+		bottom: -50px;
+	}
+
+	to {
+		bottom: 45px;
+	}
+}
