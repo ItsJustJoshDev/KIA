@@ -1,0 +1,16 @@
+:root {
+	--classic-spotify: #1EDC62;
+	--rebrand-spotify: rgb(19, 185, 4);
+	--rebrand-color: #5865F2;
+	--classic-color: #7289da;
+	--mention-color-bar: var(--mention-color);
+	--offline-color: var(--interactive-active);
+	--user-buttons-color: var(--interactive-active);
+	--invisible-color: var(--interactive-active);
+	--brand-experiment: var(--brand-color) !important;
+	--off: 2s;
+	--on: !important;
+	--user-buttons-spacing: 4px;
+	--emoji-normal: url("https://nyri4.github.io/Comfy/assets/emoji.png");
+	--emoji-ms: url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/emojis/Microsoft/people/smile.png");
+}
