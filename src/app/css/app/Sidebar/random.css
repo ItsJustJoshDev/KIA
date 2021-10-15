@@ -7,6 +7,41 @@
 	display: none;
 }
 
+.icon-27yU2q {
+	transition: transform .3s
+}
+
+.wrapper-1BJsBx:hover > .icon-27yU2q {
+	transform: scale(1.2)
+}
+
+.folderIconWrapper-1_bOZe {
+	transition: transform .3s
+}
+
+.folder-1hbNCn:hover > .folderIconWrapper-1_bOZe {
+	transform: scale(1.2)
+}
+
+.privateChannels-1nO12o::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 150px;
+	background: linear-gradient(var(--background-secondary), rgba(255, 255, 255, 0.001));
+	pointer-events: none
+}
+
+.privateChannels-1nO12o::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 150px;
+	background: linear-gradient(rgba(255, 255, 255, 0.001), var(--background-secondary));
+	pointer-events: none
+}
 
 .chat-3bRxxu.threadSidebarOpen-vdkwIh {
 	border-radius: 0px;
