@@ -1,0 +1,214 @@
+:root {
+
+	--status-width: 6px;
+	--status-height: 32px;
+	--status-height-settings: 80px;
+	--status-height-main-modal: 120px;
+	--status-height-mini-modal: 80px;
+	--status-height-user-info: 38px;
+	--status-top: 0%;
+
+}
+
+
+/* Status pills */
+[class*="wrapper"] svg {
+	overflow: visible;
+}
+
+/* member list */
+[class*="channel-2QD9_O"] .wrapper-3t9DeA > .mask-1l8v16 > rect,
+[class*="member-3-YXUe"] .wrapper-3t9DeA > .mask-1l8v16 > rect {
+	display: var(--avatar-status);
+	mask: none;
+	pointer-events: none;
+	x: -13;
+	y: var(--status-top);
+	width: var(--status-width);
+	height: var(--status-height);
+	rx: 3px;
+}
+
+[class*="channel-2QD9_O"] .wrapper-3t9DeA > .mask-1l8v16 > svg > rect,
+[class*="member-3-YXUe"] .wrapper-3t9DeA > .mask-1l8v16 > svg > rect {
+	display: var(--avatar-status);
+	mask: none;
+	pointer-events: none;
+	x: -27;
+	y: -2;
+	width: var(--status-width);
+	height: var(--status-height);
+	rx: 3px;
+}
+
+.avatar-3uk_u9 {
+	margin-left: 3px;
+}
+
+/* bottom left user panel*/
+.container-3baos1 .wrapper-3t9DeA > .mask-1l8v16 > rect {
+	display: var(--avatar-status);
+	mask: none;
+	pointer-events: none;
+	x: -10;
+	y: var(--status-top);
+	width: var(--status-width);
+	height: var(--status-height);
+	rx: 3px;
+}
+
+.container-3baos1 .wrapper-3t9DeA > .mask-1l8v16 > svg > rect {
+	display: var(--avatar-status);
+	mask: none;
+	pointer-events: none;
+	x: -27;
+	y: -2;
+	width: var(--status-width);
+	height: var(--status-height);
+	rx: 3px;
+}
+
+.avatar-SmRMf2 {
+	margin-left: 8px;
+}
+
+/* Global */
+[class*="wrapper"] > [class*="mask"] > rect {
+	display: var(--avatar-status);
+	mask: none;
+	pointer-events: none;
+	x: -10;
+	y: var(--status-top);
+	width: var(--status-width);
+	height: var(--status-height);
+	rx: 3px;
+}
+
+[class*="wrapper"] > [class*="mask"] > svg > rect {
+	display: var(--avatar-status);
+	mask: none;
+	pointer-events: none;
+	x: -27;
+	y: -2;
+	width: var(--status-width);
+	height: var(--status-height);
+	rx: 3px;
+}
+
+/* Settings */
+[class*="accountProfileCard"] [class*="wrapper"] > [class*="mask"] > rect {
+	display: var(--avatar-status);
+	mask: none;
+	pointer-events: none;
+	x: -10 !important;
+	y: var(--status-top);
+	width: var(--status-width);
+	height: var(--status-height-settings) !important;
+	rx: 3px;
+}
+
+[class*="accountProfileCard"] [class*="wrapper"] > [class*="mask"] > svg > rect {
+	display: var(--avatar-status);
+	mask: none;
+	pointer-events: none;
+	x: -27;
+	y: -2;
+	width: var(--status-width);
+	height: var(--status-height-settings) !important;
+	rx: 3px;
+}
+
+/* Main Modal */
+[class*="root-3QyAh1"] [class*="wrapper"] > [class*="mask"] > rect {
+	display: var(--avatar-status);
+	mask: none;
+	pointer-events: none;
+	x: -10;
+	y: var(--status-top);
+	width: var(--status-width);
+	height: var(--status-height-main-modal) !important;
+	rx: 3px;
+}
+
+[class*="root-3QyAh1"] [class*="wrapper"] > [class*="mask"] > svg > rect {
+	display: var(--avatar-status);
+	mask: none;
+	pointer-events: none;
+	x: -27;
+	y: -2;
+	width: var(--status-width);
+	height: var(--status-height-main-modal) !important;
+	rx: 3px;
+}
+
+/* Mini Modal */
+[class*="userPopout"] [class*="wrapper"] > [class*="mask"] > rect {
+	display: var(--avatar-status);
+	mask: none;
+	pointer-events: none;
+	x: -10;
+	y: var(--status-top);
+	width: var(--status-width);
+	height: var(--status-height-mini-modal) !important;
+	rx: 3px;
+}
+
+[class*="userPopout"] [class*="wrapper"] > [class*="mask"] > svg > rect {
+	display: var(--avatar-status);
+	mask: none;
+	pointer-events: none;
+	x: -27;
+	y: -2;
+	width: var(--status-width);
+	height: var(--status-height-mini-modal) !important;
+	rx: 3px;
+}
+
+/* User list */
+[class*="userInfo"] [class*="wrapper"] > [class*="mask"] > rect {
+	display: var(--avatar-status);
+	mask: none;
+	pointer-events: none;
+	x: -10;
+	y: -3 !important;
+	width: var(--status-width);
+	height: var(--status-height-user-info) !important;
+	rx: 3px;
+}
+
+[class*="userInfo"] [class*="wrapper"] > [class*="mask"] > svg > rect {
+	display: var(--avatar-status);
+	mask: none;
+	pointer-events: none;
+	x: -27;
+	y: -2;
+	width: var(--status-width);
+	height: var(--status-height-mini-user-info) !important;
+	rx: 3px;
+}
+
+
+[class*="wrapper"] [class*="dots"] {
+	overflow: visible;
+	color: rgba(0,0,0,.85) !important;
+}
+
+[class*="wrapper"] [class*="dots"] circle {
+	cy: -7.5;
+}
+
+[class*="wrapper"] [class*="dots"] circle:nth-child(1) {
+	cx: -8.5;
+}
+
+[class*="wrapper"] [class*="dots"] circle:nth-child(2) {
+	cx: -2.25;
+}
+
+[class*="wrapper"] [class*="dots"] circle:nth-child(3) {
+	cx: 4;
+}
+
+[class*="wrapper"] foreignObject[mask*="typing"] {
+	mask: none;
+}
