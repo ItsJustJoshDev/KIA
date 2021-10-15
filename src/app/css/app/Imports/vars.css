@@ -1,3 +1,6 @@
+/* Version Imports */
+@import url("https://therealgwjosh.github.io/KIA/src/app/css/app/version/version.css");
+@import url("https://therealgwjosh.github.io/KIA/src/app/css/app/version/config.css");
 :root {
 	--classic-spotify: #1EDC62;
 	--rebrand-spotify: rgb(19, 185, 4);
