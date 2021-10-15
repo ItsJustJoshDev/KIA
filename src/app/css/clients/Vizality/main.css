@@ -1,4 +1,3 @@
-
 /* Main Import */
 @import url("https://therealgwjosh.github.io/KIA/src/app/css/app/Imports/main.css");
 
@@ -10,7 +9,12 @@
 
 /* Status - Pick One Radial or Normal */
 @import url("https://therealgwjosh.github.io/KIA/src/app/css/app/Global/status.css");
+
+/* Server Auto Hover */
+@import url("https://therealgwjosh.github.io/KIA/src/app/css/app/Sidebar/Guilds/auto-hover.css");
+
 /* Disabled - @import url("https://therealgwjosh.github.io/KIA/src/app/css/app/Global/radial-statuses.css"); */
+/* Disabled - @import url("https://therealgwjosh.github.io/KIA/src/app/css/app/Sidebar/Guilds/right.css"); */
 
 /* Global Vars */
 :root {
