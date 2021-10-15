@@ -40,24 +40,13 @@
 	display: none;
 }
 
- .userPopout-xaxa6l .avatarWrapper-3r9PdD .avatar-37jOim .mask-1l8v16 foreignObject {
-     mask: none;
-}
+
 
  .userPopout-xaxa6l .avatarWrapper-3r9PdD .avatar-37jOim .mask-1l8v16 foreignObject .avatar-VxgULZ {
      background-color: var(--background-primary);
      border-radius: var(--avatar-radius);
 }
 
- .userPopout-xaxa6l .avatarWrapper-3r9PdD .avatar-37jOim .mask-1l8v16 .pointerEvents-2zdfdO {
-     user-select: none !important;
-     ry: var(--status-radius) !important;
-     height: 16px !important;
-     width: 16px !important;
-     mask: none;
-     x: 60;
-     y: 60;
-}
 
 
  .userPopout-xaxa6l .headerTop-3vNv-a {
