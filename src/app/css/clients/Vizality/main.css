@@ -1,9 +1,16 @@
 
 /* Main Import */
-@import url("https://therealgwjosh.github.io/KIA/src/app/css/main.css");
+@import url("https://therealgwjosh.github.io/KIA/src/app/css/app/Imports/main.css");
 
 /* KIA's BetterBG/USRBG Import */
 @import url("https://therealgwjosh.github.io/KIA/src/app/css/app/BetterBG/main.css");
+
+/* KIA's Color Import */
+@import url("https://therealgwjosh.github.io/KIA/src/app/css/app/Colors/default.css");
+
+/* Status - Pick One Radial or Normal */
+@import url("https://therealgwjosh.github.io/KIA/src/app/css/app/Global/status.css");
+/* Disabled - @import url("https://therealgwjosh.github.io/KIA/src/app/css/app/Global/radial-statuses.css"); */
 
 /* Global Vars */
 :root {
