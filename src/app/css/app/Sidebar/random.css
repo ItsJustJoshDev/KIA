@@ -3,6 +3,11 @@
     --sidebar-width: 100px !important; /* change if your theme resizes the sidebar */
 	--sidebar-initial-width: 240px !important;
 }
+.spine--Wla_O {
+	display: none;
+}
+
+
 .chat-3bRxxu.threadSidebarOpen-vdkwIh {
 	border-radius: 0px;
     resize: horizontal;
