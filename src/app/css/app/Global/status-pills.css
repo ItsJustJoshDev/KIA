@@ -10,6 +10,41 @@
 
 }
 
+/* Reposition The Avatar */
+[class*="panels-j1Uci"] > [class*="container-3baos1"] > [class*="avatarWrapper-2yR4wp"] {
+	position: revert !important;
+	background-color: var(--background-floating) !important;
+	padding: 5px;
+	margin-left: -4px;
+}
+/* Add More Height To The Panel + Change The Border Radius And Recolor The User Buttons */
+[class*="panels-j1Uci"] {
+	padding-bottom: 76px !important;
+}
+/* Resize The User Buttons */
+[class*="container-3baos1"] [class*="button-14-BFJ"] {
+	background-color: var(--background-floating) !important;
+	margin: 2px 7px 2px -4px;
+	left: 10px;
+	height: 42px;
+	width: 56px !important;
+	top: 0px !important;
+}
+/* USRBG/BetterBG Support For The User Panel */
+[class*="panels-j1Uci"] [class*="avatar-SmRMf2"]::before {
+    content: '';
+    position: absolute;
+    width: 234px;
+    height: 74px;
+	border-radius: var(--Panel-Border-Radius);
+    bottom: -84px !important;
+	left: -14px !important;
+	z-index: -1;
+    background: var(--user-background, var(--user-accent-color));
+    background-size: cover;
+    background-repeat: no-repeat;
+	pointer-events: none;
+}
 
 /* Status pills */
 [class*="wrapper"] svg {
