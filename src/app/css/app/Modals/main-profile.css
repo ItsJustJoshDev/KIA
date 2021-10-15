@@ -247,33 +247,3 @@
 	border-top: none !important;
 	border: none !important;
 }
-
-/* Modal Expanded - Avatar Fix */
-:root .wrapper-3t9DeA foreignObject,
-:root .callAvatarMask-1SLlRi foreignObject,
-:root .avatarContainer-3CQrif foreignObject,
-:root .avatarMasked-3y6o4j {
-	mask: none;
-	-webkit-mask: none;
-}
-
-:root .wrapper-3t9DeA,
-:root .avatar-1BDn8e,
-:root .profile-1eT9hT .avatarUploaderInner-3UNxY3,
-:root .voiceAvatar-14IynY,
-:root .avatar-3tNQiO,
-:root .border-Jn5IOt,
-:root .avatar-3bWpYy,
-:root .clickableAvatar-1wQpeh,
-:root .emptyUser-7txhlW,
-:root .avatar-VxgULZ,
-:root .wrapper-2QE8vf.ringingIncoming-38YcLn::after,
-:root .wrapper-2QE8vf.ringingOutgoing-mbXhhQ::after,
-:root .replyAvatar-1K9Wmr,
-:root .avatarSpeaking-2c8-9i,
-:root .avatar-3Heyg_,
-:root .avatarContainer-2LLZwy,
-:root .appAvatar-3bgkQ9,
-[class*="avatar"] {
-	border-radius: var(--avatar-radius);
-}
