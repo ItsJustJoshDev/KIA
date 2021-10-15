@@ -1,5 +1,40 @@
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Microsoft.css);
 
+.form-2fGMdU .base-gE7OpD {
+    background-color: transparent !important;
+}
+.cooldownWrapper-3joyFc {
+    position: relative;
+    right: 14px;
+    height: 25px;
+    padding-left: 4px;
+    padding-right: 8px;
+    border-radius: var(--secondary-rounding);
+    background-color: var(--background-secondary-alt);
+}
+.text-1y-e8- {
+    position: relative;
+    right: 36px;
+    height: 25px;
+    padding-left: 36px;
+    padding-right: 8px;
+    border-radius: var(--secondary-rounding);
+    background-color: var(--background-secondary-alt);
+    z-index: 0;
+}
+.text-1y-e8-:empty {
+    display: none;
+}
+.ellipsis-19qdx6.dots-3Bkt3k.themed-IQiCm3 {
+    z-index: 1;
+}
+.channelTextArea-rNsIhG { margin-bottom: 5px; }
+
+.base-gE7OpD { /* typing and slowmode stuff */
+    top: -28px; /* height is 24px */
+    background-color: var(--background-primary);
+}
+
 /* Colorful Chatbar */
 .sprite-2iCowe {
 filter: grayscale(0%) !important;}
