@@ -1,0 +1,79 @@
+/* Main Var */
+:root {
+	--Panel-Border-Radius: 4px;
+}
+
+/* Resize The User Buttons */
+[class*="container-3baos1"] [class*="button-14-BFJ"] {
+	background-color: var(--background-floating) !important;
+	margin: 2px 7px 2px -4px;
+	width: 75px;
+	top: -6px !important;
+}
+
+/* Get Rid Of The NameTag And Status */
+[class*="panels"] > [class*="container"] [class*="avatarWrapper"][aria-expanded=false] + [class*="nameTag"] [class*="subtext"],
+[class*="panels"] > [class*="container"] [class*="avatarWrapper"][aria-expanded=false] + [class*="nameTag"] {
+	display: none;
+}
+
+/* Add More Height To The Panel + Change The Border Radius And Recolor The User Buttons */
+[class*="panels-j1Uci"] {
+	padding-bottom: 66px;
+	border-bottom-left-radius: var(--Panel-Border-Radius) !important;
+	border-bottom-right-radius: var(--Panel-Border-Radius) !important; 
+	background-color: var(--background-secondary-alt) !important;
+	color: var(--background-secondary-alt) !important;
+}
+[class*="panels-j1Uci"] > [class*="container-3baos1"] {
+	border-bottom-left-radius: var(--Panel-Border-Radius) !important;
+	border-bottom-right-radius: var(--Panel-Border-Radius) !important;
+	background-color: var(--background-secondary-alt) !important;
+	color: var(--background-secondary-alt) !important;
+}
+
+/* Add The Brand Color To The Panel When There is No USRBG/BetterBG */
+[class*="panels-j1Uci"]::before {
+    content: '';
+    position: absolute;
+    width: 234px;
+    height: 74px;
+	bottom: 3px !important;
+	left: 3px !important;
+	z-index: 2 !important;
+	border-radius: var(--Panel-Border-Radius);
+    background: var(--user-accent-color, var(--brand-experiment));
+    background-size: cover;
+    background-repeat: no-repeat;
+	pointer-events: none;
+}
+
+/* Reposition The Avatar */
+[class*="panels-j1Uci"] > [class*="container-3baos1"] > [class*="avatarWrapper-2yR4wp"] {
+	position: fixed;
+	bottom: 10px;
+	left: 80px;
+	margin: 0;
+	z-index: 8;
+}
+
+/* USRBG/BetterBG Support For The User Panel */
+[class*="panels-j1Uci"] [class*="avatar-SmRMf2"]::before {
+    content: '';
+    position: absolute;
+    width: 234px;
+    height: 74px;
+	border-radius: var(--Panel-Border-Radius);
+    bottom: -7px !important;
+	left: -5px !important;
+	z-index: -1;
+    background: var(--user-background, var(--user-accent-color));
+    background-size: cover;
+    background-repeat: no-repeat;
+	pointer-events: none;
+}
+
+/* Change The Red Strikethrough's Color */
+[class*="strikethrough"] {
+  color: var(--brand-experiment);
+}
