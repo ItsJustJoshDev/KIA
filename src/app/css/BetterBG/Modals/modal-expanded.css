@@ -1,6 +1,6 @@
 
 /* Avatars */
-[class*="focusLock-Ns3yie"] [class*="avatar"] {
+[class*="root-3QyAh1"] [class*="avatar"] {
 	transform: scale(0.9);
 	left: -6px;
 	top: -246px;
@@ -61,7 +61,7 @@
 	border-radius: 8px;
 }
 
-[class*="focusLock-Ns3yie"] {
+[class*="root-3QyAh1"] {
 	border-radius: 12px;
 	min-height: 400px;
 	max-height: 900px;
