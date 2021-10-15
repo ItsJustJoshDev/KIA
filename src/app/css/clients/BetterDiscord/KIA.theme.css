@@ -3,17 +3,29 @@
  * @name         KIA
  * @description  A Sleek Nord Based Discord Theme
  * @author       It'sJustJosh
- * @version      0.1
+ * @version      0.2
  * @source       https://therealgwjosh.github.io/BetterDiscordAddons/Themes/KIA/KIA.theme.css
  * @invite       qafdmryEye
  * @authorId     362628885361197056
  */
 
 /* Main Import */
-@import url("https://therealgwjosh.github.io/KIA/src/app/css/main.css");
+@import url("https://therealgwjosh.github.io/KIA/src/app/css/app/Imports/main.css");
 
 /* KIA's BetterBG/USRBG Import */
-@import url("https://therealgwjosh.github.io/KIA/src/app/css/BetterBG/main.css");
+@import url("https://therealgwjosh.github.io/KIA/src/app/css/app/BetterBG/main.css");
+
+/* KIA's Color Import */
+@import url("https://therealgwjosh.github.io/KIA/src/app/css/app/Colors/default.css");
+
+/* Status - Pick One Radial or Normal */
+@import url("https://therealgwjosh.github.io/KIA/src/app/css/app/Global/status.css");
+
+/* Server Auto Hover */
+@import url("https://therealgwjosh.github.io/KIA/src/app/css/app/Sidebar/Guilds/auto-hover.css");
+
+/* Disabled - @import url("https://therealgwjosh.github.io/KIA/src/app/css/app/Global/radial-statuses.css"); */
+/* Disabled - @import url("https://therealgwjosh.github.io/KIA/src/app/css/app/Sidebar/Guilds/right.css"); */
 
 /* Global Vars */
 :root {
@@ -53,27 +65,5 @@
 	--custom-color: #325d5f;
 	/* Do Not Tamper With... */
 	--version2_0: none;
-
-}
-
-:root.theme-dark {
-
-    --background-primary: #292e3b;
-    --background-secondary: #232731;
-    --background-secondary-alt: #3b4252;
-    --background-tertiary: #2e3340;
-    --background-mobile-primary: #434c5e;
-    --background-mobile-secondary: #4c556a;
-    --channeltextarea-background: #363a48;
-    --background-accent: #7289DA;
-    --background-message-hover: transparent;
-    --background-modifier-hover: #00000010;
-    --background-modifier-active: #0000001a;
-    --background-modifier-selected: #0000001f;
-    --deprecated-card-bg: #2b2c3363;
-    --background-floating: #2d3037;
-    --deprecated-quickswitcher-input-background:#2e3340;
-    --elevation-low: none;
-    --activity-card-background: #2e3340;
 
 }
