@@ -1,0 +1,9 @@
+element.style, * {
+    --spotify-in-discord__player-album-border-radius: var(--album-border-radius) !important;
+    --spotify-in-discord__spotify-brand-color: var(--spotify-color) !important;
+	--album-border-radius: 10%;
+}
+
+.vz-dashboard-sidebar-collapser {
+	display: none;
+}
