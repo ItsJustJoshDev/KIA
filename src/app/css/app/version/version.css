@@ -1,12 +1,43 @@
-/* main.css */
 #app-mount .app-2rEoOp::before {
-    content: "Your version of KIA is outdated. Please download the newest version from: https://github.com/TheRealGWJosh/KIA";
-    display: var(--version2_0, block);
-    background-color: var(--brand-color);
+    content: var(--version-topbar-info);
+    display: var(--version-error, block);
+    background-color: var(--brand-experiment);
     color: var(--header-primary);
     font-size: 14px;
     line-height: 36px;
     font-weight: 500;
     text-align: center;
     z-index: 101;
+}
+
+.info-1VyQPT .colorMuted-HdFt4q:last-child:before {
+	content: var(--version-info) var(--version-extra);
+	display: var(--version-enable);
+}
+
+.socialLinks-3jqNFy::before {
+	display: var(--version-enable);
+	position: absolute;
+	content: "";
+	top: var(--version-img-top);
+	left: var(--version-img-left);
+	width: var(--version-img-width);
+	height: var(--version-img-height);
+	background: var(--version-img) center/var(--version-img-size) no-repeat;
+}
+
+.info-1VyQPT .colorMuted-HdFt4q:last-child:after {
+	content: var(--version-info-alt) var(--version-extra-alt);
+	display: var(--version-enable-alt);
+}
+
+.socialLinks-3jqNFy::after {
+	display: var(--version-enable-alt);
+	position: absolute;
+	content: "";
+	top: var(--version-img-top-alt);
+	left: var(--version-img-left-alt);
+	width: var(--version-img-width-alt);
+	height: var(--version-img-height-alt);
+	background: var(--version-img-alt) center/var(--version-img-size-alt) no-repeat;
 }
