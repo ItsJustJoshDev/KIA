@@ -10,6 +10,13 @@
 
 }
 
+[class*="userPopout"] [class*="avatar"] {
+	left: 14px !important;
+}
+ .userPopout-xaxa6l .headerTop-3vNv-a .headerText-1vVs-U {
+	margin-left: -35px !important;
+}
+
 /* Reposition The Avatar */
 [class*="panels-j1Uci"] > [class*="container-3baos1"] > [class*="avatarWrapper-2yR4wp"] {
 	position: revert !important;
