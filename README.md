@@ -18,6 +18,8 @@ LuckFire's FullyThemedDiscord, V-briese's Channel Icons and The Support Of Power
 
 [Nebula](https://github.com/Pavui/Nebula) By [Pavui](https://github.com/Pavui) *Modified - Mini Modal Content Added*
 
-[Ovel](https://github.com/leeprky/Ovel) By [Leeprky](https://github.com/leeprky) *Modified - Modal Expanded Base Code + Settings Code Used*
+[Ovel](https://github.com/leeprky/Ovel) By [Leeprky](https://github.com/leeprky) *Modified Settings Code Used*
+
+[SoftX](https://github.com/DiscordStyles/SoftX) By [Gibbu](https://github.com/Gibbu) *Modified - Modal Expanded Base Code*
 
 [Teardrop Messgaes](https://userstyles.world/style/13/discord-teardrop-messages) By [Freeplay](https://codeberg.org/Freeplay) *Modified - Bubble Messages*
