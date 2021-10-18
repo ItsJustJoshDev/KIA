@@ -1,4 +1,30 @@
-/* theme.css */
 :root {
-    --version2_0: block;
+
+	--version-topbar-info: "Your version of KIA is outdated. Please download the newest version from: https://github.com/TheRealGWJosh/KIA";
+	
+	--version-info: "KIA ";
+	--version-extra: "Developer Alpha 1.5";
+	--version-img: url("https://i.imgur.com/1eXeHoq.png");
+	--version-img-size: 40%;
+	--version-img-top: 1042px;
+	--version-img-left: 266px;
+	--version-img-width: 50px;
+	--version-img-height: 50px;
+
+	--version-info-alt: "";
+	--version-extra-alt: "";
+	--version-img-alt: url("");
+	--version-img-size-alt: 60%;
+	--version-img-top-alt: 1039px;
+	--version-img-left-alt: 290px;
+	--version-img-width-alt: 50px;
+	--version-img-height-alt: 50px;
+
+	--version-error: var(--version-off);
+	--version-enable-alt: var(--version-off);
+	--version-enable: var(--version-on);
+
+	--version-on: block;
+	--version-off: none;
+
 }
