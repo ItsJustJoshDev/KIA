@@ -1,3 +1,36 @@
+/* Custom Connections User Popout lmao */
+.sc-connectAccounts {
+	background-color: var(--background-tertiary);
+	border-radius: var(--primary-rounding);
+	padding: 10px;
+	display: flex;
+	overflow-x: auto;
+	margin-bottom: 2px;
+}
+
+.sc-connection {
+	display: flex;
+	padding: 3px;
+	border: 1px solid var(--background-secondary-alt);
+	box-sizing: border-box;
+	border-radius: var(--primary-rounding);
+	position: relative;
+}
+
+.sc-connection:before {
+	display: flex;
+	padding: 3px;
+}
+
+.sc-connection a {
+	display: flex;
+	height: 30px;
+	width: 30px;
+}
+
+.sc-connection [class*="scrollbarGhostHairline"] {
+	display: none;
+}
 /* KIA User Popout */
  .userPopout-xaxa6l {
      background-color: var(--background-secondary);
