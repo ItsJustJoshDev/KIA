@@ -401,9 +401,10 @@
 
 /* Comfy Colors */
 [class*="root-3QyAh1"] [class*="activityProfile"] {
-	border-radius: 0 0 0 0 !important;
+	border-radius: var(--primary-rounding) !important;
+	background-color: var(--background-secondary-alt);
 	padding: 16px;
-	margin: 0px;
+	margin: 3px;
 	overflow: hidden;
 	z-index: 1;
 }
@@ -438,7 +439,6 @@
 	z-index: -2;
 	left: 0;
 	top: 0;
-	border-radius: 0 0 0 0 !important;
 	background: var(--brand-experiment);
 }
 
@@ -451,7 +451,6 @@
 	z-index: -1;
 	left: 0;
 	top: 0;
-	border-radius: 0 0 0 0 !important;
 	background: var(--spotify-color);
 }
 
