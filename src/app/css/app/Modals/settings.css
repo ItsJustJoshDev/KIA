@@ -1,18 +1,318 @@
-@import url("https://therealgwjosh.github.io/Revolution/src/app/settings/settingsicons.css"); 
- /* Settings Modal */
-	.sidebarRegionScroller-3MXcoP {
-      width: 230px !important;
-      margin-right: -10px;
-     }
-	.contentColumn-2hrIYH {
-	margin-top:  -40px;
-	}
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css");
+:root {
+--header-color: var(--brand-experiment);
+--accent: var(--brand-experiment);
+--accent-highlight: var(--brand-experiment);
+--settings-header-height: 60px;
+--tooltip-bg: var(--background-primary);
+--accent-text: var(--interactive-normal);
+}
+
+
+.sidebarRegionScroller-3MXcoP::before {
+	content: "";
+	width: 100%;
+	height: var(--settings-header-height);
+	display: inline-block;
+	z-index: 3003;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: var(--accent);
+	transition: 150ms ease-in-out;
+	box-shadow: none;
+}
+
+.sidebarRegionScroller-3MXcoP::after {
+	content: "";
+	background-color: var(--accent);
+	display: inline-block;
+	z-index: 3003;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.preview-2nSL_2 .avatar-1BDn8e {
+	z-index: 0;
+}
+
+.sidebar-CFHs9e .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {
+	position: initial;
+}
+
+.sidebar-CFHs9e .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ[aria-controls]::after {
+	content: attr(aria-controls);
+}
+
+.sidebar-CFHs9e .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ[aria-label]::after {
+	content: attr(aria-label);
+}
+
+.sidebar-CFHs9e .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ::after {
+	transform: scale(1);
+	opacity: 1;
+	background: none;
+	top: calc((var(--settings-header-height) - 18px) * 0.5);
+	left: var(--settings-header-height);
+	width: auto;
+	height: auto;
+	font-size: 24px;
+	font-weight: 900 !important;
+	font-family: var(--font-primary);
+	color: var(--accent-text);
+	display: block;
+	position: fixed;
+	z-index: 3003;
+}
+
+.contentRegion-3nDuYy {
+	height: 110%;
+	margin-top: calc(var(--settings-header-height) - 45px);
+}
+
+.contentContainer-14yMzC {
+	z-index: 0;
+}
+
+.noticeRegion-1YviSH {
+	bottom: var(--settings-header-height);
+}
+
+.side-8zPYf6 > .item-PXvHYJ {
+	margin-right: 14px;
+}
+
+/* Settings Tabs Recolor */
+.side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ,
+.side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover,
+.topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ,
+.topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover {
+	background-color: var(--accent);
+	color: var(--accent-text);
+}
+
+.theme-dark .list-wek7hJ .tabBar-wS4pjJ .tab-17bjMB.active-3JUHqX,
+.theme-dark .header-2-Imhb .tabBar-1kuXvJ .tab-ck0077.active-1MbGPa,
+.theme-dark .header-1VS4tm .tabBar-31Wimb .tab-PQvTH4.active-30vPlA,
+.theme-light .list-wek7hJ .tabBar-wS4pjJ .tab-17bjMB.active-3JUHqX,
+.theme-light .header-2-Imhb .tabBar-1kuXvJ .tab-ck0077.active-1MbGPa,
+.theme-light .header-1VS4tm .tabBar-31Wimb .tab-PQvTH4.active-30vPlA {
+	background-color: var(--accent);
+	color: var(--accent-text);
+}
+
+/* Close/Back Button */
+
 .toolsContainer-1edPuj{
 	margin-top:  40px;
 	margin-left: -25px;
 	}
-     .content-3YMskv[style="height: 2564px;"] {
-        margin-top: 52px;
+
+.toolsContainer-1edPuj {
+	position: fixed;
+	top: 0;
+	z-index: 3005;
+	padding-top: calc((var(--settings-header-height) - 8px) * 0.5);
+	right: -10px;
+}
+
+.closeButton-1tv5uR {
+	border: none;
+	opacity: 1;
+}
+
+.closeButton-1tv5uR svg {
+	width: 24px;
+	height: 24px;
+}
+
+.theme-light .closeButton-1tv5uR:hover,
+.theme-dark .closeButton-1tv5uR:hover {
+	background: none;
+	opacity: 1;
+}
+
+.closeButton-1tv5uR:hover + .keybind-KpFkfr {
+	opacity: 1 !important;
+	transform: scale(1);
+}
+
+.closeButton-1tv5uR + .keybind-KpFkfr {
+	opacity: 1 !important;
+	transform: scale(0);
+	transform-origin: center top;
+	transition: ease-in-out 323ms,
+	transform 100ms ease-in-out 323ms;
+	visibility: hidden;
+	font-size: 0;
+}
+
+.closeButton-1tv5uR + .keybind-KpFkfr::after {
+	content: "";
+	visibility: visible;
+	padding: 0;
+	overflow-wrap: break-word;
+	text-rendering: optimizelegibility;
+	user-select: none;
+	vertical-align: baseline;
+	pointer-events: none;
+	width: 0;
+	height: 0;
+	border: 5px solid transparent;
+	border-top-color: var(--tooltip-bg);
+	position: absolute;
+	bottom: 100%;
+	left: 50%;
+	margin-left: -5px;
+	-webkit-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+.closeButton-1tv5uR + .keybind-KpFkfr::before {
+	content: "Back";
+	opacity: 1 !important;
+	visibility: visible;
+	position: relative;
+	top: 8px;
+	background-color: var(--tooltip-bg);
+	border-radius: 4px;
+	padding: 8px;
+	line-height: 14px;
+	font-weight: 500;
+	font-size: 13px;
+	color: var(--tooltip-text);
+	transition: 150ms ease-in-out;
+	pointer-events: none;
+}
+
+/* Back Button i113 */
+html[lang=zh-CN] .closeButton-1tv5uR + .keybind-KpFkfr::before {
+	content: "后退";
+}
+
+html[lang=zh-TW] .closeButton-1tv5uR + .keybind-KpFkfr::before {
+	content: "返回";
+}
+
+html[lang=cs] .closeButton-1tv5uR + .keybind-KpFkfr::before {
+	content: "Zpět";
+}
+
+html[lang=da] .closeButton-1tv5uR + .keybind-KpFkfr::before {
+	content: "Tilbage";
+}
+
+html[lang=nl] .closeButton-1tv5uR + .keybind-KpFkfr::before {
+	content: "Terug";
+}
+
+html[lang=fr] .closeButton-1tv5uR + .keybind-KpFkfr::before {
+	content: "Retour";
+}
+
+html[lang=de] .closeButton-1tv5uR + .keybind-KpFkfr::before {
+	content: "Zurück";
+}
+
+html[lang=el] .closeButton-1tv5uR + .keybind-KpFkfr::before {
+	content: "Πίσω";
+}
+
+html[lang=hu] .closeButton-1tv5uR + .keybind-KpFkfr::before {
+	content: "Vissza";
+}
+
+html[lang=it] .closeButton-1tv5uR + .keybind-KpFkfr::before {
+	content: "Indietro";
+}
+
+html[lang=ja] .closeButton-1tv5uR + .keybind-KpFkfr::before {
+	content: "戻る";
+}
+
+html[lang=ko] .closeButton-1tv5uR + .keybind-KpFkfr::before {
+	content: "뒤로 가기";
+}
+
+html[lang=pl] .closeButton-1tv5uR + .keybind-KpFkfr::before {
+	content: "Wstecz";
+}
+
+html[lang=pt-PT] .closeButton-1tv5uR + .keybind-KpFkfr::before {
+	content: "Back";
+}
+
+html[lang=pt-BR] .closeButton-1tv5uR + .keybind-KpFkfr::before {
+	content: "Voltar";
+}
+
+html[lang=ru] .closeButton-1tv5uR + .keybind-KpFkfr::before {
+	content: "Назад";
+}
+
+html[lang=sk] .closeButton-1tv5uR + .keybind-KpFkfr::before {
+	content: "Back";
+}
+
+html[lang=es-ES] .closeButton-1tv5uR + .keybind-KpFkfr::before {
+	content: "Atrás";
+}
+
+html[lang=sv-SE] .closeButton-1tv5uR + .keybind-KpFkfr::before {
+	content: "Tillbaka";
+}
+
+html[lang=tr] .closeButton-1tv5uR + .keybind-KpFkfr::before {
+	content: "Geri";
+}
+
+html[lang=bg] .closeButton-1tv5uR + .keybind-KpFkfr::before {
+	content: "Назад";
+}
+
+html[lang=uk] .closeButton-1tv5uR + .keybind-KpFkfr::before {
+	content: "Назад";
+}
+
+html[lang=fi] .closeButton-1tv5uR + .keybind-KpFkfr::before {
+	content: "Takaisin";
+}
+
+html[lang=no] .closeButton-1tv5uR + .keybind-KpFkfr::before {
+	content: "Tilbake";
+}
+
+html[lang=hr] .closeButton-1tv5uR + .keybind-KpFkfr::before {
+	content: "Natrag";
+}
+
+html[lang=ro] .closeButton-1tv5uR + .keybind-KpFkfr::before {
+	content: "Înapoi";
+}
+
+html[lang=lt] .closeButton-1tv5uR + .keybind-KpFkfr::before {
+	content: "Atgal";
+}
+
+html[lang=th] .closeButton-1tv5uR + .keybind-KpFkfr::before {
+	content: "ย้อนกลับ";
+}
+
+html[lang=vi] .closeButton-1tv5uR + .keybind-KpFkfr::before {
+	content: "Trở lại";
+}
+
+html[lang=hi] .closeButton-1tv5uR + .keybind-KpFkfr::before {
+	content: "वापस जाएं";
+}
+
+/* Settings Modal */
+	.sidebarRegionScroller-3MXcoP {
+      width: 240px !important;
+	  margin-top: 50px;
+      margin-right: -10px;
      }
  /* My Account */
  .profile-1eT9hT {
@@ -179,8 +479,8 @@ display: none;
 	background-attachment: var(--user-background, fixed);
 	top: -248px;
 	left: -16px;
-	width: 1032%;
-	height: 350%;
+	width: 1252%;
+	height: 340%;
 }
 [class*="settingsBanner"]:not([style*="cdn.discordapp.com/banners"]) {
 	padding-top: 270px;
