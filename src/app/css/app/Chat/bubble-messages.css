@@ -30,7 +30,7 @@
     border-radius: var(--secondary-rounding);
 }
 
-[class*="timestamp-"] {
+[class*="chat"] [class*="timestamp-"] {
 	margin-top: 3px;
 	position: absolute;
 	background-color: var(--background-secondary);
