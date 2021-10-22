@@ -1,0 +1,120 @@
+/* Resize Change Log */
+[class*="modal-1TF_VN"] {
+	position: relative;
+	background-color: var(--background-floating) !important;
+	font-size: var(--font-size);
+	max-width: 5435px !important;
+	min-width: 1364px !important;
+	min-height: 114% !important;
+	margin-top: -40px !important;
+	margin-left: -0px !important;
+	border: none;
+	border-radius: 0px;
+}
+
+/* Move The Header To The Left */
+[class*="modal-1TF_VN"] [class*="header-"] {
+	position: absolute;
+	height: 42px;
+	width: 473px;
+	left: 0;
+	top: 0;
+	margin-left: 860px;
+	background-color: var(--background-floating);
+	border-left: 4px solid var(--background-secondary-alt) !important;
+	border-bottom: 4px solid var(--background-secondary-alt) !important;
+	margin-top: -3px;
+}
+
+/* Move The Footer To The Left */
+[class*="modal-1TF_VN"] [class*="footer-"] {
+	height: 30px;
+	width: 473px;
+	right: -860px;
+	background-color: var(--background-floating);
+	border-left: 4px solid var(--background-secondary-alt) !important;
+	border-top: 4px solid var(--background-secondary-alt) !important;
+	top: 0;
+}
+
+/* Recolor The Extra Part */
+[class*="modal-1TF_VN"] [class*="flex-"] {
+	background-color: var(--background-floating) !important;
+	border: none;
+}
+
+/* Removed The Border on The Twitter Button */
+[class*="modal-1TF_VN"] [class*="footer-5VmL3U"] {
+	border: none !important;
+	background-color: var(--background-floating);
+}
+
+/* Move The Change Log Vid/Img to The Center Left */
+[class*="modal-1TF_VN"] [class*="image-"],
+[class*="modal-1TF_VN"] [class*="video-"] {
+	border-right: 4px solid var(--background-secondary-alt);
+	background-color: #3c4cf2;
+	left: -0px;
+	top: 0px;
+	width: 860px;
+	height: 60%;
+	border-radius: 0;
+	padding-top: 130px;
+	padding-bottom: 200px;
+	position: fixed;
+}
+
+/* Move The Change Log Content to The Right */
+[class*="modal-1TF_VN"] [class*="content-"] {
+	line-height: normal;
+	font-size: var(--font-size);
+	margin-left: 860px;
+	margin-top: 71px;
+	border-left: 4px solid var(--background-secondary-alt);
+	background-color: var(--background-floating);
+	border-radius: 0;
+	width: 500px !important;
+}
+
+[class*="modal-1TF_VN"] [class*="content-"] ul {
+	margin: 10px;
+}
+
+[class*="modal-1TF_VN"] [class*="content-"]  ul li {
+	color: var(--text-normal);
+	text-indent: 0;
+}
+
+[class*="modal-1TF_VN"] [class*="content-"] ul li strong {
+	color: var(--header-primary);
+}
+
+[class*="modal-1TF_VN"] [class*="content-"] ul li:before {
+	content: none;
+}
+
+[class*="modal-1TF_VN"] [class*="content-"] ul a {
+	color: var(--text-link);
+}
+
+[class*="modal-1TF_VN"] [class*="added-"],
+[class*="modal-1TF_VN"] [class*="fixed-"],
+[class*="modal-1TF_VN"] [class*="improved-"],
+[class*="modal-1TF_VN"] [class*="progress-"] {
+	font-size: var(--font-size);
+	font-weight: 2500;
+	padding: var(--primary-spacing) var(--primary-spacing) var(--primary-spacing) var(--secondary-spacing);
+	border-radius: var(--primary-rounding);
+	background-color: var(--background-secondary);
+}
+
+[class*="modal-1TF_VN"] [class*="added-"]:after,
+[class*="modal-1TF_VN"] [class*="fixed-"]:after,
+[class*="modal-1TF_VN"] [class*="improved-"]:after,
+[class*="modal-1TF_VN"] [class*="progress-"]:after {
+	width: 10px !important;
+	height: 10px !important;
+	position: absolute;
+	left: 20px;
+	border-radius: var(--primary-rounding);
+}
