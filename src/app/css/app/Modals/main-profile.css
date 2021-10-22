@@ -102,16 +102,16 @@
 	max-height: 900px;
 	padding: 15px;
 	border: 1px solid var(--background-secondary-alt);
-	background-color: var(--background-primary) !important;
+	background-color: var(--background-floating) !important;
 }
 
 [class*="root-3QyAh1"] [class*="body-r6_QPy"] {
-	background-color: var(--background-secondary) !important;
+	background-color: var(--background-floating) !important;
 	border-radius: 0 0 var(--primary-rounding) var(--primary-rounding);
 }
 
 [class*="root-3QyAh1"] [class*="topSection-y3p-_D"] {
-	background: var(--background-secondary) !important;
+	background: var(--background-floating) !important;
 	border-top: 1px solid var(--background-secondary-alt);
 	border-left: 1px solid var(--background-secondary-alt);
 	border-right: 1px solid var(--background-secondary-alt);
@@ -126,7 +126,7 @@
 	height: 100%;
 	width: 56px;
 	padding: 0;
-	background: var(--background-primary);
+	background: var(--background-floating);
 	z-index: 1;
 	border: 1px solid var(--background-secondary-alt);
 	border-radius: var(--primary-rounding) 0 0 var(--primary-rounding);
@@ -222,7 +222,7 @@
 [class*="root-3QyAh1"] [class*="relationshipButtons-"] [class*="contents-"] {
 	position: absolute;
 	top: -46px;
-	background: var(--background-primary);
+	background: var(--background-floating);
 	padding: 10px 12px;
 	border-radius: 6px;
 	border: 1px solid var(--background-secondary-alt);
@@ -456,6 +456,6 @@
 
 [class*="root-3QyAh1"] [class*="activityProfile"] [class*="spotifyIcon"] {
 	padding: 5px;
-	background-color: var(--background-primary);
+	background-color: var(--background-floating);
 	border-radius: var(--primary-rounding);
 }
