@@ -405,10 +405,7 @@ html[lang=hi] .closeButton-1tv5uR + .keybind-KpFkfr::before {
 	flex-grow: 0;
 }
 
-.contentColumnDefault-1VQkGM {
-	max-width: calc(100% - 60px);
-	background-color: var(--background-floating) !important;
-}
+
 
 .sidebarRegionScroller-3MXcoP {
 	margin-bottom: 0px;
@@ -515,7 +512,11 @@ html[lang=hi] .closeButton-1tv5uR + .keybind-KpFkfr::before {
 	margin-top: -40px;
 }
 
-/* Settings Banner Support - User Account */
+.contentColumnDefault-1VQkGM {
+	max-width: calc(100% - 0px);
+	background-color: var(--background-floating) !important;
+}
+
 [class*="avatar-1uQSZT"]::before {
 	content: "";
 	position: absolute;
@@ -523,7 +524,7 @@ html[lang=hi] .closeButton-1tv5uR + .keybind-KpFkfr::before {
 	background-attachment: var(--user-background, fixed);
 	top: -248px;
 	left: -16px;
-	width: 1252%;
+	width: 1298%;
 	height: 340%;
 }
 
