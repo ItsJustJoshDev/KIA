@@ -9,7 +9,7 @@
 	margin-bottom: 0 !important;
 }
 
-[class*="userPopout-"] [class*="headerNormal-"] [class*="banner-"]  {
+[class*="userPopout-"] [class*="headerNormal-"] [class*="banner-"] {
 	filter: brightness(0.6);
 	border-radius: var(--primary-rounding);
 	height: 120px;
@@ -28,8 +28,8 @@
 [class*="userPopout-"] [class*="avatarWrapper-"] [class*="avatar-"] {
 	background-color: transparent;
 	border-radius: var(--primary-rounding);
-	height: 99px !important;
-	width: 90px !important;
+	height: 80px !important;
+	width: 80px !important;
 	border: none;
 }
 
@@ -51,7 +51,7 @@
 [class*="userPopout-"] [class*="headerTop-"] [class*="headerText-"] {
 	position: fixed !important;
 	display: block !important;
-	margin-left: -45px !important;
+	margin-left: -65px !important;
 }
 
 [class*="userPopout-"] [class*="headerTop-"] [class*="profileBadges-"] {
@@ -167,32 +167,32 @@
 
 [class*="userPopout-"] [class*="body-"] [class*="bodyInnerWrapper-"] [class*="activity-"] [class*="button-"] {
 	border: none;
-	background-color: #ffffff36;
+	background-color: #ffffff24;
 	color: #fff;
 }
 
-[class*="userPopout-"] [class*="body-"] [class*="bodyInnerWrapper-"] [class*="activity-"]::before {
+[class*="userPopout-"] .body-3HBlXn .bodyInnerWrapper-26fQXj .activity-2INFPu::before {
 	content: "";
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	border-radius: var(--primary-rounding);
 	z-index: -2;
 	left: 0;
 	top: 0;
+	border-radius: var(--primary-rounding);
 	background: var(--brand-color);
 }
 
-[class*="userPopout-"] [class*="body-"] [class*="bodyInnerWrapper-"] [class*="activity-"] [class*-"timeBarUserPopout"]::before {
+[class*="userPopout-"] .body-3HBlXn .bodyInnerWrapper-26fQXj .activity-2INFPu .timeBarUserPopout-AWPFf2::before {
 	content: "";
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	border-radius: var(--primary-rounding);
 	z-index: -1;
 	left: 0;
 	top: 0;
-	background: var(--spotify-color);
+	border-radius: var(--primary-rounding);
+	background: var(--spotify-color) !important;
 }
 
 [class*="userPopout-"] [class*="body-"] [class*="bodyInnerWrapper-"] [class*="activity-"] [class*="spotifyIcon"] {
