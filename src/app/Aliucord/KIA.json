@@ -1,7 +1,7 @@
 {
     "manifest": {
         "author": "It'sJustJosh#2812",
-        "version": "1.0.2",
+        "version": "1.0.3",
         "license": "MIT",
         "name": "KIA",
         "updater": "https:\/\/raw.githubusercontent.com\/TheRealGWJosh\/KIA\/main\/src\/app\/Aliucord\/KIA.json"
@@ -10,7 +10,10 @@
         "overlay_alpha": 0,
         "url": ""
     },
-    "fonts": {},
+    "fonts": {
+        "ginto_bold": "https:\/\/github.com\/TheRealGWJosh\/KIA\/blob\/main\/src\/app\/Aliucord\/Fonts\/Discord-Sans.otf?raw=true",
+        "ginto_medium": "https:\/\/github.com\/TheRealGWJosh\/KIA\/blob\/main\/src\/app\/Aliucord\/Fonts\/Discord-Sans.otf?raw=true"
+    },
     "simple_colors": {
         "statusbar": -13816267,
         "background": -14078405,
@@ -18,7 +21,6 @@
         "background_secondary": -14473423,
         "accent": -13476513,
         "mention_highlight": -818782881
-
     },
     "colors": {
         "primary_600": -12366754,
