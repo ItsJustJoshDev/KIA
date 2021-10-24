@@ -1,18 +1,25 @@
 {
     "manifest": {
         "author": "It'sJustJosh#2812",
-        "version": "1.0.3",
+        "version": "1.0.5",
         "license": "MIT",
         "name": "KIA",
         "updater": "https:\/\/raw.githubusercontent.com\/TheRealGWJosh\/KIA\/main\/src\/app\/Aliucord\/KIA.json"
     },
     "background": {
-        "overlay_alpha": 0,
-        "url": ""
+        "url": "https:\/\/raw.githubusercontent.com\/TheRealGWJosh\/KIA\/main\/src\/app\/Aliucord\/assets\/shapes-grey.jpg",
+        "blur_radius": 8,
+        "overlay_alpha": 10
     },
     "fonts": {
         "ginto_bold": "https:\/\/github.com\/TheRealGWJosh\/KIA\/blob\/main\/src\/app\/Aliucord\/Fonts\/Discord-Sans.otf?raw=true",
-        "ginto_medium": "https:\/\/github.com\/TheRealGWJosh\/KIA\/blob\/main\/src\/app\/Aliucord\/Fonts\/Discord-Sans.otf?raw=true"
+        "ginto_medium": "https:\/\/github.com\/TheRealGWJosh\/KIA\/blob\/main\/src\/app\/Aliucord\/Fonts\/Discord-Sans.otf?raw=true",
+        "whitney_semibold": "https:\/\/github.com\/TheRealGWJosh\/KIA\/blob\/main\/src\/app\/Aliucord\/Fonts\/Poppins-SemiBold.ttf?raw=true",
+        "whitney_medium": "https:\/\/github.com\/TheRealGWJosh\/KIA\/blob\/main\/src\/app\/Aliucord\/Fonts\/Poppins-Medium.ttf?raw=true",
+        "whitney_bold": "https:\/\/github.com\/TheRealGWJosh\/KIA\/blob\/main\/src\/app\/Aliucord\/Fonts\/Poppins-Bold.ttf?raw=true",
+        "sourcecodepro_semibold": "https:\/\/github.com\/TheRealGWJosh\/KIA\/blob\/main\/src\/app\/Aliucord\/Fonts\/Poppins-SemiBold.ttf?raw=true",
+        "ginto_regular": "https:\/\/github.com\/TheRealGWJosh\/KIA\/blob\/main\/src\/app\/Aliucord\/Fonts\/Poppins-Regular.ttf?raw=true",
+        "roboto_medium_numbers": "https:\/\/github.com\/TheRealGWJosh\/KIA\/blob\/main\/src\/app\/Aliucord\/Fonts\/Poppins-Medium.ttf?raw=true"
     },
     "simple_colors": {
         "statusbar": -13816267,
@@ -20,7 +27,7 @@
         "input_background": -13223352,
         "background_secondary": -14473423,
         "accent": -13476513,
-        "mention_highlight": -818782881
+        "mention_highlight": 1196463255
     },
     "colors": {
         "primary_600": -12366754,
@@ -34,7 +41,7 @@
         "primary_dark_800": -15263457,
         "uikit_btn_bg_color_selector_red": -11831690,
         "uikit_settings_item_text_color_light": -12229016,
-        "link": -13476513,
+        "link": -14842744,
         "brand_new": -13476513,
         "brand_new_100": -13476513,
         "brand_new_130": -13476513,
@@ -42,7 +49,6 @@
         "brand_new_200": -13476513,
         "brand_new_230": -13476513,
         "brand_new_260": -13476513,
-        "brand_new_300": -13476513,
         "brand_new_360": -13476513,
         "brand_new_400": -13476513,
         "brand_new_430": -13476513,
@@ -56,7 +62,9 @@
         "brand_new_900": -13476513,
         "uikit_btn_bg_color_selector_blue": -13476513,
         "uikit_btn_bg_color_selector_brand": -13476513,
-        "uikit_btn_outline_color_selector_brand": -13476513
+        "uikit_btn_outline_color_selector_brand": -13476513,
+        "brand_new_330": -13476513,
+        "uikit_btn_compound_color_selector_light": -13476513
     },
     "drawable_tints": {
         "ic_thread": -13476513,
