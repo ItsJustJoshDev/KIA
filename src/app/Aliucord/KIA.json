@@ -1,7 +1,7 @@
 {
     "manifest": {
         "author": "It'sJustJosh#2812",
-        "version": "1.0.5",
+        "version": "2.0.0",
         "license": "MIT",
         "name": "KIA",
         "updater": "https:\/\/raw.githubusercontent.com\/TheRealGWJosh\/KIA\/main\/src\/app\/Aliucord\/KIA.json"
@@ -18,8 +18,9 @@
         "whitney_medium": "https:\/\/github.com\/TheRealGWJosh\/KIA\/blob\/main\/src\/app\/Aliucord\/Fonts\/Poppins-Medium.ttf?raw=true",
         "whitney_bold": "https:\/\/github.com\/TheRealGWJosh\/KIA\/blob\/main\/src\/app\/Aliucord\/Fonts\/Poppins-Bold.ttf?raw=true",
         "sourcecodepro_semibold": "https:\/\/github.com\/TheRealGWJosh\/KIA\/blob\/main\/src\/app\/Aliucord\/Fonts\/Poppins-SemiBold.ttf?raw=true",
-        "ginto_regular": "https:\/\/github.com\/TheRealGWJosh\/KIA\/blob\/main\/src\/app\/Aliucord\/Fonts\/Poppins-Regular.ttf?raw=true",
-        "roboto_medium_numbers": "https:\/\/github.com\/TheRealGWJosh\/KIA\/blob\/main\/src\/app\/Aliucord\/Fonts\/Poppins-Medium.ttf?raw=true"
+        "ginto_regular": "https:\/\/github.com\/TheRealGWJosh\/KIA\/blob\/main\/src\/app\/Aliucord\/Fonts\/Discord-Sans.otf?raw=true",
+        "roboto_medium_numbers": "https:\/\/github.com\/TheRealGWJosh\/KIA\/blob\/main\/src\/app\/Aliucord\/Fonts\/Poppins-Medium.ttf?raw=true",
+        "*": "https:\/\/github.com\/TheRealGWJosh\/KIA\/blob\/main\/src\/app\/Aliucord\/Fonts\/Poppins-Medium.ttf?raw=true"
     },
     "simple_colors": {
         "statusbar": -13816267,
