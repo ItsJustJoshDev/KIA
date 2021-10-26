@@ -232,3 +232,19 @@
 	width: 10px;
 	height: 10px;
 }
+
+.footer-3UKYOU {
+	z-index: 234567654 !important;
+    background-color: var(--background-floating) !important;
+    border: 1px solid var(--background-secondary-alt);
+}
+.input-2_SIlA {
+    border: 1px solid var(--background-secondary-alt);
+}
+.input-2_SIlA:hover,
+.input-2_SIlA:active {
+    border: 1px solid var(--brand-experiment) !important;
+}
+.input-cIJ7To {
+	background-color: var(--background-floating) !important;
+}
