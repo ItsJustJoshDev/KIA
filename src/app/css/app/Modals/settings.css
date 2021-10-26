@@ -17,6 +17,8 @@
 	border-color: var(--brand-experiment);
 }
 
+
+
 /* Fake Header Lamo */
 .sidebarRegionScroller-3MXcoP::before {
 	content: "";
@@ -425,6 +427,7 @@ html[lang=hi] .closeButton-1tv5uR + .keybind-KpFkfr::before {
 
 .sidebarRegion-VFTUkN {
 	margin-top: -40px;
+	margin-left: -317px;
 }
 
 .contentColumnDefault-1VQkGM {
