@@ -87,16 +87,6 @@
     border-radius: var(--secondary-rounding);
 }
 
-[class*="chat"] [class*="timestamp-"] {
-	margin-top: 3px;
-    height: 1.98em;
-    display: inline-block;
-	padding-bottom: 1px;
-	padding-left: 8px;
-	padding-right: 8px;
-	padding-top: 2px;
-}
-
 /* Remove Background */
 .cozy-3raOZG.message-2qnXI6 {
     background: none !important;
