@@ -8,11 +8,11 @@
 
 /* Cumcord Settings Icons */
 .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ[aria-controls="cumcord_plugins-tab" i]::before {
-	-webkit-mask: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/plugins.svg) center/contain no-repeat;
+	--settings-icon: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/plugins.svg);
 }
 
 .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ[aria-controls="ysink_zone_cumzone-tab" i]::before {
-	-webkit-mask: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/pluginrepo.svg) center/contain no-repeat;
+	--settings-icon: url(https://kckarnige.is-a.dev/improved-ui/res/download-chan-icon.svg);
 }
 
 /* The Cum Zone - Cumcord Store Plugin */
