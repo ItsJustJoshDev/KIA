@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@font-face {font-family: 'Discord'; src: url("https://project-browser.github.io/Wordmark-Plus/assets/fonts/Discord-Sans.otf") format("opentype");}
+
+:root, * {
+	font-weight: 10 !important;
+	--font-headline: "Poppins";
+	--font-primary:  "Poppins";
+	--font-display: "Discord";
+}
+
+div #cc_server_count {
+	text-align: center;
+	font-family: var(--font-display);
+}
