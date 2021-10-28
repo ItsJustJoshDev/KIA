@@ -17,6 +17,22 @@
 	border-color: var(--brand-experiment);
 }
 
+/* Fuck Settings and it's Dumb Animations */
+.layer-3QrUeG {
+    transform: none !important;
+    opacity: 1 !important;
+}
+
+.layers-3iHuyZ>.layer-3QrUeG.animating-rRxada *,
+.layers-3iHuyZ>.layer-3QrUeG.animating-rRxada {
+    pointer-events: auto !important;
+    will-change: unset;
+}
+
+.animating-rRxada.stop-animations {
+    z-index: 100 !important;
+}
+
 
 
 /* Fake Header Lamo */
