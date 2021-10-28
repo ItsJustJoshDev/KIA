@@ -145,3 +145,11 @@
   width:100%;
   bottom: 0;
 }
+
+/* lets try something with user spacing */
+.voiceUsers-2V7vuh {
+  width: 100%; /* probably not needed but i'm adding this for good measure */
+  display: flex;
+  justify-content: space-evenly;
+  grid-template-columns: none; /* also for good measure */
+}
