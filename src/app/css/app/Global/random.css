@@ -3,6 +3,24 @@
     display: none; 
 }
 
+.botTag-2WPJ74 {
+  padding-right: 0;
+  background: transparent;
+}
+.botTag-2WPJ74 .botText-1526X_ {
+  padding-right: 3px;
+  padding-left: 4px;
+  border-radius: 4px;
+  background: var(--brand-experiment);
+}
+.botTag-2WPJ74 .botText-1526X_:not(:only-child) {
+  display: none;
+}
+.botTag-2WPJ74 .botTagVerified-1klIIt {
+  border-radius: var(--primary-rounding);
+  background: var(--brand-experiment);
+}
+
 /* Disable Help */
 [aria-label="Help"] {
 	display: none;
