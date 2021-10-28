@@ -1,0 +1,49 @@
+/* USRBG/BetterBG Support In Dm's/Member List By unknown81311#9820 */
+[class*="channel-2QD9_O"],
+[class*="member-3-YXUe"] {
+	transform: translateZ(0);
+}
+
+[class*="channel-2QD9_O"] [class*="wrapper-3t9DeA"]::after,
+[class*="member-3-YXUe"] [class*="wrapper-3t9DeA"]::after {
+	content: '';
+	position: fixed;
+	top: 3px;
+	left: -1px;
+	width: 98%;
+	height: 87%;
+	opacity: .5;
+	pointer-events: none;
+	background: var(--user-background, var(--user-accent-color)) center/cover no-repeat;
+	-webkit-mask: linear-gradient(90deg, transparent, #000);
+	z-index: 145673;
+	border-radius: 4px
+}
+
+[class*="channel-2QD9_O"],
+[class*="member-3-YXUe"] {
+	padding: 4px;
+	z-index: 1;
+	position: relative
+}
+/* Make Role Color a Background */
+.roleColor-rz2vM0::after {
+  content: '';
+  top: 3px !important;
+  left: 4px !important;
+  width: 96% !important;
+  height: 88% !important;
+  position: absolute !important;
+  opacity: 0.125;
+  border-radius: 5px;
+  background: currentColor;
+}
+.member-3-YXUe .badges {
+  z-index: 0;
+}
+.membersGroup-v9BXpm + .member-3-YXUe {
+  margin-top: 5px;
+}
+.content-yTz4x3:before {
+    z-index: 12;
+}
