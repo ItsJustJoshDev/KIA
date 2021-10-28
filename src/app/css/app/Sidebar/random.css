@@ -180,6 +180,18 @@
 	animation: var(--disable-animations), 2s channel-unread infinite;
 }
 
+.tabBar-ZmDY9v {
+  right: 122px;
+  position: relative;
+  background-color: var(--background-primary);
+}
+.headerCellContent-1pLtOr {
+  margin: auto;
+}
+.bfl-title {
+  padding-right: 30px;
+}
+
 @keyframes channel-mention {
 	0% {
 		box-shadow: 0 0 0 0 var(--mention-color);
