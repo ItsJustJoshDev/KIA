@@ -97,3 +97,51 @@
 .name-23GUGE {
 	text-transform: capitalize;
 }
+
+[class*="channelNotice-"] {
+    height: 20px;
+    margin: 0;
+    padding: 16px;
+    transition: 0.2s ease-in-out;
+}
+[class*="channelNotice-"] [class*="textBlock-"] {
+    height: 0;
+    opacity: 0;
+    margin: 0;
+    transition: 0.2s ease-in-out;
+}
+[class*="channelNotice-"] button {
+    height: 0;
+    opacity: 0;
+    margin: 0;
+    padding: 0;
+    transition: 0.5s ease-in-out;
+}
+[class*="channelNotice-"]:hover {
+    height: 152px;
+    transition: 0.2s ease-in-out;
+}
+[class*="channelNotice-"]:hover [class*="textBlock-"] {
+    height: 16px;
+    margin: 4px auto;
+    opacity: 1;
+    transition: 0.1s ease-in-out;
+}
+[class*="channelNotice-"]:hover button {
+    height: 32px;
+    margin: unset;
+    padding: unset;
+    opacity: 1;
+    transition: 0s ease-in-out;
+}
+.animatedContainer-1NSq4T{
+    box-shadow: none !important;
+}
+.animatedContainer-1NSq4T:after{
+  background: linear-gradient(00deg, var(--background-secondary) 5%, transparent 100%);
+  position:absolute;
+  content: '';
+  height:30px;
+  width:100%;
+  bottom: 0;
+}
