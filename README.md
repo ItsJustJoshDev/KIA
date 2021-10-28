@@ -1,6 +1,14 @@
 # KIA
 A Sleek Nord Based Discord Theme Named By a Car.
 
+# ALL CONTENT IS SUBJECTED TO CHANGE PLUBILC ALPHA 1.9
+
+# Before
+![image](https://user-images.githubusercontent.com/68560159/139326856-9a2bf936-a420-4bd3-8e08-17ab54ef9e3f.png)
+
+# After
+![image](https://user-images.githubusercontent.com/68560159/139327104-fd5ef9ed-b812-47cc-8947-78a924a3a9b0.png)
+
 ## Credit To The Awsome Pepole and Content :3
 [Cryptogenic#0750](https://discord.com/users/220239731273760768) For FInding CSS Classes
 
