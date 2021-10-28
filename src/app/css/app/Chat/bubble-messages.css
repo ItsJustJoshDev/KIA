@@ -10,12 +10,6 @@
   margin-top: 12px;
 }
 
-[class*="chat"] .timestamp-3ZCmNB {
-	position: absolute;
-	margin-left: 600px;
-	margin-top: 5px;
-}
-
 .scrollerInner-2YIMLh .contents-2mQqc9 > .markup-2BOw-j:not(:empty) {
   background-color: var(--background-secondary);
 }
@@ -124,4 +118,55 @@
 .cozy-3raOZG .repliedMessage-VokQwo, .repliedMessage-VokQwo ~ .contents-2mQqc9 > .messageContent-2qWWxC:first-of-type {
     width: 50% !important;
     width: clamp(390px, 100%, 490px) !important;
+}
+
+/* Avatars */
+/** Smaller avatars and moved chat (also made to not break compact mode because why not) **/
+/* Makes avatars smaller and moves them so they fit below the reply arrow (7.5px),
+   and moves them 4 pixels up to make them centered to username */
+.cozy-3raOZG .avatar-1BDn8e {
+  width: 23px;
+  height: 23px;
+  border: 3px solid var(--background-secondary-alt) !important;
+  transform: translateY(-0px);
+}
+/* Apparently, avatars are supposed to move 1 pixel down when they are clicked on,
+   and it messes up the translate in the previous rule, so account for the previous
+   translate, and also make the avatars move a bit, since that's what they already do */
+.cozy-3raOZG .avatar-1BDn8e:active {
+  transform: translateY(calc(-4px + 0.625px));
+}
+/* Move every message 20 pixels to the left to fill the empty space
+   moving the avatar 20 pixels to the right made, default padding is 72px */
+.cozy-3raOZG.wrapper-2a6GCs {
+  padding-left: calc(72px - 20px);
+}
+/* Adjusts offline message outlines to look the same as regular messages
+   (you're probably never going to notice this anyway, but yeah) */
+.wrapper-1F5TKx.cozy-12kSNU .contents-1R-xLu {
+  transform: translateX(-20px);
+}
+.wrapper-1F5TKx.cozy-12kSNU .contents-1R-xLu .avatar-2daVqv {
+  width: 25px;
+  height: 25px;
+  transform: translate(-52px, -4px);
+}
+/* Move a message reply 20 pixels right to put it above avatar since
+   the avatar doesn't move along with the message *//*
+.cozy-3raOZG .repliedMessage-VokQwo {
+  transform: translateX(calc(20px - calc(calc(40px - 25px) / 2)));
+}
+/* Make reply arrow touch replied to avatar as well */
+.cozy-3raOZG .repliedMessage-VokQwo::before {
+  margin-right: 0;
+}
+/* This all makes the hover timestamp cut into the message just
+   a little bit, so move it backwards 5 pixels to adjust */
+.cozy-3raOZG .timestamp-3ZCmNB.alt-1uNpEt {
+    transform: translateX(-5px);
+}
+/* Moving the avatar 4 pixels up makes it get cut off in the inbox section,
+   so set the overflow to visible so that it doesn't do that*/
+.message-2DieIs {
+  overflow: visible;
 }
