@@ -61,8 +61,8 @@
 #status-picker .betaTag-2ehOEB {
 	position: absolute;
 	font-size: 0;
-	background-color: var(--brand-experiment) !important;
-	margin-left: 155px;
+	background-color: var(--brand-color) !important;
+	margin-left: 142px;
 	border-radius: var(--primary-rounding);
 }
 
@@ -152,6 +152,7 @@
 #status-picker-custom-status,
 #status-picker-switch-account {
 	margin-top: 8px;
+	margin-right: 5px !important;
 }
 
 #status-picker .item-1tOPte {
@@ -165,6 +166,7 @@
 	left: 77px;
 	width: 230px;
 	height: 245px;
+	border-radius: var(--primary-rounding);
 	background: var(--background-tertiary);
 }
 
@@ -203,7 +205,7 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	border-radius: 3px;
+	border-radius: var(--primary-rounding);
 	-webkit-mask: linear-gradient(black, transparent 100%);
 	opacity: 0.8;
 }
