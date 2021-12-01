@@ -8,6 +8,102 @@
 @import url("https://therealgwjosh.github.io/Snippets/CSS/BetterBG/Friend-Grid/main.css");
 @import url("https://therealgwjosh.github.io/Snippets/CSS/Extra/colorful-urls.css"); 
 
+/* KIA - Now Playing - 009 */
+.nowPlayingColumn-2sl4cE {
+	background: transparent !important;
+	margin: 0px;
+	margin-left: 10px;
+}
+
+.nowPlayingColumn-2sl4cE .scroller-2ZPeAD {
+	padding: 0px;
+	border: none;
+}
+
+
+.wrapper-3D2qGf {
+	border-radius: var(--primary-rounding);
+	background: transparent !important;
+	position: relative;
+}
+
+.container-lRFx4q {
+	background: transparent !important;
+}
+
+.wrapper-3D2qGf:hover {
+	background: none !important;
+}
+
+
+.wrapper-3D2qGf:before {
+	background: var(--background-secondary);
+	border-radius: var(--primary-rounding);
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+}
+
+
+.wrapper-3D2qGf:hover:before {
+	background: var(--accent-primary) !important;
+}
+
+
+.nowPlayingColumn-2sl4cE .header-2SF4Nh {
+	display: none;
+}
+
+
+.emptyCard-1RJw8n {
+	border-radius: var(--primary-rounding);
+	padding: 24px;
+	margin-right: 10px;
+}
+
+.section-2gLsgF {
+	background: var(--background-tertiary);
+	border-radius: var(--secondary-rounding);
+	position: relative;
+	padding: 12px;
+}
+
+.theme-dark .inset-3sAvek {
+	background-color: transparent !important;
+}
+
+
+.activitySectionAssets-32WyHu .largeImage-DLXk-f {
+	border-radius: 90px;
+	width: 32px;
+	height: 32px;
+}
+
+.theme-dark .separator-XqIyoz {
+	background-color: transparent !important;
+	padding-top: 8px;
+}
+
+
+.emptyCard-1RJw8n {
+	border-radius: var(--primary-rounding);
+	background: transparent !important;
+	position: relative;
+}
+
+.emptyCard-1RJw8n:before {
+	background: var(--background-secondary);
+	border-radius: var(--primary-rounding);
+	position: absolute;
+	content: "";
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+}
+
 /* Made By Luckfire - Channel Indacitors - 008 */
 :root {
 	/* ---- base -- */
