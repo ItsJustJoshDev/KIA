@@ -4,6 +4,7 @@
 @import url('https://discord-theme-addons.github.io/modern-channel-indicators/src/support/compiled.css'); /* Channel List - 008 */
 @import url("https://therealgwjosh.github.io/Snippets/CSS/BetterBG/import.css"); /* BetterBG - 010 */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap'); /* Font - 011 */
+@import url('https://xhylo.github.io/DmBubblesearch/SearchSC.css'); /* SearchSC - 013 */
 
 /* Extra Imports */
 @import url("https://crearts-community.github.io/Context-Icons/context-icons.theme.css");
@@ -17,6 +18,33 @@
 @import url("https://therealgwjosh.github.io/KIA/src/app/css/app/Global/betterbadges.css");
 @import url("https://therealgwjosh.github.io/Snippets/CSS/BetterBG/Friend-Grid/main.css");
 @import url("https://therealgwjosh.github.io/Snippets/CSS/Extra/colorful-urls.css"); 
+
+/* SearchSC Made By Xhylo - 013 */
+.theme-dark .children-19S4PO:after {
+	display: none;
+}
+
+#app-mount .privateChannels-1nO12o .searchBar-6Kv8R2 {
+	border-radius: var(--primary-rounding);
+	background: var(--background-tertiary);
+	left: 5px;
+	bottom: 5px;
+	box-shadow: none !important;
+}
+#app-mount .privateChannels-1nO12o .searchBar-6Kv8R2 .searchBarComponent-32dTOx::after {
+	content: '';
+	position: absolute;
+	height: 70%;
+	width: 30px;
+	bottom: 5px;
+	left: 5px;
+	background-color: var(--header-primary) !important;
+	-webkit-mask: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="%23000000"%3E%3Cpath d="M0 0h24v24H0z" fill="none"/%3E%3Cpath d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/%3E%3C/svg%3E') center/cover no-repeat;
+}
+
+#app-mount .privateChannels-1nO12o .searchBar-6Kv8R2 .searchBarComponent-32dTOx::before {
+	font-size: 0;
+}
 
 /* KIA Base - 012 */
 body {
