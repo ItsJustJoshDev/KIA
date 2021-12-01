@@ -3,6 +3,9 @@
 @import url("https://therealgwjosh.github.io/BannerBG/src/banners.css"); /* BannerBG - 003 */
 @import url('https://discord-theme-addons.github.io/modern-channel-indicators/src/support/compiled.css'); /* Channel List - 008 */
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap'); /* Font - 011 */
+@font-face {font-family: 'Discord'; src: url("https://project-browser.github.io/Wordmark-Plus/assets/fonts/Discord-Sans.otf") format("opentype");}
+
 /* Extra Imports */
 @import url("https://crearts-community.github.io/Context-Icons/context-icons.theme.css");
 @import url("https://luckfire.github.io/theme-source/src/css-compile/ThemeSource-Compiled.css");
