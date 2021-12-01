@@ -2,6 +2,208 @@
 @import url("https://therealgwjosh.github.io/Snippets/CSS/Settings/icons.css"); /* Settings - 001 */
 @import url("https://therealgwjosh.github.io/BannerBG/src/banners.css"); /* BannerBG - 003 */
 
+/* KIA - Status Picker - 004 */
+#status-picker {
+	box-shadow: none !important;
+	width: 260px !important;
+	margin-bottom: 12px;
+	margin-left: 25px;
+}
+
+#status-picker .mask-1qbNWk {
+	height: 14px;
+	width: 14px;
+	margin-left: 4px;
+}
+
+#status-picker-dnd .status-1AY8sU {
+	background: var(--red-primary) !important;
+}
+
+#status-picker-online .status-1AY8sU {
+	background: var(--green-primary) !important;
+}
+
+#status-picker-invisible .status-1AY8sU {
+	background: var(--normal-primary) !important;
+}
+
+#status-picker-idle .status-1AY8sU {
+	background: var(--yellow-primary) !important;
+}
+
+#status-picker .focused-3afm-j {
+	background: linear-gradient(45deg, var(--accent-tertiary), var(--accent-secondary));
+	border-radius: var(--primary-rounding) !important;
+}
+
+#status-picker .focused-3afm-j#status-picker-online {
+	background: linear-gradient(45deg, var(--green-tertiary), var(--green-secondary));
+}
+
+#status-picker .focused-3afm-j#status-picker-idle {
+	background: linear-gradient(45deg, var(--yellow-tertiary), var(--yellow-secondary));
+}
+
+#status-picker .focused-3afm-j#status-picker-dnd {
+	background: linear-gradient(45deg, var(--red-tertiary), var(--red-secondary));
+}
+
+#status-picker .focused-3afm-j#status-picker-invisible {
+	background: linear-gradient(45deg, var(--normal-tertiary), var(--normal-secondary));
+}
+
+/* Get Rid Of The Trash & Beta Tag */
+#status-picker .item-1tOPte:not(#status-picker-custom-status):not(#status-picker-switch-account) .status-1fhblQ,
+#status-picker .description-2L932D,
+#status-picker .separator-2I32lJ {
+	display: none;
+}
+
+#status-picker .betaTag-2ehOEB {
+	position: absolute;
+	font-size: 0;
+	background-color: var(--brand-color) !important;
+	margin-left: 172px;
+	border-radius: var(--primary-rounding);
+}
+
+#status-picker .status-1fhblQ {
+	margin-left: 8px;
+}
+
+/* Border Go BRRRRRRRRRRRR */
+#status-picker-custom-status::after,
+#status-picker-switch-account::after {
+	content: "";
+	border-top: 1px solid var(--background-modifier-accent);
+	background: var(--background-modifier-accent);
+	position: absolute;
+	top: -6px;
+	left: 2px;
+	width: 98%;
+	height: 1px;
+}
+
+#status-picker-dnd::after,
+#status-picker-idle::after,
+#status-picker-online::after {
+	content: "";
+	position: absolute;
+	top: 4px;
+	left: 46px;
+	width: 1px;
+	height: 24px;
+	background: var(--background-modifier-accent);
+	border-left: 1px solid var(--background-modifier-accent);
+}
+
+/* Gridish Lamo */
+#status-picker .scrollerBase-289Jih {
+	display: grid;
+}
+
+#status-picker-custom-status,
+#status-picker div[role=group] {
+	grid-column: 1/5;
+}
+
+#status-picker-dnd,
+#status-picker-idle,
+#status-picker-online,
+#status-picker-invisible {
+	padding: 0;
+	margin: 0;
+	left: 10px;
+	width: 40px;
+	height: 30px;
+}
+
+/* Custom Icons */
+#status-picker .customEmojiPlaceholder-37iZ_j,
+#status-picker .switchAccountsIcon-355frb {
+	margin-left: 0px;
+}
+
+#status-picker .customEmojiPlaceholder-37iZ_j {
+	background-image: none;
+	background-color: var(--interactive-normal);
+	mask: var(--icon) center/contain no-repeat;
+	-webkit-mask: var(--icon) center/contain no-repeat;
+	width: 22px;
+	height: 22px;
+	--icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' enable-background='new 0 0 24 24' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Crect fill='none' height='24' width='24'/%3E%3Cpath d='M11.99,2C6.47,2,2,6.48,2,12s4.47,10,9.99,10C17.52,22,22,17.52,22,12S17.52,2,11.99,2z M8.5,8C9.33,8,10,8.67,10,9.5 S9.33,11,8.5,11S7,10.33,7,9.5S7.67,8,8.5,8z M16.75,14.75C15.8,16.39,14.03,17.5,12,17.5s-3.8-1.11-4.75-2.75 C7.06,14.42,7.31,14,7.69,14h8.62C16.7,14,16.94,14.42,16.75,14.75z M15.5,11c-0.83,0-1.5-0.67-1.5-1.5S14.67,8,15.5,8 S17,8.67,17,9.5S16.33,11,15.5,11z'/%3E%3C/svg%3E");
+}
+
+#status-picker .switchAccountsIcon-355frb {
+	background-image: none;
+	background-color: var(--interactive-normal);
+	mask: var(--icon) center/contain no-repeat;
+	-webkit-mask: var(--icon) center/contain no-repeat;
+	width: 22px;
+	height: 22px;
+	--icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' enable-background='new 0 0 24 24' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Cg%3E%3Crect fill='none' height='24' width='24'/%3E%3C/g%3E%3Cg%3E%3Cpath d='M17,20H4V7c0-0.55-0.45-1-1-1S2,6.45,2,7v13c0,1.1,0.9,2,2,2h13c0.55,0,1-0.45,1-1S17.55,20,17,20z M20,2H8 C6.9,2,6,2.9,6,4v12c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2V4C22,2.9,21.1,2,20,2z M14,5c1.66,0,3,1.34,3,3c0,1.66-1.34,3-3,3 s-3-1.34-3-3C11,6.34,12.34,5,14,5z M7.76,16c1.47-1.83,3.71-3,6.24-3s4.77,1.17,6.24,3H7.76z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+#status-picker .colorDefault-2K3EoJ.focused-3afm-j .customEmojiPlaceholder-37iZ_j,
+#status-picker .colorDefault-2K3EoJ.focused-3afm-j .switchAccountsIcon-355frb {
+	background: var(--interactive-active);
+}
+
+#status-picker-custom-status,
+#status-picker-switch-account {
+	margin-top: 8px;
+	margin-right: 5px !important;
+}
+
+#status-picker .item-1tOPte {
+	margin-right: -8px;
+}
+
+/* Resize The Status Picker */
+:root #status-picker {
+	position: fixed;
+	bottom: 8px;
+	left: 77px;
+	width: 230px;
+	height: 245px;
+	border-radius: var(--primary-rounding);
+	background: var(--background-tertiary);
+}
+
+:root #status-picker > .scroller-3BxosC {
+	grid-template-rows: 35px 46px;
+	margin: auto 4px 4px -2px;
+}
+
+:root .panels-j1Uci_ > .container-3baos1 .avatarWrapper-2yR4wp[aria-expanded="false"] {
+	z-index: 1 !important;
+}
+
+/* Add BetterBG/USRBG Support */
+:root .panels-j1Uci_ > .container-3baos1 .avatarWrapper-2yR4wp[aria-expanded="true"] .wrapper-3t9DeA::before {
+	content: '' !important;
+	position: absolute;
+	top: -199px;
+	left: 76px;
+	width: 260px;
+	height: 140px;
+	pointer-events: none;
+	background: var(--user-background);
+	background-color: var(--background-secondary-alt);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: var(--primary-rounding);
+	-webkit-mask: linear-gradient(black, transparent 100%);
+	opacity: 0.8;
+	z-index: 1005 !important;
+}
+
+:root .panels-j1Uci_ {
+	z-index: unset;
+}
+
 /* KIA - BannerBG - 003 */
 .container-3w7J-x .header-2V-4Sw::before {
 	position: var(--BannerBG-Server-Position);
