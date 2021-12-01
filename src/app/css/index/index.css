@@ -4,7 +4,15 @@
 @import url('https://discord-theme-addons.github.io/modern-channel-indicators/src/support/compiled.css'); /* Channel List - 008 */
 
 /* Extra Imports */
-@import "https://nyri4.github.io/Discolored/main.css";
+@import url("https://crearts-community.github.io/Context-Icons/context-icons.theme.css");
+@import url("https://luckfire.github.io/theme-source/src/css-compile/ThemeSource-Compiled.css");
+@import url("https://raw.githack.com/v-briese/Channel-Icons/main/channelicons.theme.css");
+@import url("https://raw.githack.com/LuckFire/theme-source/main/old-theme-source.css");
+@import url("https://raw.githack.com/leeprky/FullyThemedDiscord/main/source.css");
+@import url("https://nyri4.github.io/Discolored/main.css");
+@import url("https://therealgwjosh.github.io/BannerBG/src/main.css");
+@import url("https://therealgwjosh.github.io/Snippets/CSS/Extra/spooky.css");
+@import url("https://therealgwjosh.github.io/KIA/src/app/css/app/Global/betterbadges.css");
 @import url("https://therealgwjosh.github.io/Snippets/CSS/BetterBG/Friend-Grid/main.css");
 @import url("https://therealgwjosh.github.io/Snippets/CSS/Extra/colorful-urls.css"); 
 
