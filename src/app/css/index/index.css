@@ -1,5 +1,56 @@
 /* Imports */
 @import url("https://therealgwjosh.github.io/Snippets/CSS/Settings/icons.css"); /* Settings - 001 */
+@import url("https://therealgwjosh.github.io/BannerBG/src/banners.css"); /* BannerBG - 003 */
+
+/* KIA - BannerBG - 003 */
+.container-3w7J-x .header-2V-4Sw::before {
+	position: var(--BannerBG-Server-Position);
+	content: "";
+	top: var(--BannerBG-Server-Top);
+	left: var(--BannerBG-Server-Left);
+	height: var(--BannerBG-Server-Height);
+	width: var(--BannerBG-Server-Width);
+	background-image: var(--BannerBG-Server-Banner);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border-radius: var(--primary-rounding) !important;
+}
+
+.container-3w7J-x .header-2V-4Sw:hover::before {
+	-webkit-mask: linear-gradient(transparent, var(--background-primary) 200%);
+}
+
+.container-3w7J-x .header-2V-4Sw::before {
+	-webkit-mask: none;
+}
+
+
+/* Spacing */
+.container-3w7J-x .header-2V-4Sw {
+	height: var(--BBG-CreArts-Header-Height) !important;
+	padding-bottom: var(--BBG-CreArts-Header-Padding) !important;
+}
+
+
+/* Info Hide */
+.container-3w7J-x .name-1jkAdW,
+.container-3w7J-x .button-1w5pas {
+	z-index: var(--BBG-CreArts-Header-Z-Index) !important;
+	opacity: var(--BBG-CreArts-Header-Opacity-0) !important;
+	transition: var(--BBG-CreArts-Header-Transition) !important;
+}
+
+.container-3w7J-x .header-2V-4Sw:hover .name-1jkAdW,
+.container-3w7J-x .header-2V-4Sw:hover .button-1w5pas {
+	z-index: var(--BBG-CreArts-Header-Z-Index) !important;
+	opacity: var(--BBG-CreArts-Header-Opacity-1) !important;
+	transition: var(--BBG-CreArts-Header-Transition) !important;
+}
+
+.container-3w7J-x .header-2V-4Sw:hover .name-1jkAdW {
+	color: var(--BBG-CreArts-Header-Color) !important;
+}
 
 /* KIA - Better Splash - 002 */
 .platform-web .container-16j22k {
