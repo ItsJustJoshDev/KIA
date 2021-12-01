@@ -2280,6 +2280,7 @@ svg.slider-TkfMQL svg {
 	--header-primary: var(--text-normal);
 	--text-link: var(--text-normal);
 	--focus-primary: #fff;
+	--brand-experiment: var(--accent-primary);
 	--accent-pri-numbers: 50, 93, 95;
 	--accent-sec-numbers: 80, 155, 158;
 	--accent-ter-numbers: 28, 53, 54;
