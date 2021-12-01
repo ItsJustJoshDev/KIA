@@ -2889,6 +2889,8 @@ svg.slider-TkfMQL svg {
 	--server-radius: 8px;
 	--active-now-height: 0vh;
 	--primary-rounding: 5px;
+	--spotify-color: var(--green-primary);
+	--brand-color: var(--accent-primary);
 	--secondary-rounding: calc(var(--primary-rounding) * 2);
 	--tertiary-rounding: calc(var(--primary-rounding) * 4);
 	--primary-spacing: 10px;
