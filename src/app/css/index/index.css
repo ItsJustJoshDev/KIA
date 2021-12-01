@@ -2,6 +2,196 @@
 @import url("https://therealgwjosh.github.io/Snippets/CSS/Settings/icons.css"); /* Settings - 001 */
 @import url("https://therealgwjosh.github.io/BannerBG/src/banners.css"); /* BannerBG - 003 */
 
+/* KIA - Server List - 006 */
+.unreadMentionsIndicatorTop-2-tcdU .text-2e2ZyG {
+	color: transparent;
+	background: var(--interactive-active);
+	-webkit-mask: url("https://corellanstoma.github.io/CreArts-Discord/assets/icons/theme_arrow_up.svg") center no-repeat;
+	mask: url("https://corellanstoma.github.io/CreArts-Discord/assets/icons/theme_arrow_up.svg") center no-repeat;
+	width: 36%;
+	height: 36%;
+	margin-bottom: -2px;
+}
+
+.unreadMentionsIndicatorTop-2-tcdU {
+	top: 125px;
+}
+
+.unreadMentionsIndicatorBottom-2mDYbI .text-2e2ZyG {
+	color: transparent;
+	background: var(--interactive-active);
+	-webkit-mask: url("https://corellanstoma.github.io/CreArts-Discord/assets/icons/theme_arrow_down.svg") center no-repeat;
+	mask: url("https://corellanstoma.github.io/CreArts-Discord/assets/icons/theme_arrow_down.svg") center no-repeat;
+	width: 36%;
+	height: 36%;
+	margin-bottom: -2px;
+}
+
+.unreadMentionsIndicatorBottom-2mDYbI {
+	bottom: 180px;
+}
+
+.scroller-1Bvpku {
+	background: transparent !important;
+	position: relative;
+	bottom: -5px;
+	height: 310px;
+}
+
+.guildSeparator-33mFX6 {
+	display: none !important;
+}
+
+.panels-j1Uci_ > .container-3baos1 {
+	height: 0;
+}
+.panels-j1Uci_ > .container-3baos1 > .flex-1xMQg5 {
+	position: fixed;
+	top: 20px;
+	left: 18px;
+	z-index: 1;
+	width: 55px;
+	height: 94px;
+	padding: 10px 0 10px 0;
+	padding-bottom: 15px;
+	flex-direction: column;
+	border-radius: var(--server-radius);
+	background: var(--background-secondary-alt);
+}
+.panels-j1Uci_ > .container-3baos1 > .flex-1xMQg5 > .button-14-BFJ {
+	color: var(--interactive-normal);
+	margin: auto 20px auto 10px;
+}
+
+div#cc_server_count {
+	display: none !important;
+}
+
+
+:root .panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp[aria-expanded="false"],
+:root .panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp[aria-expanded="true"] {
+	position: fixed !important;
+	bottom: 22.5px;
+	left: 21.5px;
+	z-index: 123456787654323452 !important;
+	margin: 0;
+	background-color: var(--background-secondary-alt);
+	padding: 4px;
+	border-radius: var(--server-radius);
+}
+:root .panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp[aria-expanded="false"] > .avatar-SmRMf2,
+:root .panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp[aria-expanded="true"] > .avatar-SmRMf2 {
+	width: 40px !important;
+	height: 40px !important;
+}
+:root .panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp[aria-expanded="false"] > .avatar-SmRMf2:hover,
+:root .panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp[aria-expanded="true"] > .avatar-SmRMf2:hover {
+	opacity: 1;
+}
+:root .panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp[aria-expanded="false"] + .nameTag-3uD-yy,
+:root .panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp[aria-expanded="true"] + .nameTag-3uD-yy {
+	display: none;
+}
+
+/* Home Button */
+.guilds-1SWlCJ .scroller-1Bvpku { contain: none !important; padding-top: 0 !important;
+}
+.guilds-1SWlCJ .scroller-1Bvpku > [aria-label],
+.guilds-1SWlCJ .scroller-1Bvpku > [style]:nth-child(2) { margin-top: -55px !important;
+}
+
+.tutorialContainer-11ICd5,
+.tutorialContainer-2sGCg9 {
+	position: fixed;
+	margin-top: 331px !important;
+	z-index: 12;
+	box-shadow: none !important;
+	background: transparent;
+}
+.guilds-1SWlCJ .scroller-1Bvpku { contain: none !important; padding-top: 0;
+}
+.guilds-1SWlCJ .scroller-1Bvpku > [aria-label],
+.guilds-1SWlCJ .scroller-1Bvpku > [style]:nth-child(2) { margin-top: 55px;
+}
+.guilds-1SWlCJ .scroller-1Bvpku > [style] ~ [aria-label] { margin-top: 0 !important;
+}
+
+.wrapper-3NnKdC > ul > .scroller-1Bvpku > div[aria-label="Servers"] {
+	margin-top: 60px;
+	margin-bottom: 140px;
+}
+.wrapper-3NnKdC > ul > .scroller-1Bvpku:not(div[aria-label="Servers"]) {
+	margin-top: 136px;
+	margin-bottom: 192px;
+	background-color: var(--background-secondary-alt);
+}
+
+.tutorialContainer-11ICd5,
+.tutorialContainer-2sGCg9 {
+	box-shadow: none !important;
+}
+
+.container-3w7J-x {
+	z-index: 1;
+}
+
+/* Discover/Downloads */
+.platform-linux [class*="guilds-"] [class*="scroller-"] > [class*="listItem-"]:nth-last-child(-1n + 3) {
+	position: fixed;
+	bottom: 70px;
+	z-index: 1;
+	box-shadow: none !important;
+}
+
+.platform-win [class*="guilds-"] [class*="scroller-"] > [class*="listItem-"]:nth-last-child(-1n + 3) {
+	position: fixed;
+	bottom: 70px;
+	z-index: 1;
+	box-shadow: none !important;
+}
+
+.platform-osx [class*="guilds-"] [class*="scroller-"] > [class*="listItem-"]:nth-last-child(-1n + 3) {
+	position: fixed;
+	bottom: 70px;
+	z-index: 1;
+	box-shadow: none !important;
+}
+
+/* Discovery */
+.platform-web [class*="guilds-"] [class*="scroller-"] > [class*="listItem-"]:nth-last-child(1n + 3) {
+	position: fixed;
+	bottom: 70px;
+	z-index: 1;
+	box-shadow: none !important;
+}
+
+/* Downloads */
+.platform-web [class*="scroller-"] > [class*="listItem-"]:nth-last-child(1n + 2):not(:nth-last-child(1n + 3)) {
+	display: none;
+}
+
+/* Fuck No */
+[class*="guildSeparator"] {
+	display: none;
+}
+
+/* Custom Background For Add a Server And The Top Buttons */
+[class*="tutorialContainer"]:not(.tutorialContainer-11ICd5):not(.tutorialContainer-2sGCg9) {
+	background: transparent;
+	margin-top: -130px;
+}
+
+/* Recolor */
+[class*="guilds-"] [class*="scroller-"] > [class*="listItem-"],
+[class*="tutorialContainer"]:not(.tutorialContainer-11ICd5) {
+	color: var(--interactive-normal);
+}
+
+[class*="guilds-"] [class*="scroller-"] > [class*="listItem-"] svg path,
+[class*="tutorialContainer"]:not(.tutorialContainer-11ICd5) svg path {
+	fill: var(--interactive-active);
+}
+
 /* KIA - Media Auto Adjust - 005 */
 @media screen and (min-width: 0px) and (max-width: 1200px) {
   .membersWrap-2h-GB4 {
