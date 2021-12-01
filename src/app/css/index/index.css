@@ -4,7 +4,6 @@
 @import url('https://discord-theme-addons.github.io/modern-channel-indicators/src/support/compiled.css'); /* Channel List - 008 */
 @import url("https://therealgwjosh.github.io/Snippets/CSS/BetterBG/import.css"); /* BetterBG - 010 */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap'); /* Font - 011 */
-@font-face {font-family: 'Discord'; src: url("https://project-browser.github.io/Wordmark-Plus/assets/fonts/Discord-Sans.otf") format("opentype");}
 
 /* Extra Imports */
 @import url("https://crearts-community.github.io/Context-Icons/context-icons.theme.css");
@@ -2275,7 +2274,7 @@ svg.slider-TkfMQL svg {
 	--normal-secondary: rgba(42, 48, 64);
 	--normal-tertiary: rgba(33, 40, 55);
 	--primary-font: "Poppins", sans-serif;
-	--secondary-font: "Discord", sans-serif;
+	--secondary-font: "Poppins", sans-serif;
 	--font-headline: var(--primary-font);
 	--font-primary: var(--primary-font);
 	--font-display: var(--secondary-font);
