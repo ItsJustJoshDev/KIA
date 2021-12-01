@@ -2,8 +2,8 @@
  * @name         KIA
  * @description  A Sleek Nord Based Discord Theme
  * @author       It'sJustJosh
- * @version      0.2
- * @source       https://therealgwjosh.github.io/BetterDiscordAddons/Themes/KIA/KIA.theme.css
+ * @version      2.0
+ * @source       https://therealgwjosh.github.io/KIA/src/app/css/index/index.theme.css
  * @invite       qafdmryEye
  * @authorId     362628885361197056
  */
@@ -11,10 +11,18 @@
 /* Main Import */
 @import url("https://therealgwjosh.github.io/KIA/src/app/css/index/index.css");
 
-@import url("https://therealgwjosh.github.io/KIA/src/app/css/clients/Cumcord/main.css");
+/* Client Import */
+/* Web or PC */ /* @import url("https://therealgwjosh.github.io/KIA/src/app/css/clients/Cumcord/main.css"); */
+/* The Theme is Stabeish - BD Support Not Added */
+/* The Theme is Stabeish - VZ Support Not Added */
+/* The Theme is Stabeish - PC Support Not Added */
+
 
 :root {
 
+	/* Extra */
+	--spotify-color: var(--green-primary);
+	
 	/* Base */
 	--background-primary: #292e3b;
 	--background-secondary: #232731;
