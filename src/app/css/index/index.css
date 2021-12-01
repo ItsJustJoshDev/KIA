@@ -2,7 +2,7 @@
 @import url("https://therealgwjosh.github.io/Snippets/CSS/Settings/icons.css"); /* Settings - 001 */
 @import url("https://therealgwjosh.github.io/BannerBG/src/banners.css"); /* BannerBG - 003 */
 @import url('https://discord-theme-addons.github.io/modern-channel-indicators/src/support/compiled.css'); /* Channel List - 008 */
-
+@import url("https://therealgwjosh.github.io/Snippets/CSS/BetterBG/import.css"); /* BetterBG - 010 */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap'); /* Font - 011 */
 @font-face {font-family: 'Discord'; src: url("https://project-browser.github.io/Wordmark-Plus/assets/fonts/Discord-Sans.otf") format("opentype");}
 
@@ -18,6 +18,181 @@
 @import url("https://therealgwjosh.github.io/KIA/src/app/css/app/Global/betterbadges.css");
 @import url("https://therealgwjosh.github.io/Snippets/CSS/BetterBG/Friend-Grid/main.css");
 @import url("https://therealgwjosh.github.io/Snippets/CSS/Extra/colorful-urls.css"); 
+
+/* KIA - BetterBG - 010 */
+:root {
+
+	--global-bg-opacity: 0;
+	--bg-wm-border-radius: 15px;
+	--bg-brand: var(--brand-experiment);
+	--bg-text: var(--interactive-active);
+	--USRBG-WM-Type-Dark: var(--flashcord-dark);
+	--USRBG-WM-Type-Light: var(--flashcord-light);
+	--flashcord-light: url("https://media.discordapp.net/attachments/881876779193761832/893174508683403354/flash-dark.png?width=22&height=22");
+	--flashcord-dark: url("https://media.discordapp.net/attachments/881876779193761832/893173879936258068/flash.png?width=22&height=22"); 
+
+}
+
+/* User Popout */
+[class*="theme-dark"] [class*="userPopout"] [class*="banner"]:not([style^="background-image"])::after {
+	content: var(--USRBG-WM-Type-Dark);
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	font-weight: bold;
+	background-color:  var(--bg-brand);
+	transform: scale(0.8);
+	padding: 2px 6px;
+	padding-bottom: 1.1px;
+	border-radius: var(--bg-wm-border-radius);
+	color:  var(--bg-text);
+	margin-bottom: 7px;
+	opacity: var(--BetterBG-Opacity, var(--global-bg-opacity));
+
+}
+
+[class*="theme-light"] [class*="userPopout"] [class*="banner"]:not([style^="background-image"])::after {
+	content: var(--USRBG-WM-Type-Light);
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	font-weight: bold;
+	background-color:  var(--bg-brand);
+	transform: scale(0.8);
+	padding: 2px 6px;
+	padding-bottom: 1.1px;
+	border-radius: var(--bg-wm-border-radius);
+	color:  var(--bg-text);
+	margin-bottom: 7px;
+	opacity: var(--BetterBG-Opacity, var(--global-bg-opacity));
+
+}
+
+/* User Modal */
+[class*="theme-dark"] [class*="header-4zuFdR"] [class*="wrapper"]:not([style^="background-image"])::after {
+	content: var(--USRBG-WM-Type-Dark);
+	position: absolute;
+	right: -530px !important;
+	bottom: 80px !important;
+	font-weight: bold;
+	background-color:  var(--bg-brand);
+	transform: scale(0.8);
+	padding: 2px 6px;
+	padding-bottom: 1.1px;
+	border-radius: var(--bg-wm-border-radius);
+	color:  var(--bg-text);
+	margin-bottom: 7px;
+	opacity: var(--BetterBG-Opacity, var(--global-bg-opacity));
+
+}
+
+[class*="theme-light"] [class*="header-4zuFdR"] [class*="wrapper"]:not([style^="background-image"])::after {
+	content: var(--USRBG-WM-Type-Light);
+	position: absolute;
+	right: -530px !important;
+	bottom: 80px !important;
+	font-weight: bold;
+	background-color:  var(--bg-brand);
+	transform: scale(0.8);
+	padding: 2px 6px;
+	padding-bottom: 1.1px;
+	border-radius: var(--bg-wm-border-radius);
+	color:  var(--bg-text);
+	margin-bottom: 7px;
+	opacity: var(--BetterBG-Opacity, var(--global-bg-opacity));
+
+}
+
+/* Settings */
+[class*="theme-dark"] [class*="avatar-1uQSZT"]::after {
+	content: var(--USRBG-WM-Type-Dark);
+	position: absolute;
+	font-weight: bold;
+	background-color:  var(--bg-brand);
+	transform: scale(0.8);
+	padding: 2px 6px;
+	padding-bottom: 1.1px;
+	border-radius: var(--bg-wm-border-radius);
+	color:  var(--bg-text);
+	margin-bottom: 7px;
+	top: -240px !important;
+	left: -16px !important;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+	z-index: 0 !important;
+	opacity: var(--BetterBG-Opacity, var(--global-bg-opacity));
+}
+
+[class*="theme-light"] [class*="avatar-1uQSZT"]::after {
+	content: var(--USRBG-WM-Type-Light);
+	position: absolute;
+	font-weight: bold;
+	background-color:  var(--bg-brand);
+	transform: scale(0.8);
+	padding: 2px 6px;
+	padding-bottom: 1.1px;
+	border-radius: var(--bg-wm-border-radius);
+	color:  var(--bg-text);
+	margin-bottom: 7px;
+	top: -240px !important;
+	left: -16px !important;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+	z-index: 0 !important;
+	opacity: var(--BetterBG-Opacity, var(--global-bg-opacity));
+}
+
+/* USRBG/BetterBG Support In Dm's/Member List By unknown81311#9820 */
+[class*="channel-2QD9_O"],
+[class*="member-3-YXUe"] {
+	transform: translateZ(0);
+}
+
+[class*="channel-2QD9_O"] [class*="wrapper-3t9DeA"]::after,
+[class*="member-3-YXUe"] [class*="wrapper-3t9DeA"]::after {
+	content: '';
+	position: fixed;
+	top: 3px;
+	left: -1px;
+	width: 98%;
+	height: 87%;
+	opacity: .5;
+	pointer-events: none;
+	background: var(--user-background, var(--user-accent-color)) center/cover no-repeat;
+	-webkit-mask: linear-gradient(90deg, transparent, #000);
+	z-index: 145673;
+	border-radius: 4px
+}
+
+[class*="channel-2QD9_O"],
+[class*="member-3-YXUe"] {
+	padding: 4px;
+	z-index: 1;
+	position: relative
+}
+/* Make Role Color a Background */
+.roleColor-rz2vM0::after {
+  content: '';
+  top: 3px !important;
+  left: 4px !important;
+  width: 96% !important;
+  height: 88% !important;
+  position: absolute !important;
+  opacity: 0.125;
+  border-radius: 5px;
+  background: currentColor;
+}
+.member-3-YXUe .badges {
+  z-index: 0;
+}
+.membersGroup-v9BXpm + .member-3-YXUe {
+  margin-top: 5px;
+}
+.content-yTz4x3:before {
+    z-index: 12;
+}
 
 /* KIA - Now Playing - 009 */
 .nowPlayingColumn-2sl4cE {
