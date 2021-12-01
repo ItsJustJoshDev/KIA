@@ -1,6 +1,44 @@
 /* Imports */
 @import url("https://therealgwjosh.github.io/Snippets/CSS/Settings/icons.css"); /* Settings - 001 */
 @import url("https://therealgwjosh.github.io/BannerBG/src/banners.css"); /* BannerBG - 003 */
+@import url('https://discord-theme-addons.github.io/modern-channel-indicators/src/support/compiled.css'); /* Channel List - 008 */
+
+/* Extra Imports */
+@import "https://nyri4.github.io/Discolored/main.css";
+@import url("https://therealgwjosh.github.io/Snippets/CSS/BetterBG/Friend-Grid/main.css");
+@import url("https://therealgwjosh.github.io/Snippets/CSS/Extra/colorful-urls.css"); 
+
+/* Made By Luckfire - Channel Indacitors - 008 */
+:root {
+	/* ---- base -- */
+	--indicator-rounding: var(--primary-rounding); /* change center values to only round the right */
+	--indicator-border-info: 0px solid;
+	--indicator-hovered: rgba(79, 84, 92, 0.25);
+	--indicator-hovered-text: var(--interactive-hover);
+
+	/* ---- selected -- */
+	--indicator-selected: var(--accent-pri-numbers);
+	--indicator-selected-border: rgba(var(--indicator-selected));
+	--indicator-selected-background: rgba(var(--indicator-selected), 0.21);
+	--indicator-selected-hover: rgba(var(--indicator-selected), 0.38);
+	--indicator-selected-icons: rgba(var(--indicator-selected));
+	--indicator-selected-text: white;
+
+	/* ---- unreads  -- */
+	--indicator-unread: 255, 255, 255;
+	--indicator-unread-border: rgba(var(--indicator-unread), 0.6);
+	--indicator-unread-background: rgba(var(--indicator-unread), 0.01);
+	--indicator-unread-icons: var(--indicator-unread-border);
+	--indicator-unread-text: white;
+
+	/* ---- connected -- */
+	--indicator-connected: var(--accent-sec-numbers);
+	--indicator-connected-border: rgba(var(--indicator-connected));
+	--indicator-connected-background: rgba(var(--indicator-connected), 0.1);
+	--indicator-connected-hover: rgba(var(--indicator-connected), 0.18);
+	--indicator-connected-icons: var(--indicator-connected-border);
+	--indicator-connected-text: white;
+}
 
 /* KIA - Member List/Channel Banners - 007 */
 .container-1CU5bi {
