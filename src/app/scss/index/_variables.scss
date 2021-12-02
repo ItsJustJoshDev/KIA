@@ -1,1 +1,49 @@
 @use "app.scss";
+
+:root {
+
+	/* Extra */
+	--spotify-color: var(--green-primary);
+	
+	/* Base */
+	--background-primary: #292e3b;
+	--background-secondary: #232731;
+	--background-secondary-alt: #3b4252;
+	--background-tertiary: #2e3340;
+
+	/* Text & Icon */
+	--interactive-active: #ffffff;
+	--interactive-hover: #ffffff6e;
+	--interactive-normal: #ffffffc9;
+	--text-normal: #d8dee9;
+	--text-secondary: #d8dee98a;
+	--focus-primary: #fff;
+
+	/* Accent */
+	--accent-pri-numbers: 50, 93, 95;
+	--accent-sec-numbers: 80, 155, 158;
+	--accent-ter-numbers: 28, 53, 54;
+	--accent-primary: rgba(50, 93, 95, 1.0);
+	--accent-secondary: rgb(80, 155, 158);
+	--accent-tertiary: rgb(28, 53, 54);
+	--green-primary: rgb(46, 131, 92);
+	--green-secondary: rgb(72, 152, 113);
+	--green-tertiary: rgb(22, 103, 70);
+	--yellow-primary: rgba(250, 166, 26);
+	--yellow-secondary: rgba(255, 194, 61);
+	--yellow-tertiary: rgba(220, 140, 0);
+	--red-primary: rgba(240, 71, 71);
+	--red-secondary: rgba(255, 102, 96);
+	--red-tertiary: rgba(209, 39, 49);
+	--purple-primary: rgba(89, 54, 149);
+	--purple-secondary: rgba(116, 79, 177);
+	--purple-tertiary: rgba(62, 32, 124);
+	--normal-primary: rgba(51, 57, 73);
+	--normal-secondary: rgba(42, 48, 64);
+	--normal-tertiary: rgba(33, 40, 55);
+
+	/* Font */
+	--primary-font: "Poppins", sans-serif;
+	--secondary-font: "Poppins", sans-serif;
+
+}
