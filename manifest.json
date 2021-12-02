@@ -1,5 +1,5 @@
 {
-    "icon": "assets/vz_icon.png",
+    "icon": "src/app/assets/vz_icon.png",
     "name": "KIA",
     "description": "A Sleek Nord Based Discord Theme",
     "version": "2.0",
