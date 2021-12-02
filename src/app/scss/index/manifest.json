@@ -1,10 +1,10 @@
 {
     "icon": "src/app/assets/vz_icon.png",
-    "name": "KIA SCSS *Broken*",
+    "name": "KIA - SCSS Version - Broken",
     "description": "A Sleek Nord Based Discord Theme",
     "version": "2.0",
     "author": "It'sJustJosh#2812 - (362628885361197056)",
-    "theme": "src/app/scss/index/_variables.scss",
+    "theme": "_variables.scss",
     "consent": "false",
     "license": "MIT"
 }
