@@ -1,0 +1,10 @@
+{
+    "icon": "assets/vz_icon.png",
+    "name": "KIA",
+    "description": "A Sleek Nord Based Discord Theme",
+    "version": "1.0",
+    "author": "It'sJustJosh#2812 - (362628885361197056)",
+    "theme": "vizality.css",
+    "consent": "false",
+    "license": "MIT"
+}
