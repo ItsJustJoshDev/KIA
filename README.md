@@ -9,6 +9,36 @@ A Sleek Nord Based Discord Theme Named By a Car.
 # After
 ![image](https://user-images.githubusercontent.com/68560159/139327104-fd5ef9ed-b812-47cc-8947-78a924a3a9b0.png)
 
+# 📥 Installation
+
+### Zip
+> Don't Wanna Mess With the Stuff Below
+> Download The [Zip](https://api.github.com/repos/TheRealGWJosh/KIA/zipball/main) 
+
+## Vizality Install
+
+> 📥 Install:
+```sh
+ cd vizality\addons\themes && git clone https://github.com/TheRealGWJosh/KIA.git
+```
+
+> 🔄 Update:
+```sh
+cd vizality\addons\themes\KIA.git && git pull
+```
+
+## Powercord Install
+
+> 📥 Install:
+```sh
+cd powercord\src\powercord\themes && git clone https://github.com/TheRealGWJosh/KIA.git
+```
+
+> 🔄 Update:
+```sh
+cd powercord\src\powercord\themes\KIA.git && git pull
+```
+
 ## Credit To The Awsome Pepole and Content :3
 [Cryptogenic#0750](https://discord.com/users/220239731273760768) For FInding CSS Classes
 
