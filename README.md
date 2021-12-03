@@ -1,14 +1,14 @@
-# KIA V2 - Alpha
+# KIA V2 - Alpha - ALL CONTENT IS SUBJECTED TO CHANGE.
 A Sleek Nord Based Discord Theme Named By a Car.
 
 TO USE V2 Please Find it in These Folders
 
-### Aliucord - **Mobile**
+### Aliucord - ***Mobile***
 https://github.com/TheRealGWJosh/KIA/tree/main/src/app/Aliucord
 
 Support Server > https://discord.gg/aliucord
 
-### BetterDiscord And Stylus - **Web**
+### BetterDiscord And Stylus - ***Web***
 https://github.com/TheRealGWJosh/KIA/tree/main/src/app/css/index
 
 Support Server BD > https://discord.gg/0Tmfo5ZbORCRqbAd
@@ -21,8 +21,6 @@ https://github.com/TheRealGWJosh/KIA/tree/main/src/app/scss/index
 Support Server PC > https://discord.gg/m4UbMgpwkE
 
 Support Server VZ > https://discord.gg/Fvmsfv2
-
-# ALL CONTENT IS SUBJECTED TO CHANGE PLUBILC ALPHA 1.9
 
 # Before
 ![image](https://user-images.githubusercontent.com/68560159/139326856-9a2bf936-a420-4bd3-8e08-17ab54ef9e3f.png)
