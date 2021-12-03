@@ -3110,7 +3110,7 @@ svg.slider-TkfMQL svg {
 	--indicator-connected-text: white;
 }
 
-/* KIA - Member List/Channel Banners - 007 */
+/* KIA - Member List/Channel Banners/Toolbar - 007 */
 .container-1CU5bi {
 	margin-left: var(--primary-spacing);
 	border-radius: var(--primary-rounding);
@@ -3145,82 +3145,114 @@ svg.slider-TkfMQL svg {
 	content: " Channel Banners Missing? Well Wait For The Release or Enable in Developer Options " !important;
 }
 
-
-
-
 .members-2upGyL {
 	height: 100%;
 }
 
+.searchBar-3dMhjb {
+	border-radius: var(--primary-rounding) !important; 
+	background-color: var(--background-secondary);
+}
+
+.membersWrap-2h-GB4, .hiddenMembers-2dcs_q {
+  border-radius: var(--primary-rounding);
+}
+
+.iconWrapper-2OrFZ1 path[d="M19 3H4.99C3.88 3 3.01 3.89 3.01 5L3 19C3 20.1 3.88 21 4.99 21H19C20.1 21 21 20.1 21 19V5C21 3.89 20.1 3 19 3ZM19 15H15C15 16.66 13.65 18 12 18C10.35 18 9 16.66 9 15H4.99V5H19V15Z"]{
+    d: path("M 12 2 C 6.486 2 2 6.486 2 12 C 2 17.515 6.486 22 12 22 C 14.039 22 15.993 21.398 17.652 20.259 L 16.521 18.611 C 15.195 19.519 13.633 20 12 20 C 7.589 20 4 16.411 4 12 C 4 7.589 7.589 4 12 4 C 16.411 4 20 7.589 20 12 V 12.782 C 20 14.17 19.402 15 18.4 15 L 18.398 15.018 C 18.338 15.005 18.273 15 18.209 15 H 18 C 17.437 15 16.6 14.182 16.6 13.631 V 12 C 16.6 9.464 14.537 7.4 12 7.4 C 9.463 7.4 7.4 9.463 7.4 12 C 7.4 14.537 9.463 16.6 12 16.6 C 13.234 16.6 14.35 16.106 15.177 15.313 C 15.826 16.269 16.93 17 18 17 L 18.002 16.981 C 18.064 16.994 18.129 17 18.195 17 H 18.4 C 20.552 17 22 15.306 22 12.782 V 12 C 22 6.486 17.514 2 12 2 Z M 12 14.599 C 10.566 14.599 9.4 13.433 9.4 11.999 C 9.4 10.565 10.566 9.399 12 9.399 C 13.434 9.399 14.6 10.565 14.6 11.999 C 14.6 13.433 13.434 14.599 12 14.599 Z");
+}
+
+.toolbar-1t6TWx > .iconWrapper-2OrFZ1:nth-child(1) {
+    margin-left: 66px !important;
+}
+.container-2PDP7D > .tabs-3L9Rgq {
+	height: 0;
+	padding: 0;
+	border: none;
+}
+.container-2PDP7D > .tabs-3L9Rgq > .tab-XC_yrg {
+	font-size: 0;
+	position: absolute;
+	right: 246px;
+	top: -46px;
+	width: 40px;
+	height: 24px;
+	margin: 0 8px;
+	padding: 0;
+	z-index: 2;
+	border-radius: var(--primary-rounding);
+	background-color: var(--background-secondary) !important;
+}
+.container-2PDP7D > .tabs-3L9Rgq > .tab-XC_yrg::after {
+	position: absolute;
+	top: 3px;
+	width: 18px;
+	height: 18px;
+	background-color: var(--accent-primary);
+	border-radius: var(--primary-rounding);
+}
+.container-2PDP7D > .tabs-3L9Rgq > .tab-XC_yrg:last-of-type::before {
+	content: "";
+	left: 3px;
+}
+.container-2PDP7D > .tabs-3L9Rgq > .tab-XC_yrg:last-of-type::after {
+    content: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='18px' height='18px' fill='rgb(255, 255, 255)'><path d='M11.8 6.6C11.8 8.154 10.54 9.4 9 9.4C7.46 9.4 6.2 8.154 6.2 6.6C6.2 5.06 7.46 3.8 9 3.8C10.54 3.8 11.8 5.06 11.8 6.6ZM3.4 14.3C3.4 11.836 5.71 10.1 9 10.1C12.304 10.1 14.6 11.836 14.6 14.3V15H3.4V14.3Z'/></svg>");
+    left: 3px;
+}
+.container-2PDP7D > .tabs-3L9Rgq > .tab-XC_yrg:first-of-type::after {
+	content: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='18px' height='18px' fill='rgb(255, 255, 255)'><path d='M9-1zm0 4.752a1.25 1.25 90 110 2.5a1.25 1.25 90 010-2.5zM12 14h-6v-2h2V9H7V7h2a1 1 90 011 1v4h2v2z'/></svg>");
+	right: 3px;
+}
+.container-2PDP7D > .tabs-3L9Rgq > .tab-XC_yrg.active-2SVYP5 {
+	pointer-events: none;
+	opacity: 0;
+}
+
+.search-2oPWTC .searchBar-3dMhjb {
+    width: 25px;
+    transition-duration: 300ms;
+}
+
+.search-2oPWTC .searchBar-3dMhjb:hover {
+    width: 200px;
+}
+
+.search-2oPWTC.focused-31_ccS .searchBar-3dMhjb {
+    width: 244px !important;
+}
+
+.search-2oPWTC .icon-38sknP {
+    cursor: pointer;
+}
 
 /* KIA - Server List - 006 */
-.unreadMentionsIndicatorTop-2-tcdU .text-2e2ZyG {
-	color: transparent;
-	background: var(--interactive-active);
-	-webkit-mask: url("https://corellanstoma.github.io/CreArts-Discord/assets/icons/theme_arrow_up.svg") center no-repeat;
-	mask: url("https://corellanstoma.github.io/CreArts-Discord/assets/icons/theme_arrow_up.svg") center no-repeat;
-	width: 36%;
-	height: 36%;
-	margin-bottom: -2px;
-}
-
-.unreadMentionsIndicatorTop-2-tcdU {
-	top: 125px;
-}
-
-.unreadMentionsIndicatorBottom-2mDYbI .text-2e2ZyG {
-	color: transparent;
-	background: var(--interactive-active);
-	-webkit-mask: url("https://corellanstoma.github.io/CreArts-Discord/assets/icons/theme_arrow_down.svg") center no-repeat;
-	mask: url("https://corellanstoma.github.io/CreArts-Discord/assets/icons/theme_arrow_down.svg") center no-repeat;
-	width: 36%;
-	height: 36%;
-	margin-bottom: -2px;
-}
-
-.unreadMentionsIndicatorBottom-2mDYbI {
-	bottom: 180px;
-}
-
-.scroller-1Bvpku {
-	background: transparent !important;
-	position: relative;
-	bottom: -5px;
-	height: 310px;
-}
-
-.guildSeparator-33mFX6 {
-	display: none !important;
-}
-
-.panels-j1Uci_ > .container-3baos1 {
-	height: 0;
-}
-.panels-j1Uci_ > .container-3baos1 > .flex-1xMQg5 {
+.panels-j1Uci_ > .container-3baos1 > .flex-1xMQg5 /* Move Panel To Guild List */ {
 	position: fixed;
 	top: 20px;
 	left: 18px;
 	z-index: 1;
 	width: 55px;
-	height: 94px;
+	height: 134px;
 	padding: 10px 0 10px 0;
 	padding-bottom: 15px;
 	flex-direction: column;
 	border-radius: var(--server-radius);
 	background: var(--background-secondary-alt);
 }
+
 .panels-j1Uci_ > .container-3baos1 > .flex-1xMQg5 > .button-14-BFJ {
 	color: var(--interactive-normal);
-	margin: auto 20px auto 10px;
+	margin: 0px 20px 2px 10px;
 }
 
-div#cc_server_count {
-	display: none !important;
+.panels-j1Uci_ > .container-3baos1 > .flex-1xMQg5 > .button-14-BFJ:first-child,
+.panels-j1Uci_ > .container-3baos1 > .flex-1xMQg5 > .button-14-BFJ:nth-child(2),
+.panels-j1Uci_ > .container-3baos1 > .flex-1xMQg5 > .button-14-BFJ:nth-child(3) {
+	display: block !important;
 }
 
-
-:root .panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp[aria-expanded="false"],
-:root .panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp[aria-expanded="true"] {
+.panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp[aria-expanded="false"],
+.panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp[aria-expanded="true"] {
 	position: fixed !important;
 	bottom: 22.5px;
 	left: 21.5px;
@@ -3230,63 +3262,17 @@ div#cc_server_count {
 	padding: 4px;
 	border-radius: var(--server-radius);
 }
-:root .panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp[aria-expanded="false"] > .avatar-SmRMf2,
-:root .panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp[aria-expanded="true"] > .avatar-SmRMf2 {
+.panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp[aria-expanded="false"] > .avatar-SmRMf2,
+.panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp[aria-expanded="true"] > .avatar-SmRMf2 {
 	width: 40px !important;
 	height: 40px !important;
 }
-:root .panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp[aria-expanded="false"] > .avatar-SmRMf2:hover,
-:root .panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp[aria-expanded="true"] > .avatar-SmRMf2:hover {
+.panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp[aria-expanded="false"] > .avatar-SmRMf2:hover,
+.panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp[aria-expanded="true"] > .avatar-SmRMf2:hover {
 	opacity: 1;
 }
-:root .panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp[aria-expanded="false"] + .nameTag-3uD-yy,
-:root .panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp[aria-expanded="true"] + .nameTag-3uD-yy {
-	display: none;
-}
 
-/* Home Button */
-.guilds-1SWlCJ .scroller-1Bvpku { contain: none !important; padding-top: 0 !important;
-}
-.guilds-1SWlCJ .scroller-1Bvpku > [aria-label],
-.guilds-1SWlCJ .scroller-1Bvpku > [style]:nth-child(2) { margin-top: -55px !important;
-}
-
-.tutorialContainer-11ICd5,
-.tutorialContainer-2sGCg9 {
-	position: fixed;
-	margin-top: 331px !important;
-	z-index: 12;
-	box-shadow: none !important;
-	background: transparent;
-}
-.guilds-1SWlCJ .scroller-1Bvpku { contain: none !important; padding-top: 0;
-}
-.guilds-1SWlCJ .scroller-1Bvpku > [aria-label],
-.guilds-1SWlCJ .scroller-1Bvpku > [style]:nth-child(2) { margin-top: 55px;
-}
-.guilds-1SWlCJ .scroller-1Bvpku > [style] ~ [aria-label] { margin-top: 0 !important;
-}
-
-.wrapper-3NnKdC > ul > .scroller-1Bvpku > div[aria-label="Servers"] {
-	margin-top: 60px;
-	margin-bottom: 140px;
-}
-.wrapper-3NnKdC > ul > .scroller-1Bvpku:not(div[aria-label="Servers"]) {
-	margin-top: 136px;
-	margin-bottom: 192px;
-	background-color: var(--background-secondary-alt);
-}
-
-.tutorialContainer-11ICd5,
-.tutorialContainer-2sGCg9 {
-	box-shadow: none !important;
-}
-
-.container-3w7J-x {
-	z-index: 1;
-}
-
-/* Discover/Downloads */
+/* Discover */
 .platform-linux [class*="guilds-"] [class*="scroller-"] > [class*="listItem-"]:nth-last-child(-1n + 3) {
 	position: fixed;
 	bottom: 70px;
@@ -3308,7 +3294,6 @@ div#cc_server_count {
 	box-shadow: none !important;
 }
 
-/* Discovery */
 .platform-web [class*="guilds-"] [class*="scroller-"] > [class*="listItem-"]:nth-last-child(1n + 3) {
 	position: fixed;
 	bottom: 70px;
@@ -3316,31 +3301,118 @@ div#cc_server_count {
 	box-shadow: none !important;
 }
 
-/* Downloads */
-.platform-web [class*="scroller-"] > [class*="listItem-"]:nth-last-child(1n + 2):not(:nth-last-child(1n + 3)) {
-	display: none;
-}
-
-/* Fuck No */
-[class*="guildSeparator"] {
-	display: none;
-}
-
-/* Custom Background For Add a Server And The Top Buttons */
-[class*="tutorialContainer"]:not(.tutorialContainer-11ICd5):not(.tutorialContainer-2sGCg9) {
-	background: transparent;
-	margin-top: -130px;
-}
-
 /* Recolor */
-[class*="guilds-"] [class*="scroller-"] > [class*="listItem-"],
-[class*="tutorialContainer"]:not(.tutorialContainer-11ICd5) {
-	color: var(--interactive-normal);
-}
-
 [class*="guilds-"] [class*="scroller-"] > [class*="listItem-"] svg path,
 [class*="tutorialContainer"]:not(.tutorialContainer-11ICd5) svg path {
-	fill: var(--interactive-active);
+	fill: var(--interactive-active) !important;
+}
+
+[class*="guilds-"] [class*="scroller-"] > [class*="listItem-"],
+[class*="tutorialContainer"]:not(.tutorialContainer-11ICd5) {
+	color: var(--interactive-normal) !important;
+}
+
+/* Begone */
+.panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp[aria-expanded="false"] + .nameTag-3uD-yy,
+.panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp[aria-expanded="true"] + .nameTag-3uD-yy {
+	display: none;
+}
+
+.panels-j1Uci_ > .container-3baos1 > .flex-1xMQg5 > .button-14-BFJ {
+	display: none; /* Fuck Plugins */
+}
+
+.container-3baos1 {
+	height: 0px !important; background-color: transparent;
+}
+
+div#cc_server_count {
+	display: none !important; /* Not Theming This */
+}
+
+.platform-web [class*="scroller-"] > [class*="listItem-"]:nth-last-child(1n + 2):not(:nth-last-child(1n + 3)) {
+	display: none; /* Download Button */
+}
+
+[class*="guildSeparator"] {
+	display: none !important; margin: 0 !important; padding: 0 !important;
+	min-height: 0 !important; max-height: 0 !important; height: 0 !important;
+	min-width: 0 !important; max-width: 0 !important; width: 0 !important;
+}
+
+.wrapper-25eVIn foreignObject { mask: none; -webkit-mask: none;}
+.wrapperSimple-19ogV2 { overflow: visible;}
+
+/* Adjust Guilds List */
+.scroller-1Bvpku {
+	height: calc(100% - 352px);
+	margin-top: 170px;
+}
+
+.guilds-1SWlCJ .scroller-1Bvpku {
+	contain: none !important;
+}
+
+.wrapperSimple-19ogV2, .wrapper-25eVIn foreignObject,
+.folderIconWrapper-1Ml_1q,
+.expandedFolderBackground-2sPsd-,
+.flexChild-faoVW3 .avatarUploaderInner-3UNxY3 {
+  border-radius: var(--server-radius);
+}
+
+/* Add a Server - Moved To Panel */
+[class*="tutorialContainer"]:not(.tutorialContainer-11ICd5):not(.tutorialContainer-2sGCg9) {
+	top: 126px;
+	left: 8px;
+	scale: 0.5;
+	position: fixed;
+	z-index: 20;
+
+}
+
+[class*="tutorialContainer"]:not(.tutorialContainer-11ICd5):not(.tutorialContainer-2sGCg9) svg {
+	scale: 1.3;
+	top: -4px;
+	background-color: transparent;
+}
+
+/* Home Button */
+.tutorialContainer-11ICd5,
+.tutorialContainer-2sGCg9 {
+	position: fixed;
+	bottom: 126px !important;
+	z-index: 12;
+	box-shadow: none !important;
+	background: transparent;
+}
+
+/* Unread Top/Bottom */
+.unreadMentionsIndicatorTop-2-tcdU .text-2e2ZyG {
+	color: transparent;
+	background: var(--interactive-active);
+	-webkit-mask: url("https://corellanstoma.github.io/CreArts-Discord/assets/icons/theme_arrow_up.svg") center no-repeat;
+	mask: url("https://corellanstoma.github.io/CreArts-Discord/assets/icons/theme_arrow_up.svg") center no-repeat;
+	width: 36%;
+	height: 36%;
+	margin-bottom: -2px;
+}
+
+.unreadMentionsIndicatorBottom-2mDYbI .text-2e2ZyG {
+	color: transparent;
+	background: var(--interactive-active);
+	-webkit-mask: url("https://corellanstoma.github.io/CreArts-Discord/assets/icons/theme_arrow_down.svg") center no-repeat;
+	mask: url("https://corellanstoma.github.io/CreArts-Discord/assets/icons/theme_arrow_down.svg") center no-repeat;
+	width: 36%;
+	height: 36%;
+	margin-bottom: -2px;
+}
+
+.unreadMentionsIndicatorTop-2-tcdU {
+	top: 165px; /* Unread Server Bar - Top */
+}
+
+.unreadMentionsIndicatorBottom-2mDYbI {
+	bottom: 180px; /* Unread Server Bar - Bottom */
 }
 
 /* KIA - Media Auto Adjust - 005 */
