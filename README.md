@@ -3,11 +3,22 @@ A Sleek Nord Based Discord Theme Named By a Car.
 
 TO USE V2 Please Find it in These Folders
 
+### Aliucord **Mobile**
+https://github.com/TheRealGWJosh/KIA/tree/main/src/app/Aliucord
+
+Support Server >
+
 ### BetterDiscord And Stylus - **Web**
 https://github.com/TheRealGWJosh/KIA/tree/main/src/app/css/index
 
+Support Server BD >
+Support Server ST >
+
 ### Powercord And Vizality
 https://github.com/TheRealGWJosh/KIA/tree/main/src/app/scss/index
+
+Support Server PC >
+Support Server VZ >
 
 # ALL CONTENT IS SUBJECTED TO CHANGE PLUBILC ALPHA 1.9
 
@@ -15,7 +26,7 @@ https://github.com/TheRealGWJosh/KIA/tree/main/src/app/scss/index
 ![image](https://user-images.githubusercontent.com/68560159/139326856-9a2bf936-a420-4bd3-8e08-17ab54ef9e3f.png)
 
 # After
-![image](https://user-images.githubusercontent.com/68560159/139327104-fd5ef9ed-b812-47cc-8947-78a924a3a9b0.png)
+![image](https://user-images.githubusercontent.com/68560159/144674070-9a538233-8a9e-4dac-a9e0-2110500df8c5.png)
 
 # 📥 Installation
 
