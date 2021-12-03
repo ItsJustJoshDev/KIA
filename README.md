@@ -58,7 +58,7 @@ cd powercord\src\powercord\themes && git clone https://github.com/TheRealGWJosh/
 cd powercord\src\powercord\themes\KIA.git && git pull
 ```
 
-## Credit To The Awsome Pepole and Content :3
+## V1 CREDIT Will Update When V2 Hits - Credit To The Awsome Pepole and Content :3
 [Cryptogenic#0750](https://discord.com/users/220239731273760768) For FInding CSS Classes
 
 [Kewl Sage from Hypesquad#8906](https://discord.com/users/497161437051879444) For FInding CSS Classes
