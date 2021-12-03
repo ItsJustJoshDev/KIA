@@ -1,5 +1,13 @@
-# KIA
+# KIA V2 - Alpha
 A Sleek Nord Based Discord Theme Named By a Car.
+
+TO USE V2 Please Find it in These Folders
+
+### BetterDiscord And Stylus - **Web**
+https://github.com/TheRealGWJosh/KIA/tree/main/src/app/css/index
+
+### Powercord And Vizality
+https://github.com/TheRealGWJosh/KIA/tree/main/src/app/scss/index
 
 # ALL CONTENT IS SUBJECTED TO CHANGE PLUBILC ALPHA 1.9
 
