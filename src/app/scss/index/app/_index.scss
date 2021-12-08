@@ -1,24 +1,3 @@
-/* Imports */
-@import url("https://therealgwjosh.github.io/Snippets/CSS/Settings/icons.css"); /* Settings - 001 */
-@import url("https://therealgwjosh.github.io/BannerBG/src/banners.css"); /* BannerBG - 003 */
-@import url("https://therealgwjosh.github.io/Snippets/CSS/BetterBG/import.css"); /* BetterBG - 010 */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-
-/* Extra Imports */
-@import url("https://crearts-community.github.io/Context-Icons/context-icons.theme.css");
-@import url("https://luckfire.github.io/theme-source/src/css-compile/ThemeSource-Compiled.css");
-@import url("https://raw.githack.com/v-briese/Channel-Icons/main/channelicons.theme.css");
-@import url("https://raw.githack.com/LuckFire/theme-source/main/old-theme-source.css");
-@import url("https://raw.githack.com/leeprky/FullyThemedDiscord/main/source.css");
-@import url("https://nyri4.github.io/Discolored/main.css");
-
-/* Dev Owned */
-@import url("https://therealgwjosh.github.io/Snippets/CSS/Extra/badge.css");
-@import url("https://therealgwjosh.github.io/BannerBG/src/main.css");
-@import url("https://therealgwjosh.github.io/Snippets/CSS/Extra/spooky.css");
-@import url("https://therealgwjosh.github.io/Snippets/CSS/BetterBG/Friend-Grid/main.css");
-@import url("https://therealgwjosh.github.io/Snippets/CSS/Extra/colorful-urls.css");
-
 /* Base */
 #app-mount .channel-2QD9_O,
 #app-mount .containerDefault--pIXnN .wrapper-2jXpOf {
@@ -737,7 +716,7 @@
 }
 
 /* KIA - DM Search Bar - 013 */
-#app-mount .privateChannels-1nO12o .searchBar-6Kv8R2 {
+.platform-web #app-mount .privateChannels-1nO12o .searchBar-6Kv8R2 {
 	position: fixed;
 	z-index: 100;
 	scale: 0.4;
@@ -752,6 +731,21 @@
 	pointer-events: all;
 	padding: 0;
 	contain: none !important;
+}
+
+#app-mount .privateChannels-1nO12o .searchBar-6Kv8R2 {
+	position: absolute;
+	top: 16px;
+	right: 18px;
+	z-index: 100;
+	height: 40px;
+	width: 42px;
+	border: none !important;
+	box-shadow: none !important;
+	background: var(--background-secondary) !important;
+	border-radius: var(--primary-rounding);
+	pointer-events: all;
+	padding: 0;
 }
 
 #app-mount .privateChannels-1nO12o .searchBar-6Kv8R2 .searchBarComponent-32dTOx::after {
