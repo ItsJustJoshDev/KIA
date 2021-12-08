@@ -737,7 +737,7 @@
 }
 
 /* KIA - DM Search Bar - 013 */
-#app-mount .privateChannels-1nO12o .searchBar-6Kv8R2 {
+.platform-web #app-mount .privateChannels-1nO12o .searchBar-6Kv8R2 {
 	position: fixed;
 	z-index: 100;
 	scale: 0.4;
@@ -752,6 +752,21 @@
 	pointer-events: all;
 	padding: 0;
 	contain: none !important;
+}
+
+#app-mount .privateChannels-1nO12o .searchBar-6Kv8R2 {
+	position: absolute;
+	top: 16px;
+	right: 18px;
+	z-index: 100;
+	height: 40px;
+	width: 42px;
+	border: none !important;
+	box-shadow: none !important;
+	background: var(--background-secondary) !important;
+	border-radius: var(--primary-rounding);
+	pointer-events: all;
+	padding: 0;
 }
 
 #app-mount .privateChannels-1nO12o .searchBar-6Kv8R2 .searchBarComponent-32dTOx::after {
