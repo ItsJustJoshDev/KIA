@@ -1,7 +1,7 @@
 # KIA V2 - Alpha - ALL CONTENT IS SUBJECTED TO CHANGE.
 A Sleek Nord Based Discord Theme Named By a Car.
 
-TO USE V2 Please Find it in These Folders
+TO USE V2 Please Find it in These Folders. **Note to Self ``scale: 50;`` Does Not Work on PC Just Web**
 
 ### Aliucord - ***Mobile***
 https://github.com/TheRealGWJosh/KIA/tree/main/src/app/Aliucord
@@ -22,11 +22,8 @@ Support Server PC > https://discord.gg/m4UbMgpwkE
 
 Support Server VZ > https://discord.gg/Fvmsfv2
 
-# Before
-![image](https://user-images.githubusercontent.com/68560159/139326856-9a2bf936-a420-4bd3-8e08-17ab54ef9e3f.png)
-
-# After
-![image](https://user-images.githubusercontent.com/68560159/144674070-9a538233-8a9e-4dac-a9e0-2110500df8c5.png)
+# Img
+![image](https://user-images.githubusercontent.com/68560159/145292382-be9155d4-9db4-4fc4-a17a-567dc53fae24.png)
 
 # 📥 Installation
 
