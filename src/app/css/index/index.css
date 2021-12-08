@@ -3023,13 +3023,11 @@ svg.slider-TkfMQL svg {
 }
 
 
-:root {
-	--call-bg: url('https://cdn.discordapp.com/attachments/738968109288914976/769986893944979496/image0.jpg');
-}
+
 
 .minimum-28Z35l .root-217Brm,
 .video--KPXCT .root-217Brm {
-	background: var(--call-bg) center/100% no-repeat;
+	background: var(--voice-bg) center/var(--voice-bg-size) no-repeat;
 }
 
 .minimum-28Z35l .root-217Brm::before,
@@ -3038,105 +3036,15 @@ svg.slider-TkfMQL svg {
 	position: absolute;
 	height: 100%;
 	width: 100%;
-	background: rgb(0, 0, 0, 0.65);
+	background: rgba(0,0,0,.65);
 	backdrop-filter: blur(3px);
 }
 
 
-.theme-dark,
-.theme-light {
-	--background-primary: #292e3b;
-	--background-secondary: #232731;
-	--background-secondary-alt: #3b4252;
-	--background-tertiary: #2e3340;
-	--btn-bg-primary: var(--accent-primary);
-	--btn-bg-secondary: var(--accent-secondary);
-	--btn-bg-primary-hover: var(--accent-secondary);
-	--btn-bg-secondary-hover: var(--accent-primary);
-	--background-modifier-selected: var(--background-secondary);
-	--background-modifier-hover: var(--background-primary);
-	--background-modifier-active: var(--background-secondary-alt);
-	--interactive-active: #ffffff;
-	--interactive-hover: #ffffff6e;
-	--interactive-normal: #ffffffc9;
-	--background-accent: var(--accent-tertiary);
-	--text-normal: #d8dee9;
-	--text-secondary: #d8dee98a;
-	--header-primary: var(--text-normal);
-	--text-link: var(--text-normal);
-	--focus-primary: #fff;
-	--brand-experiment: var(--accent-primary);
-	--accent-pri-numbers: 50, 93, 95;
-	--accent-sec-numbers: 80, 155, 158;
-	--accent-ter-numbers: 28, 53, 54;
-	--accent-primary: rgba(50, 93, 95, 1.0);
-	--accent-secondary: rgb(80, 155, 158);
-	--accent-tertiary: rgb(28, 53, 54);
-	--green-primary: rgb(46, 131, 92);
-	--green-secondary: rgb(72, 152, 113);
-	--green-tertiary: rgb(22, 103, 70);
-	--yellow-primary: rgba(250, 166, 26);
-	--yellow-secondary: rgba(255, 194, 61);
-	--yellow-tertiary: rgba(220, 140, 0);
-	--red-primary: rgba(240, 71, 71);
-	--red-secondary: rgba(255, 102, 96);
-	--red-tertiary: rgba(209, 39, 49);
-	--purple-primary: rgba(89, 54, 149);
-	--purple-secondary: rgba(116, 79, 177);
-	--purple-tertiary: rgba(62, 32, 124);
-	--normal-primary: rgba(51, 57, 73);
-	--normal-secondary: rgba(42, 48, 64);
-	--normal-tertiary: rgba(33, 40, 55);
-	--primary-font: "Poppins", sans-serif;
-	--secondary-font: "Poppins", sans-serif;
-	--font-headline: var(--primary-font);
-	--font-primary: var(--primary-font);
-	--font-display: var(--secondary-font);
-	--theme: "KIA";
-	--author: "It'sJustJosh#2812";
-	--version: "Rewrite";
-	--brand-logo: url("https://i.imgur.com/VjGxfmW.png");
-	--dev-logo: url("https://i.imgur.com/tu3WU1c.png");
-	--avatar-radius: 8px;
-	--server-radius: 8px;
-	--active-now-height: 0vh;
-	--primary-rounding: 5px;
-	--spotify-color: var(--green-primary);
-	--brand-color: var(--accent-primary);
-	--secondary-rounding: calc(var(--primary-rounding) * 2);
-	--tertiary-rounding: calc(var(--primary-rounding) * 4);
-	--primary-spacing: 10px;
-	--secondary-spacing: calc(var(--primary-spacing) * 2);
-	--tertiary-spacing: calc(var(--primary-spacing) * 4);
-	--sidebar-width: 260px;
-	--transition-normal: 250ms;
-	--transition-slow: calc(var(--transition-normal) * 2) ease;
-	--transition-fast: cal(var(--transition-normal)/2) ease;
-	--server-size: var(--HSL-server-icon-size, var(--HSL-size, 40px));
-	--server-spacing: var(--HSL-server-spacing, var(--HSL-spacing, 10px));
-	--server-container: calc(var(--server-size) + 20px);
-	--saturation-factor: 1!important
-}
 
-:root,
-* {
-	transition: none !important;
-	animation: none !important;
-	translate: none !important;
-}
 
 /* KIA - BetterBG - 010 */
-:root {
 
-	--global-bg-opacity: 0;
-	--bg-wm-border-radius: 15px;
-	--bg-brand: var(--brand-experiment);
-	--bg-text: var(--interactive-active);
-	--USRBG-WM-Type-Dark: var(--flashcord-dark);
-	--USRBG-WM-Type-Light: var(--flashcord-light);
-	--flashcord-light: url("https://media.discordapp.net/attachments/881876779193761832/893174508683403354/flash-dark.png?width=22&height=22");
-	--flashcord-dark: url("https://media.discordapp.net/attachments/881876779193761832/893173879936258068/flash.png?width=22&height=22");
-}
 
 /* User Popout */
 [class*="theme-dark"] [class*="userPopout"] [class*="banner"]:not([style^="background-image"])::after {
@@ -4191,21 +4099,7 @@ div#cc_server_count {
 	background: var(--brand-logo) center/50% no-repeat;
 }
 
-:root {
 
-	--splash-height: unset;
-	--splash-width: 255px;
-	--padding-horizontal: 45px;
-	--padding-vertical: 25px;
-	--blur: 5px;
-	--box-shadow-color: rgba(0, 0, 0, .65);
-	--border-size: 0px;
-	--border-radius: var(--primary-rounding);
-	--border-color: var(--accent-primary);
-	--background-color: var(--background-secondary-alt);
-	--content-color: /* unset; */
-	var(--background-primary);
-}
 
 /* KIA - Settings - 001 */
 .contentColumnDefault-1VQkGM {
@@ -4943,6 +4837,95 @@ html[lang=hi] .closeButton-1tv5uR + .keybind-KpFkfr::before {
 	z-index: 1;
 }
 
+/* Root - 000 */
+
+.theme-dark,
+.theme-light {
+	--background-primary: #292e3b;
+	--background-secondary: #232731;
+	--background-secondary-alt: #3b4252;
+	--background-tertiary: #2e3340;
+	--btn-bg-primary: var(--accent-primary);
+	--btn-bg-secondary: var(--accent-secondary);
+	--btn-bg-primary-hover: var(--accent-secondary);
+	--btn-bg-secondary-hover: var(--accent-primary);
+	--background-modifier-selected: var(--background-secondary);
+	--background-modifier-hover: var(--background-primary);
+	--background-modifier-active: var(--background-secondary-alt);
+	--interactive-active: #ffffff;
+	--interactive-hover: #ffffff6e;
+	--interactive-normal: #ffffffc9;
+	--background-accent: var(--accent-tertiary);
+	--text-normal: #d8dee9;
+	--text-secondary: #d8dee98a;
+	--header-primary: var(--text-normal);
+	--text-link: var(--text-normal);
+	--focus-primary: #fff;
+	--brand-experiment: var(--accent-primary);
+	--accent-pri-numbers: 50, 93, 95;
+	--accent-sec-numbers: 80, 155, 158;
+	--accent-ter-numbers: 28, 53, 54;
+	--accent-primary: rgba(50, 93, 95, 1.0);
+	--accent-secondary: rgb(80, 155, 158);
+	--accent-tertiary: rgb(28, 53, 54);
+	--green-primary: rgb(46, 131, 92);
+	--green-secondary: rgb(72, 152, 113);
+	--green-tertiary: rgb(22, 103, 70);
+	--yellow-primary: rgba(250, 166, 26);
+	--yellow-secondary: rgba(255, 194, 61);
+	--yellow-tertiary: rgba(220, 140, 0);
+	--red-primary: rgba(240, 71, 71);
+	--red-secondary: rgba(255, 102, 96);
+	--red-tertiary: rgba(209, 39, 49);
+	--purple-primary: rgba(89, 54, 149);
+	--purple-secondary: rgba(116, 79, 177);
+	--purple-tertiary: rgba(62, 32, 124);
+	--normal-primary: rgba(51, 57, 73);
+	--normal-secondary: rgba(42, 48, 64);
+	--normal-tertiary: rgba(33, 40, 55);
+	--primary-font: "Poppins", sans-serif;
+	--secondary-font: "Poppins", sans-serif;
+	--font-headline: var(--primary-font);
+	--font-primary: var(--primary-font);
+	--font-display: var(--secondary-font);
+	--theme: "KIA";
+	--author: "It'sJustJosh#2812";
+	--version: "Rewrite";
+	--brand-logo: url("https://i.imgur.com/VjGxfmW.png");
+	--dev-logo: url("https://i.imgur.com/tu3WU1c.png");
+	--avatar-radius: 8px;
+	--server-radius: 8px;
+	--active-now-height: 0vh;
+	--primary-rounding: 5px;
+	--spotify-color: var(--green-primary);
+	--brand-color: var(--accent-primary);
+	--secondary-rounding: calc(var(--primary-rounding) * 2);
+	--tertiary-rounding: calc(var(--primary-rounding) * 4);
+	--primary-spacing: 10px;
+	--secondary-spacing: calc(var(--primary-spacing) * 2);
+	--tertiary-spacing: calc(var(--primary-spacing) * 4);
+	--sidebar-width: 260px;
+	--transition-normal: 250ms;
+	--transition-slow: calc(var(--transition-normal) * 2) ease;
+	--transition-fast: cal(var(--transition-normal)/2) ease;
+	--server-size: var(--HSL-server-icon-size, var(--HSL-size, 40px));
+	--server-spacing: var(--HSL-server-spacing, var(--HSL-spacing, 10px));
+	--server-container: calc(var(--server-size) + 20px);
+	--saturation-factor: 1!important
+}
+
+:root,
+* {
+	transition: none !important;
+	animation: none !important;
+	translate: none !important;
+}
+
+:root {
+	--voice-bg: url('https://cdn.discordapp.com/attachments/738968109288914976/769986893944979496/image0.jpg');
+	--voice-bg-size: 150%;
+}
+
 :root {
 
 	--usrbg-in-settings: var(--yes-usrbg);
@@ -4952,4 +4935,34 @@ html[lang=hi] .closeButton-1tv5uR + .keybind-KpFkfr::before {
 	--settings-footer-height: 60px;
 	--settings-border-color: var(--accent-primary);
 	--settings-border-size: 0px; /* Too Lazy to fix */
+}
+
+:root {
+
+	--splash-height: unset;
+	--splash-width: 255px;
+	--padding-horizontal: 45px;
+	--padding-vertical: 25px;
+	--blur: 5px;
+	--box-shadow-color: rgba(0, 0, 0, .65);
+	--border-size: 0px;
+	--border-radius: var(--primary-rounding);
+	--border-color: var(--accent-primary);
+	--background-color: var(--background-secondary-alt);
+	--content-color: /* unset; */
+	var(--background-primary);
+}
+
+:root {
+
+	--global-bg-opacity: 0;
+	--bg-wm-border-radius: 15px;
+	--bg-brand: var(--brand-experiment);
+	--bg-text: var(--interactive-active);
+	--USRBG-WM-Type-Dark: var(--flashcord-dark);
+	--USRBG-WM-Type-Light: var(--flashcord-light);
+	--flashcord-light: url("https://media.discordapp.net/attachments/881876779193761832/893174508683403354/flash-dark.png?width=22&height=22");
+	--flashcord-dark: url("https://media.discordapp.net/attachments/881876779193761832/893173879936258068/flash.png?width=22&height=22");
+
+
 }
