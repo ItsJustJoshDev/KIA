@@ -19,6 +19,36 @@
 @import url("https://therealgwjosh.github.io/Snippets/CSS/BetterBG/Friend-Grid/main.css");
 @import url("https://therealgwjosh.github.io/Snippets/CSS/Extra/colorful-urls.css");
 
+
+
+
+.nsfw-text {
+	background-color: var(--red-primary);
+	border-radius: var(--primary-rounding);
+	padding: 0 6px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	min-width: 16px;
+	min-height: 16px;
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: 600;
+	color: var(--interactive-normal);
+	text-align: center;
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 auto;
+	flex: 0 0 auto;
+}
+
+.nsfw-badge {
+	position: relative;
+	margin-left: 4px;
+	line-height: 0;
+}
+
+
 /* Base */
 #app-mount .channel-2QD9_O,
 #app-mount .containerDefault--pIXnN .wrapper-2jXpOf {
@@ -278,11 +308,15 @@
 /* Color Banners */
 [class*="root-3QyAh1"] [class*="banner"] {
 	height: 240px;
+	z-index: 0;
+
+
 }
 
 /* Nitro Banners */
 [class*="root-3QyAh1"] [class*="popoutBannerPremium"] {
-	height: 200px;
+	height: 240px;
+	z-index: 2 !important;
 }
 
 /* Global Filter, Width & Border Radius*/
@@ -293,6 +327,7 @@
 	filter: brightness(0.5);
 	border-radius: var(--primary-rounding) var(--primary-rounding) 0 0;
 }
+
 
 /* Begone Bullshit */
 [class*="root-3QyAh1"] [class*="note"],
@@ -314,6 +349,8 @@
 	padding: 5px 5px 5px 5px;
 	opacity: 0.5;
 	transition: 250ms ease all !important;
+	z-index: 10 !important;
+
 }
 
 [class*="root-3QyAh1"] [class*="customStatusActivity"] img {
@@ -336,10 +373,14 @@
 	margin-top: -290px !important;
 	margin-left: 110px !important;
 	position: absolute;
+	z-index: 10 !important;
+
 }
 
 [class*="root-3QyAh1"] [class*="nameTag"] {
 	margin: 12px 24px 24px;
+	z-index: 10 !important;
+
 }
 
 /* Avatars */
@@ -349,6 +390,8 @@
 	top: -186px !important;
 	border: transparent 0px !important;
 	background-color: transparent !important;
+	z-index: 3 !important;
+
 }
 
 [class*="root-3QyAh1"] [class*="header-"] [class*="avatar-AvHqJA"] {
@@ -3499,20 +3542,20 @@ svg.slider-TkfMQL svg {
 	z-index: 0;
 	width: 50px;
 	height: 104px;
-	padding: 10px 0 10px 0;
-	padding-bottom: 15px;
-	flex-direction: column;
+	padding: 10px 0 50px 0;
+	padding-top: 15px;
+	flex-direction: column-reverse;
 	border-radius: var(--server-radius);
 	background: var(--background-secondary-alt);
 }
 
 .panels-j1Uci_ > .container-3baos1 > .flex-1xMQg5 {
-	height: 254px;
+	height: 120px;
 }
 
 .panels-j1Uci_ > .container-3baos1 > .flex-1xMQg5 > .button-14-BFJ {
 	color: var(--interactive-normal);
-	margin: 0px 20px 5px 10px;
+	margin: 0px 20px 10px 10px;
 }
 
 .panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp[aria-expanded="false"],
@@ -3536,44 +3579,6 @@ svg.slider-TkfMQL svg {
 .panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp[aria-expanded="false"] > .avatar-SmRMf2:hover,
 .panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp[aria-expanded="true"] > .avatar-SmRMf2:hover {
 	opacity: 1;
-}
-
-/* Discover */
-.platform-linux [class*="guilds-"] [class*="scroller-"] > [class*="listItem-"]:nth-last-child(-1n + 3) {
-	position: fixed;
-	bottom: 70px;
-	z-index: 1;
-	box-shadow: none !important;
-}
-
-.platform-win [class*="guilds-"] [class*="scroller-"] > [class*="listItem-"]:nth-last-child(-1n + 3) {
-	position: fixed;
-	bottom: 70px;
-	z-index: 1;
-	box-shadow: none !important;
-}
-
-.platform-osx [class*="guilds-"] [class*="scroller-"] > [class*="listItem-"]:nth-last-child(-1n + 3) {
-	position: fixed;
-	bottom: 70px;
-	z-index: 1;
-	box-shadow: none !important;
-}
-
-.platform-web [class*="guilds-"] [class*="scroller-"] > [class*="listItem-"]:nth-last-child(1n + 3) {
-	position: fixed;
-	bottom: 64.4px;
-	left: 10px;
-	z-index: 1;
-	box-shadow: none !important;
-}
-
-[class*="tutorialContainer"]:not(.tutorialContainer-11ICd5):not(.tutorialContainer-2sGCg9) {
-	position: fixed;
-	bottom: 114px;
-	left: 10px;
-	z-index: 20;
-	box-shadow: none !important;
 }
 
 /* Recolor */
@@ -4837,6 +4842,8 @@ html[lang=hi] .closeButton-1tv5uR + .keybind-KpFkfr::before {
 	z-index: 1;
 }
 
+
+
 /* Root - 000 */
 
 .theme-dark,
@@ -4965,4 +4972,142 @@ html[lang=hi] .closeButton-1tv5uR + .keybind-KpFkfr::before {
 	--flashcord-dark: url("https://media.discordapp.net/attachments/881876779193761832/893173879936258068/flash.png?width=22&height=22");
 
 
+}
+
+/* Spotify Player */
+
+/* GooseMod Ver - Honk */
+[class*="gm-spotify-controls-player-wrap"] {
+	background-color: var(--background-secondary-alt) !important;
+	padding: 8px;
+	font-family: var(--primary-font) !important;
+	margin-top: var(--primary-spacing);
+	border-radius: var(--primary-rounding);
+	contain: none !important;
+}
+
+[class*="gm-spotify-controls-player"] {
+	margin-top: 8px;
+	background-color: var(--background-secondary-alt);
+}
+
+[class*="gm-spotify-controls-playback-thumb"] {
+	background-color: var(--green-secondary);
+	border-radius: var(--tertiary-rounding);
+}
+
+[class*="gm-spotify-controls-playback-bar"] {
+	margin-bottom: 1px;
+	border-radius: var(--tertiary-rounding);
+	background-image: linear-gradient(var(--spotify-color), var(--spotify-color)), linear-gradient(var(--green-tertiary), var(--green-tertiary));
+}
+
+[class*="gm-spotify"] [href*="spotify.com"] {
+	color: var(--interactive-normal) !important;
+	font-weight: 10 !important;
+}
+
+[class*="gm-spotify"] [href*="spotify.com"]:hover {
+	color: var(--spotify-color) !important;
+	font-weight: 720 !important;
+}
+
+[class*="gm-spotify"] [class*="info-box"] {
+	transition: 200ms ease !important;
+	content: "";
+	max-width: 45px !important;
+	width: 43px;
+	height: 45px;
+	margin-top: -8px;
+	margin-right: 11px;
+	margin-left: calc(var(--primary-spacing) * 1.3);
+}
+
+[class*="gm-spotify"] [class*="info-box"]:hover {
+	transition: 200ms ease !important;
+	max-width: 2000px !important;
+	width: 2000px !important;
+	background: none !important;
+	margin-top: 0 !important;
+	margin-left: 0 !important;
+	padding-right: var(--sidebar-width);
+}
+
+[class*="gm-spotify"] [class*="info-box"]:before {
+	content: "";
+	width: 60px;
+	height: 45px;
+	margin-top: 0px;
+	margin-left: -17px;
+	position: fixed;
+	background: var(--spotify-color);
+	border-radius: var(--primary-rounding);
+}
+
+[class*="gm-spotify"] [class*="info-box"]:hover:before {
+	background: transparent;
+	pointer-events: none !important;
+}
+
+[class*="gm-spotify"] [class*="info-box"]:after {
+	content: "";
+	width: 45px;
+	height: 45px;
+	margin-top: 0px;
+	margin-left: -10px;
+	position: fixed;
+	background: var(--interactive-normal);
+	-webkit-mask: var(--icon) center/15px no-repeat !important;
+	--icon: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/template.svg);
+}
+
+[class*="gm-spotify"] [class*="info-box"]:hover:after {
+	pointer-events: none !important;
+	-webkit-mask: var(--icon) center/0px no-repeat !important;
+	--icon: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/template.svg);
+}
+
+[class*="gm-spotify"] [class*="button"] {
+	margin-right: var(--primary-spacing);
+	margin-top: -4px !important;
+}
+
+
+[class*="gm-spotify"] [class*="button"] button {
+	background: var(--green-tertiary);
+	border-radius: var(--primary-rounding);
+	width: 51px;
+	height: 45px;
+}
+
+[class*="gm-spotify"] [class*="album-image"] {
+	transition: 200ms ease !important;
+	position: fixed;
+	padding: 5px;
+	border-radius: var(--primary-rounding);
+	background: var(--spotify-color);
+	left: 20px;
+	bottom: 210px;
+}
+
+[class*="gm-spotify"] [class*="album-image"]:hover {
+	transition: 200ms ease !important;
+	filter: brightness(0.6);
+}
+
+[class*="gm-spotify"] [class*="album-image"]:hover:after {
+	transition: 100ms ease !important;
+	content: "";
+	left: 2px;
+	bottom: 2px;
+	width: 20px !important;
+	height: 20px !important;
+	border-radius: 50% !important;
+	position: fixed;
+	background: var(--green-tertiary);
+	background-size: 14px;
+	background-position-x: 3px;
+	background-position-y: 3px;
+	background-repeat: no-repeat;
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' aria-labelledby='title' aria-describedby='desc' role='img' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3ESpotify%3C/title%3E%3Cdesc%3EA color styled icon from Orion Icon Library.%3C/desc%3E%3Cpath data-name='layer1' d='M32 0a32 32 0 1 0 32 32A31.966 31.966 0 0 0 32 0zm12.3 47.2a2.654 2.654 0 0 1-1.4-.5 32.041 32.041 0 0 0-16.6-4.3 48.082 48.082 0 0 0-10.1 1.1 11.045 11.045 0 0 1-1.6.3 2 2 0 0 1-2-2 2.11 2.11 0 0 1 1.7-2.2 53.9 53.9 0 0 1 12-1.4A35.787 35.787 0 0 1 44.9 43a2.131 2.131 0 0 1 1.3 2.1 1.846 1.846 0 0 1-1.9 2.1zm3.5-8.5a2.834 2.834 0 0 1-1.6-.6A41.422 41.422 0 0 0 25.9 33a43.3 43.3 0 0 0-10.4 1.3 4.707 4.707 0 0 1-1.6.4 2.476 2.476 0 0 1-2.5-2.5 2.6 2.6 0 0 1 2-2.7A43.762 43.762 0 0 1 26 27.7a44.707 44.707 0 0 1 22.8 5.9 2.583 2.583 0 0 1 1.5 2.5 2.5 2.5 0 0 1-2.5 2.6zm4-9.8a3.022 3.022 0 0 1-1.6-.5C44.3 24.9 35.3 23 26.7 23a49.826 49.826 0 0 0-12.8 1.5 9.005 9.005 0 0 1-1.6.3 3.031 3.031 0 0 1-3-3.1 3.213 3.213 0 0 1 2.2-3.1 55.906 55.906 0 0 1 15.2-2c9.4 0 19.3 1.9 26.5 6.2a3.025 3.025 0 0 1 1.6 2.9 3.058 3.058 0 0 1-3 3.2z' fill='%23000000'%3E%3C/path%3E%3C/svg%3E");
 }
