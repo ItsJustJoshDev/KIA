@@ -19,7 +19,6 @@
 @import url("https://therealgwjosh.github.io/Snippets/CSS/BetterBG/Friend-Grid/main.css");
 @import url("https://therealgwjosh.github.io/Snippets/CSS/Extra/colorful-urls.css");
 
-
 /* Avatars */
 /** Smaller avatars and moved chat (also made to not break compact mode because why not) **/
 /* Makes avatars smaller and moves them so they fit below the reply arrow (7.5px),
@@ -60,13 +59,15 @@
 
 /* Move a message reply 20 pixels right to put it above avatar since
    the avatar doesn't move along with the message */
-/*
+
 .cozy-3raOZG .repliedMessage-VokQwo {
-  transform: translateX(calc(20px - calc(calc(40px - 25px) / 2)));
+  transform: translateX(calc(20px - calc(calc(65px - 25px) / 2)));
 }
+
 /* Make reply arrow touch replied to avatar as well */
 .cozy-3raOZG .repliedMessage-VokQwo::before {
-	margin-right: 0;
+	margin-right: 4px;
+	margin-left: 18px;
 }
 
 /* This all makes the hover timestamp cut into the message just
