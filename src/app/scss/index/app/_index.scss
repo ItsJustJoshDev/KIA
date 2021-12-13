@@ -1,3 +1,91 @@
+/* Avatars */
+/** Smaller avatars and moved chat (also made to not break compact mode because why not) **/
+/* Makes avatars smaller and moves them so they fit below the reply arrow (7.5px),
+   and moves them 4 pixels up to make them centered to username */
+.cozy-3raOZG .avatar-1BDn8e {
+	width: 23px;
+	height: 23px;
+	border-radius: 6px !important;
+	margin-top: -0px;
+	transform: translateY(-2px) !important;
+	transform: translateX(-12px) !important;
+}
+
+/* Apparently, avatars are supposed to move 1 pixel down when they are clicked on,
+   and it messes up the translate in the previous rule, so account for the previous
+   translate, and also make the avatars move a bit, since that's what they already do */
+.cozy-3raOZG .avatar-1BDn8e:active {
+	transform: translateY(calc(-4px + 0.625px)) !important;
+}
+
+/* Move every message 20 pixels to the left to fill the empty space
+   moving the avatar 20 pixels to the right made, default padding is 72px */
+.cozy-3raOZG.wrapper-2a6GCs {
+	padding-left: calc(52px - 20px);
+}
+
+/* Adjusts offline message outlines to look the same as regular messages
+   (you're probably never going to notice this anyway, but yeah) */
+.wrapper-1F5TKx.cozy-12kSNU .contents-1R-xLu {
+	transform: translateX(-20px) !important;
+}
+
+.wrapper-1F5TKx.cozy-12kSNU .contents-1R-xLu .avatar-2daVqv {
+	width: 25px;
+	height: 25px;
+	transform: translate(-52px, -4px);
+}
+
+/* Move a message reply 20 pixels right to put it above avatar since
+   the avatar doesn't move along with the message */
+/*
+.cozy-3raOZG .repliedMessage-VokQwo {
+  transform: translateX(calc(20px - calc(calc(40px - 25px) / 2)));
+}
+/* Make reply arrow touch replied to avatar as well */
+.cozy-3raOZG .repliedMessage-VokQwo::before {
+	margin-right: 0;
+}
+
+/* This all makes the hover timestamp cut into the message just
+   a little bit, so move it backwards 5 pixels to adjust */
+.cozy-3raOZG .timestamp-3ZCmNB.alt-1uNpEt {
+	transform: translateX(-5px) !important;
+}
+
+/* Moving the avatar 4 pixels up makes it get cut off in the inbox section,
+   so set the overflow to visible so that it doesn't do that*/
+.message-2DieIs {
+	overflow: visible;
+}
+
+.cozy-3raOZG .headerText-3Uvj1Y > span::before {
+	content: '';
+	width: calc(100% + 7px);
+	height: 100%;
+	border-radius: var(--primary-rounding);
+	background-color: currentColor;
+	opacity: 0.3;
+	position: absolute;
+	top: 0;
+	z-index: -1;
+	/* repairs left shift*/
+	left: -3px;
+}
+
+.cozy-3raOZG .headerText-3Uvj1Y > span::after {
+	content: ":";
+}
+
+/* repairs left shift */
+.cozy-3raOZG .headerText-3Uvj1Y > span {
+	margin-left: 3px;
+}
+
+.cozy-3raOZG [class*="header"] {
+	margin-bottom: 5px;
+}
+
 .nsfw-text {
 	background-color: var(--red-primary);
 	border-radius: var(--primary-rounding);
@@ -37,8 +125,8 @@
 #app-mount .containerDefault--pIXnN .wrapper-2jXpOf:before {
 	content: "";
 	position: absolute;
-	top: 0; 
-	left: 0; 
+	top: 0;
+	left: 0;
 	bottom: 0;
 }
 
@@ -285,8 +373,6 @@
 [class*="root-3QyAh1"] [class*="banner"] {
 	height: 240px;
 	z-index: 0;
-
-
 }
 
 /* Nitro Banners */
@@ -326,7 +412,6 @@
 	opacity: 0.5;
 	transition: 250ms ease all !important;
 	z-index: 10 !important;
-
 }
 
 [class*="root-3QyAh1"] [class*="customStatusActivity"] img {
@@ -350,13 +435,11 @@
 	margin-left: 110px !important;
 	position: absolute;
 	z-index: 10 !important;
-
 }
 
 [class*="root-3QyAh1"] [class*="nameTag"] {
 	margin: 12px 24px 24px;
 	z-index: 10 !important;
-
 }
 
 /* Avatars */
@@ -367,7 +450,6 @@
 	border: transparent 0px !important;
 	background-color: transparent !important;
 	z-index: 3 !important;
-
 }
 
 [class*="root-3QyAh1"] [class*="header-"] [class*="avatar-AvHqJA"] {
@@ -3055,7 +3137,7 @@ svg.slider-TkfMQL svg {
 	position: absolute;
 	height: 100%;
 	width: 100%;
-	background: rgba(0,0,0,.65);
+	background: rgba(0, 0, 0, .65);
 	backdrop-filter: blur(3px);
 }
 
@@ -3063,8 +3145,6 @@ svg.slider-TkfMQL svg {
 
 
 /* KIA - BetterBG - 010 */
-
-
 /* User Popout */
 [class*="theme-dark"] [class*="userPopout"] [class*="banner"]:not([style^="background-image"])::after {
 	content: var(--USRBG-WM-Type-Dark);
@@ -3603,7 +3683,7 @@ div#cc_server_count {
 
 /* Adjust Guilds List */
 .scroller-1Bvpku {
-	height: calc(100% - 292px);
+	height: calc(100% - 196px);
 }
 
 .guilds-1SWlCJ .scroller-1Bvpku {
@@ -4821,7 +4901,6 @@ html[lang=hi] .closeButton-1tv5uR + .keybind-KpFkfr::before {
 
 
 /* Root - 000 */
-
 .theme-dark,
 .theme-light {
 	--background-primary: #292e3b;
@@ -4946,12 +5025,9 @@ html[lang=hi] .closeButton-1tv5uR + .keybind-KpFkfr::before {
 	--USRBG-WM-Type-Light: var(--flashcord-light);
 	--flashcord-light: url("https://media.discordapp.net/attachments/881876779193761832/893174508683403354/flash-dark.png?width=22&height=22");
 	--flashcord-dark: url("https://media.discordapp.net/attachments/881876779193761832/893173879936258068/flash.png?width=22&height=22");
-
-
 }
 
 /* Spotify Player */
-
 /* GooseMod Ver - Honk */
 [class*="gm-spotify-controls-player-wrap"] {
 	background-color: var(--background-secondary-alt) !important;
