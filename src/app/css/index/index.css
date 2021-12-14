@@ -2548,8 +2548,8 @@ svg.slider-TkfMQL svg {
 	max-height: 0px;
 	height: 0px;
 	left: var(--secondary-spacing);
-	position: absolute;
 	z-index: unset !important;
+	position: absolute;
 }
 
 .panels-j1Uci_ .wrapper-24pKcD {
@@ -2567,7 +2567,8 @@ svg.slider-TkfMQL svg {
 }
 
 .panels-j1Uci_ .wrapper-24pKcD .container-1giJp5 button {
-	border-radius: var(--server-radius);
+	border-radius:  50%/*var(--server-radius)*/ !important;
+	background:  red !important;
 }
 
 .panels-j1Uci_ .wrapper-24pKcD:empty {
@@ -2758,7 +2759,7 @@ svg.slider-TkfMQL svg {
 	width: unset
 }
 
-.container-1r6BKw.themed-ANHk51 .children-19S4PO {
+.platform-web .container-1r6BKw.themed-ANHk51 .children-19S4PO {
 	margin-bottom: 40px !important;
 }
 
