@@ -2633,10 +2633,6 @@ svg.slider-TkfMQL svg {
 	border: none
 }
 
-.panels-j1Uci_ .wrapper-24pKcD .container-1giJp5 button {
-	border-radius:  50%/*var(--server-radius)*/ !important;
-	background:  red !important;
-}
 
 .panels-j1Uci_ .wrapper-24pKcD:empty {
 	display: none
