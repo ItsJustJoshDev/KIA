@@ -19,6 +19,73 @@
 @import url("https://therealgwjosh.github.io/Snippets/CSS/BetterBG/Friend-Grid/main.css");
 @import url("https://therealgwjosh.github.io/Snippets/CSS/Extra/colorful-urls.css");
 
+:root {
+
+	--login-color: var(--none); /* var(--accent-primary); */
+	--login-img: url("https://raw.githubusercontent.com/TheRealGWJosh/KIA/main/src/app/assets/KIA.jpg") center/100% no-repeat;
+	--login-svg-color: var(--login-img); /* var(--svg-color); */
+	--login-svg: var(--none); /* var(--mask); */
+
+}
+.theme-dark .authBox-hW6HRx {
+    color: var(--text-normal);
+    background: var(--background-primary);
+    border-radius: var(--radius-primary);
+}
+
+.theme-white .authBox-hW6HRx {
+    color: var(--text-normal);
+    background: var(--background-primary);
+    border-radius: var(--radius-primary);
+}
+
+.wrapper-3Q5DdO {
+    position: fixed;
+}
+
+
+.input-cIJ7To {
+    border: none;
+    border-radius: var(--radius-primary);
+}
+
+.characterBackground-2itjYF .artwork-1adZW0 * /* Remove Artwork */,
+.characterBackground-2itjYF .logo-2iEHEq /* Remove Brand Logo */,
+.canvas-3XuBXe, .fallbackImage-31Sk4m /* Old? */ {
+	display: none !important;
+}
+
+/* Login Background */
+.characterBackground-2itjYF .artwork-1adZW0 {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: var(--login-svg-color);
+	-webkit-mask: var(--login-svg);
+	--svg-color: var(--interactive-normal);
+	--svg: var(--mask);
+	--none: "";
+	--mask: url(https://raw.githubusercontent.com/TheRealGWJosh/KIA/main/src/app/assets/activity.svg) center/30% repeat  !important;
+}
+
+/* Add Some Color :3 */
+.characterBackground-2itjYF {
+	content: "";
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: var(--login-img);
+	margin-bottom: -1110px !important;
+	background-color: var(--login-color);
+	--none: "";
+}
 
 /* Avatars */
 /** Smaller avatars and moved chat (also made to not break compact mode because why not) **/
@@ -26,11 +93,11 @@
    and moves them 4 pixels up to make them centered to username */
 .cozy-3raOZG .avatar-1BDn8e {
 	width: 23px;
-	height: 23px;
+	height: 22px;
 	border-radius: 6px !important;
 	margin-top: -0px;
 	transform: translateY(-2px) !important;
-	transform: translateX(-12px) !important;
+	transform: translateX(-2px) !important;
 }
 
 /* Apparently, avatars are supposed to move 1 pixel down when they are clicked on,
@@ -43,7 +110,7 @@
 /* Move every message 20 pixels to the left to fill the empty space
    moving the avatar 20 pixels to the right made, default padding is 72px */
 .cozy-3raOZG.wrapper-2a6GCs {
-	padding-left: calc(52px - 20px);
+	padding-left: calc(62px - 20px);
 }
 
 /* Adjusts offline message outlines to look the same as regular messages
@@ -3552,8 +3619,9 @@ svg.slider-TkfMQL svg {
 
 /* KIA - Server List - 006 */
 /* Better Folders */
+
 .folderIconWrapper-1Ml_1q {
-	background: transparent !important;
+	background: var(--background-secondary-alt) !important;
 }
 
 .closedFolderIconWrapper-1I9YfS {
@@ -3563,7 +3631,7 @@ svg.slider-TkfMQL svg {
 }
 
 .closedFolderIconWrapper-1I9YfS * {
-	display: none;
+	display: none !important;
 }
 
 .closedFolderIconWrapper-1I9YfS::after {
@@ -3775,7 +3843,7 @@ div#cc_server_count {
 	width: 15px !important;
 	height: 15px !important;
 	margin-top: 10px;
-	background: var(--accent-primary);
+	background: var(--interactive-normal);
 	border-radius: var(--tertiary-rounding) !important;
 }
 
