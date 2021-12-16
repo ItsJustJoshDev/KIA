@@ -19,39 +19,47 @@
 @import url("https://therealgwjosh.github.io/Snippets/CSS/BetterBG/Friend-Grid/main.css");
 @import url("https://therealgwjosh.github.io/Snippets/CSS/Extra/colorful-urls.css");
 
+.button-14-BFJ {
+	border-radius: 50px;
+}
+
 :root {
 
 	--login-color: var(--none); /* var(--accent-primary); */
 	--login-img: url("https://raw.githubusercontent.com/TheRealGWJosh/KIA/main/src/app/assets/KIA.jpg") center/100% no-repeat;
 	--login-svg-color: var(--login-img); /* var(--svg-color); */
 	--login-svg: var(--none); /* var(--mask); */
-
 }
+
 .theme-dark .authBox-hW6HRx {
-    color: var(--text-normal);
-    background: var(--background-primary);
-    border-radius: var(--radius-primary);
+	color: var(--text-normal);
+	background: var(--background-primary);
+	border-radius: var(--radius-primary);
 }
 
 .theme-white .authBox-hW6HRx {
-    color: var(--text-normal);
-    background: var(--background-primary);
-    border-radius: var(--radius-primary);
+	color: var(--text-normal);
+	background: var(--background-primary);
+	border-radius: var(--radius-primary);
 }
 
 .wrapper-3Q5DdO {
-    position: fixed;
+	position: fixed;
 }
 
 
 .input-cIJ7To {
-    border: none;
-    border-radius: var(--radius-primary);
+	border: none;
+	border-radius: var(--radius-primary);
 }
 
-.characterBackground-2itjYF .artwork-1adZW0 * /* Remove Artwork */,
-.characterBackground-2itjYF .logo-2iEHEq /* Remove Brand Logo */,
-.canvas-3XuBXe, .fallbackImage-31Sk4m /* Old? */ {
+.characterBackground-2itjYF .artwork-1adZW0 */* Remove Artwork */
+,
+.characterBackground-2itjYF .logo-2iEHEq/* Remove Brand Logo */
+,
+.canvas-3XuBXe,
+.fallbackImage-31Sk4m/* Old? */
+{
 	display: none !important;
 }
 
@@ -68,7 +76,7 @@
 	--svg-color: var(--interactive-normal);
 	--svg: var(--mask);
 	--none: "";
-	--mask: url(https://raw.githubusercontent.com/TheRealGWJosh/KIA/main/src/app/assets/activity.svg) center/30% repeat  !important;
+	--mask: url(https://raw.githubusercontent.com/TheRealGWJosh/KIA/main/src/app/assets/activity.svg) center/30% repeat !important;
 }
 
 /* Add Some Color :3 */
@@ -127,9 +135,8 @@
 
 /* Move a message reply 20 pixels right to put it above avatar since
    the avatar doesn't move along with the message */
-
 .cozy-3raOZG .repliedMessage-VokQwo {
-  transform: translateX(calc(20px - calc(calc(65px - 25px) / 2)));
+	transform: translateX(calc(20px - calc(calc(65px - 25px) / 2)));
 }
 
 /* Make reply arrow touch replied to avatar as well */
@@ -341,109 +348,6 @@
 }
 
 
-/* KIA - Colorful Chatbar - 016 */
-.sprite-2iCowe {
-	background-image: none !important;
-	filter: grayscale(0%) !important;
-}
-
-.sprite-2iCowe {
-	background: var(--interactive-normal);
-	background-size: 20px;
-	background-position-x: 13px;
-	background-position-y: 13px;
-	background-repeat: no-repeat;
-	-webkit-mask: var(--icon) center/20px no-repeat !important;
-	--icon: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/emotes.svg);
-}
-
-
-.stickerButton-3OEgwj {
-	background: var(--interactive-normal);
-	background-size: 20px;
-	background-position-x: 13px;
-	background-position-y: 13px;
-	background-repeat: no-repeat;
-	-webkit-mask: var(--icon) center/20px no-repeat !important;
-	--icon: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/stickers.svg);
-}
-
-.icon-3D60ES {
-	background: var(--interactive-normal);
-	background-size: 20px;
-	background-position-x: 13px;
-	background-position-y: 13px;
-	background-repeat: no-repeat;
-	-webkit-mask: var(--icon) center/20px no-repeat !important;
-	--icon: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/template.svg);
-}
-
-[aria-label="Send a gift"] {
-	background: var(--interactive-normal);
-	background-size: 20px;
-	background-position-x: 13px;
-	background-position-y: 13px;
-	background-repeat: no-repeat;
-	-webkit-mask: var(--icon) center/20px no-repeat !important;
-	--icon: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/nitro.svg);
-}
-
-.contents-18-Yxp,
-.button-3AYNKb,
-.button-318s1X path {
-	fill: transparent;
-}
-
-.sansAttachButton-td2irx {
-	padding: 0;
-}
-
-.attachButton-2dnuIu {
-	margin-left: 0;
-	padding: 0;
-	height: auto;
-	color: var(--interactive-normal);
-	transition: color 0.15s ease;
-	width: calc(var(--chat-avatar-size) + var(--message-padding));
-}
-
-.attachButton-2dnuIu:hover {
-	color: var(--interactive-hover);
-}
-
-.attachButtonInner-PQjIyk {
-	display: flex;
-	height: 24px;
-}
-
-.attachButtonInner-PQjIyk::before {
-	margin: auto;
-	content: "+";
-	color: inherit;
-	display: block;
-	font-weight: bold;
-	font-size: 20px;
-}
-
-.attachButtonInner-PQjIyk path:first-child {
-	display: none;
-}
-
-.attachButtonInner-PQjIyk path:last-child {
-	fill: var(--spotify-color);
-	scale: 13%;
-	d: path("M32 0a32 32 0 1 0 32 32A31.966 31.966 0 0 0 32 0zm12.3 47.2a2.654 2.654 0 0 1-1.4-.5 32.041 32.041 0 0 0-16.6-4.3 48.082 48.082 0 0 0-10.1 1.1 11.045 11.045 0 0 1-1.6.3 2 2 0 0 1-2-2 2.11 2.11 0 0 1 1.7-2.2 53.9 53.9 0 0 1 12-1.4A35.787 35.787 0 0 1 44.9 43a2.131 2.131 0 0 1 1.3 2.1 1.846 1.846 0 0 1-1.9 2.1zm3.5-8.5a2.834 2.834 0 0 1-1.6-.6A41.422 41.422 0 0 0 25.9 33a43.3 43.3 0 0 0-10.4 1.3 4.707 4.707 0 0 1-1.6.4 2.476 2.476 0 0 1-2.5-2.5 2.6 2.6 0 0 1 2-2.7A43.762 43.762 0 0 1 26 27.7a44.707 44.707 0 0 1 22.8 5.9 2.583 2.583 0 0 1 1.5 2.5 2.5 2.5 0 0 1-2.5 2.6zm4-9.8a3.022 3.022 0 0 1-1.6-.5C44.3 24.9 35.3 23 26.7 23a49.826 49.826 0 0 0-12.8 1.5 9.005 9.005 0 0 1-1.6.3 3.031 3.031 0 0 1-3-3.1 3.213 3.213 0 0 1 2.2-3.1 55.906 55.906 0 0 1 15.2-2c9.4 0 19.3 1.9 26.5 6.2a3.025 3.025 0 0 1 1.6 2.9 3.058 3.058 0 0 1-3 3.2z");
-}
-
-.attachButtonInner-PQjIyk:last-child {
-	position: absolute;
-	margin-top: -0px;
-	margin-right: -22px;
-}
-
-.channelTextAreaDisabled-8rmlrp > div {
-	display: none;
-}
 
 /* KIA - Modal - 015 */
 [class*="root-3QyAh1"] [class*="header-"] [class*="wrapper-3t9DeA"]::before {
@@ -1140,13 +1044,13 @@
 }
 
 /* BetterRoles */
-[class*="role-"],
-[class*="roleCircle-"],
-[class*="addButton-"][class*="role-"] {
+[class*="userPopout-"] [class*="role-"],
+[class*="userPopout-"] [class*="roleCircle-"],
+[class*="userPopout-"] [class*="addButton-"][class*="role-"] {
 	border-radius: var(--primary-rounding);
 }
 
-[class*="addButtonIcon-"] {
+[class*="userPopout-"] [class*="addButtonIcon-"] {
 	width: 10px;
 	height: 10px;
 }
@@ -1405,16 +1309,20 @@ svg.slider-TkfMQL svg {
 
 .page-3njELR .contentContainer-14yMzC {
 	margin-top: var(--primary-spacing) !important;
-	left: 0
+	margin-left: var(--primary-spacing) !important;
+	border: none !important;
+
 }
 
 .page-3njELR .contentContainer-14yMzC .contentWidth-xLB44s {
-	max-width: none
+	max-width: none;
+	border: none !important;
 }
 
 .page-3njELR .contentContainer-14yMzC .contentWidth-xLB44s .header-2mZ9Ov {
 	border-radius: var(--primary-rounding);
-	padding: var(--primary-spacing)
+	padding: var(--primary-spacing);
+	border: none !important;
 }
 
 .page-3njELR .contentContainer-14yMzC .contentWidth-xLB44s .header-2mZ9Ov .top-28JiJ- {
@@ -1424,7 +1332,7 @@ svg.slider-TkfMQL svg {
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
 	justify-content: center;
-	border: none
+	border: none !important;
 }
 
 .page-3njELR .contentContainer-14yMzC .contentWidth-xLB44s .header-2mZ9Ov .top-28JiJ- .tabBarItem-2QyJ0U {
@@ -2601,6 +2509,90 @@ svg.slider-TkfMQL svg {
 	margin-top: -12px;
 }
 
+.panels-j1Uci_ .container-3baos1 .directionRow-3v3tfG button[aria-label="Ajustes de usuario"],
+.panels-j1Uci_ .container-3baos1 .directionRow-3v3tfG button[aria-label="Användarinställningar"],
+.panels-j1Uci_ .container-3baos1 .directionRow-3v3tfG button[aria-label="Configurações de Usuário"],
+.panels-j1Uci_ .container-3baos1 .directionRow-3v3tfG button[aria-label="Cài đặt người dùng"],
+.panels-j1Uci_ .container-3baos1 .directionRow-3v3tfG button[aria-label="Felhasználói beállítások"],
+.panels-j1Uci_ .container-3baos1 .directionRow-3v3tfG button[aria-label="Impostazioni utente"],
+.panels-j1Uci_ .container-3baos1 .directionRow-3v3tfG button[aria-label="Korisničke postavke"],
+.panels-j1Uci_ .container-3baos1 .directionRow-3v3tfG button[aria-label="Kullanıcı Ayarları"],
+.panels-j1Uci_ .container-3baos1 .directionRow-3v3tfG button[aria-label="Käyttäjäasetukset"],
+.panels-j1Uci_ .container-3baos1 .directionRow-3v3tfG button[aria-label="Naudotojo Nustatymai"],
+.panels-j1Uci_ .container-3baos1 .directionRow-3v3tfG button[aria-label="Paramètres utilisateur"],
+.panels-j1Uci_ .container-3baos1 .directionRow-3v3tfG button[aria-label="Setări utilizator"],
+.panels-j1Uci_ .container-3baos1 .directionRow-3v3tfG button[aria-label="User Settings"],
+.panels-j1Uci_ .container-3baos1 .directionRow-3v3tfG button[aria-label="User settings"],
+.panels-j1Uci_ .container-3baos1 .directionRow-3v3tfG button[aria-label="Ustawienia użytkownika"],
+.panels-j1Uci_ .container-3baos1 .directionRow-3v3tfG button[aria-label="Uživatelská nastavení"],
+.panels-j1Uci_ .container-3baos1 .directionRow-3v3tfG button[aria-label="Ρυθμίσεις χρήστη"],
+.panels-j1Uci_ .container-3baos1 .directionRow-3v3tfG button[aria-label="Користувацькі налаштування"],
+.panels-j1Uci_ .container-3baos1 .directionRow-3v3tfG button[aria-label="Настройки пользователя"],
+.panels-j1Uci_ .container-3baos1 .directionRow-3v3tfG button[aria-label="Потребителски настройки"],
+.panels-j1Uci_ .container-3baos1 .directionRow-3v3tfG button[aria-label="यूज़र सेटिंग"],
+.panels-j1Uci_ .container-3baos1 .directionRow-3v3tfG button[aria-label="ตั้งค่าผู้ใช้"],
+.panels-j1Uci_ .container-3baos1 .directionRow-3v3tfG button[aria-label="ユーザー設定"],
+.panels-j1Uci_ .container-3baos1 .directionRow-3v3tfG button[aria-label="使用者設定"],
+.panels-j1Uci_ .container-3baos1 .directionRow-3v3tfG button[aria-label="用户设置"],
+.panels-j1Uci_ .container-3baos1 .directionRow-3v3tfG button[aria-label="사용자 설정"],
+.panels-j1Uci_ .container-3baos1 .directionRow-3v3tfG button[aria-label=Benutzereinstellungen],
+.panels-j1Uci_ .container-3baos1 .directionRow-3v3tfG button[aria-label=Brugerindstillinger],
+.panels-j1Uci_ .container-3baos1 .directionRow-3v3tfG button[aria-label=Brukerinnstillinger],
+.panels-j1Uci_ .container-3baos1 .directionRow-3v3tfG button[aria-label=Gebruikersinstellingen] {
+	position: fixed;
+	border-radius: var(--primary-rounding) !important;
+	bottom: calc(var(--primary-spacing) * 2.18);
+	left: calc(var(--sidebar-width) * 1.19);
+	box-sizing: border-box;
+	cursor: default; 
+}
+
+/* Fix The Z Index Lamo */
+:root .panels-j1Uci_ .container-3baos1 .flex-1xMQg5:not(button[aria-label="User Settings"]) { 
+	z-index: 0;
+}
+
+
+:root .panels-j1Uci_ .container-3baos1 .flex-1xMQg5  {
+	z-index: 1003 !important;
+}
+
+:root .panels-j1Uci_ .container-3baos1 .flex-1xMQg5 [class*="tooltipBottom"] {
+	z-index: 1005 !important;
+	display: none;
+}
+
+#status-picker-switch-account + .layer-v9HyYc  {
+	position: absolute;
+	margin-left: -255px;
+	margin-top: -50px;
+	padding: var(--primary-spacing) !important;
+	background-color: red !important;
+}
+
+#status-picker-switch-account + .layer-v9HyYc .submenu-2-ysNh {
+	z-index: 2345678765434567;
+}
+
+#status-picker-switch-account + .layer-v9HyYc .submenu-2-ysNh [class*="scroller"] {
+	margin-left: -10px;
+}
+
+/* Animation */
+.avatarWrapper-2yR4wp[aria-expanded=true]~.directionRow-3v3tfG button[aria-label="Ajustes de usuario"] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=true]~.directionRow-3v3tfG button[aria-label="Användarinställningar"] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=true]~.directionRow-3v3tfG button[aria-label="Configurações de Usuário"] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=true]~.directionRow-3v3tfG button[aria-label="Cài đặt người dùng"] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=true]~.directionRow-3v3tfG button[aria-label="Felhasználói beállítások"] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=true]~.directionRow-3v3tfG button[aria-label="Impostazioni utente"] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=true]~.directionRow-3v3tfG button[aria-label="Korisničke postavke"] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=true]~.directionRow-3v3tfG button[aria-label="Kullanıcı Ayarları"] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=true]~.directionRow-3v3tfG button[aria-label="Käyttäjäasetukset"] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=true]~.directionRow-3v3tfG button[aria-label="Naudotojo Nustatymai"] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=true]~.directionRow-3v3tfG button[aria-label="Paramètres utilisateur"] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=true]~.directionRow-3v3tfG button[aria-label="Setări utilizator"] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=true]~.directionRow-3v3tfG button[aria-label="User Settings"] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=true]~.directionRow-3v3tfG button[aria-label="User settings"] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=true]~.directionRow-3v3tfG button[aria-label="Ustawienia użytkownika"] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=true]~.directionRow-3v3tfG button[aria-label="Uživatelská nastavení"] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=true]~.directionRow-3v3tfG button[aria-label="Ρυθμίσεις χρήστη"] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=true]~.directionRow-3v3tfG button[aria-label="Користувацькі налаштування"] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=true]~.directionRow-3v3tfG button[aria-label="Настройки пользователя"] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=true]~.directionRow-3v3tfG button[aria-label="Потребителски настройки"] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=true]~.directionRow-3v3tfG button[aria-label="यूज़र सेटिंग"] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=true]~.directionRow-3v3tfG button[aria-label="ตั้งค่าผู้ใช้"] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=true]~.directionRow-3v3tfG button[aria-label="ユーザー設定"] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=true]~.directionRow-3v3tfG button[aria-label="使用者設定"] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=true]~.directionRow-3v3tfG button[aria-label="用户设置"] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=true]~.directionRow-3v3tfG button[aria-label="사용자 설정"] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=true]~.directionRow-3v3tfG button[aria-label=Benutzereinstellungen] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=true]~.directionRow-3v3tfG button[aria-label=Brugerindstillinger] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=true]~.directionRow-3v3tfG button[aria-label=Brukerinnstillinger] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=true]~.directionRow-3v3tfG button[aria-label=Gebruikersinstellingen] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=true]~.nameTag-3uD-yy .usernameContainer-1fp4nu:after,.avatarWrapper-2yR4wp[aria-expanded=true]~.nameTag-3uD-yy .usernameContainer-1fp4nu:before{
+    opacity:1;transition:transform .12s ease-out,opacity .12s ease-out !important; animation: 4s !important;
+}
+
+
+/* Remove Pointer Events & Opacity Untill In Status Picker */
+.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label="Ajustes de usuario"],.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label="Användarinställningar"],.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label="Configurações de Usuário"],.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label="Cài đặt người dùng"],.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label="Felhasználói beállítások"],.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label="Impostazioni utente"],.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label="Korisničke postavke"],.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label="Kullanıcı Ayarları"],.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label="Käyttäjäasetukset"],.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label="Naudotojo Nustatymai"],.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label="Paramètres utilisateur"],.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label="Setări utilizator"],.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label="User Settings"],.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label="User settings"],.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label="Ustawienia użytkownika"],.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label="Uživatelská nastavení"],.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label="Ρυθμίσεις χρήστη"],.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label="Користувацькі налаштування"],.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label="Настройки пользователя"],.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label="Потребителски настройки"],.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label="यूज़र सेटिंग"],.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label="ตั้งค่าผู้ใช้"],.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label="ユーザー設定"],.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label="使用者設定"],.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label="用户设置"],.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label="사용자 설정"],.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label=Benutzereinstellungen],.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label=Brugerindstillinger],.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label=Brukerinnstillinger],.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label=Gebruikersinstellingen],.avatarWrapper-2yR4wp[aria-expanded=false]~.nameTag-3uD-yy .usernameContainer-1fp4nu:after,.avatarWrapper-2yR4wp[aria-expanded=false]~.nameTag-3uD-yy .usernameContainer-1fp4nu:before{
+    display:block;user-select:none;pointer-events:none
+}
+
+.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label="Ajustes de usuario"] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label="Användarinställningar"] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label="Configurações de Usuário"] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label="Cài đặt người dùng"] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label="Felhasználói beállítások"] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label="Impostazioni utente"] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label="Korisničke postavke"] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label="Kullanıcı Ayarları"] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label="Käyttäjäasetukset"] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label="Naudotojo Nustatymai"] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label="Paramètres utilisateur"] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label="Setări utilizator"] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label="User Settings"] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label="User settings"] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label="Ustawienia użytkownika"] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label="Uživatelská nastavení"] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label="Ρυθμίσεις χρήστη"] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label="Користувацькі налаштування"] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label="Настройки пользователя"] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label="Потребителски настройки"] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label="यूज़र सेटिंग"] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label="ตั้งค่าผู้ใช้"] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label="ユーザー設定"] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label="使用者設定"] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label="用户设置"] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label="사용자 설정"] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label=Benutzereinstellungen] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label=Brugerindstillinger] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label=Brukerinnstillinger] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=false]~.directionRow-3v3tfG button[aria-label=Gebruikersinstellingen] .contents-18-Yxp,.avatarWrapper-2yR4wp[aria-expanded=false]~.nameTag-3uD-yy .usernameContainer-1fp4nu:after,.avatarWrapper-2yR4wp[aria-expanded=false]~.nameTag-3uD-yy .usernameContainer-1fp4nu:before{
+    opacity:0
+}
+
 .panels-j1Uci_ {
 	background-color: transparent;
 	border-radius: var(--server-radius);
@@ -2620,14 +2612,14 @@ svg.slider-TkfMQL svg {
 }
 
 .panels-j1Uci_ .wrapper-24pKcD {
-	background-color: var(--background-secondary-alt);
+	background-color: none !important;
 	padding: calc(var(--primary-spacing) - 7px) 0;
 	border-radius: var(--server-radius);
 	margin-top: var(--primary-spacing)
 }
 
 .panels-j1Uci_ .wrapper-24pKcD .container-1giJp5 {
-	background-color: var(--background-primary);
+	background-color: none !important;
 	border-radius: var(--server-radius);
 	margin: var(--primary-spacing);
 	border: none
@@ -2677,6 +2669,115 @@ svg.slider-TkfMQL svg {
 	background: transparent
 }
 
+/* KIA - Colorful Chatbar - 016 */
+.sprite-2iCowe {
+	background-image: none !important;
+	filter: grayscale(0%) !important;
+}
+
+.sprite-2iCowe {
+	background: var(--interactive-normal);
+	background-size: 20px;
+	background-position-x: 13px;
+	background-position-y: 13px;
+	background-repeat: no-repeat;
+	-webkit-mask: var(--icon) center/20px no-repeat !important;
+	--icon: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/emotes.svg);
+}
+
+
+.stickerButton-3OEgwj {
+	background: var(--interactive-normal);
+	background-size: 20px;
+	background-position-x: 13px;
+	background-position-y: 13px;
+	background-repeat: no-repeat;
+	-webkit-mask: var(--icon) center/20px no-repeat !important;
+	--icon: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/stickers.svg);
+}
+
+.icon-3D60ES {
+	background: var(--interactive-normal);
+	background-size: 20px;
+	background-position-x: 13px;
+	background-position-y: 13px;
+	background-repeat: no-repeat;
+	-webkit-mask: var(--icon) center/20px no-repeat !important;
+	--icon: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/template.svg);
+}
+
+[aria-label="Send a gift"] {
+	background: var(--interactive-normal);
+	background-size: 20px;
+	background-position-x: 13px;
+	background-position-y: 13px;
+	background-repeat: no-repeat;
+	-webkit-mask: var(--icon) center/20px no-repeat !important;
+	--icon: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/nitro.svg);
+}
+
+.contents-18-Yxp,
+.button-3AYNKb,
+.button-318s1X path {
+	fill: transparent;
+}
+
+
+.sansAttachButton-td2irx {
+	padding: 0;
+}
+
+.attachButton-2dnuIu {
+	margin-left: 0;
+	padding: 0;
+	height: auto;
+	color: var(--interactive-normal);
+	transition: color 0.15s ease;
+	width: calc(var(--chat-avatar-size) + var(--message-padding));
+}
+
+.attachButton-2dnuIu:hover {
+	color: var(--interactive-hover);
+}
+
+.attachButtonInner-PQjIyk {
+	display: flex;
+	height: 24px;
+}
+
+.attachButtonInner-PQjIyk::before {
+	margin: auto;
+	content: "+";
+	color: inherit;
+	display: block;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.attachButtonInner-PQjIyk path:first-child {
+	display: none;
+}
+
+.attachButtonInner-PQjIyk path:last-child {
+	fill: var(--spotify-color);
+	display: none !important;
+}
+
+.attachButtonInner-PQjIyk:last-child {
+	position: absolute;
+	margin-top: -0px;
+	margin-right: -22px;
+}
+
+.buttons-3JBrkn {
+	order: 4 !important;
+	margin-right: var(--primary-spacing) !important;
+}
+
+.channelTextAreaDisabled-8rmlrp > div {
+	display: none;
+}
+
 
 .form-2fGMdU {
 	padding: 0 var(--primary-spacing);
@@ -2702,8 +2803,7 @@ svg.slider-TkfMQL svg {
 	background-color: var(--background-tertiary);
 	border-radius: var(--primary-rounding);
 	margin-right: var(--primary-spacing);
-	margin-left: var(--primary-spacing);
-	order: 3;
+	order: 3 !important;
 	width: 40px
 }
 
@@ -3346,6 +3446,11 @@ svg.slider-TkfMQL svg {
 	transform: translateZ(0);
 }
 
+[class*="channel-2QD9_O"] *,
+[class*="member-3-YXUe"] * {
+	background: transparent !important;
+}
+
 [class*="channel-2QD9_O"] [class*="wrapper-3t9DeA"]::after,
 [class*="member-3-YXUe"] [class*="wrapper-3t9DeA"]::after {
 	content: '';
@@ -3359,28 +3464,33 @@ svg.slider-TkfMQL svg {
 	background: var(--user-background, var(--user-accent-color)) center/cover no-repeat;
 	-webkit-mask: linear-gradient(90deg, transparent, #000);
 	z-index: 145673;
-	border-radius: 4px
+	border-radius: var(--primary-rounding) !important;
 }
 
 [class*="channel-2QD9_O"],
 [class*="member-3-YXUe"] {
 	padding: 4px;
 	z-index: 1;
+	border-radius: var(--primary-rounding) !important;
 	position: relative
 }
 
 /* Make Role Color a Background */
 .roleColor-rz2vM0::after {
 	content: '';
-	top: 3px !important;
-	left: 4px !important;
-	width: 96% !important;
-	height: 88% !important;
-	position: absolute !important;
-	opacity: 0.125;
-	border-radius: 5px;
+	top: 5px !important;
+	left: 16px !important;
+	width: 10% !important;
+	height: 50% !important;
+	position: fixed !important;
+	opacity: 1;
+	z-index: -1;
+	border-radius: var(--avatar-radius) !important;
+	border: 8px solid currentColor;
 	background: currentColor;
 }
+
+
 
 .member-3-YXUe .badges {
 	z-index: 0;
@@ -3615,7 +3725,6 @@ svg.slider-TkfMQL svg {
 
 /* KIA - Server List - 006 */
 /* Better Folders */
-
 .folderIconWrapper-1Ml_1q {
 	background: var(--background-secondary-alt) !important;
 }
@@ -3679,23 +3788,21 @@ svg.slider-TkfMQL svg {
 	background: var(--interactive-hover) !important;
 }
 
-.panels-j1Uci_ > .container-3baos1 > .flex-1xMQg5/* Move Panel To Guild List */
+.panels-j1Uci_ > .container-3baos1 > .flex-1xMQg5 /* Move Panel To Guild List */
 {
 	position: fixed;
-	bottom: 18px;
+	bottom: 78px;
 	left: 20px;
 	z-index: 0;
 	width: 50px;
-	height: 104px;
-	padding: 10px 0 50px 0;
-	padding-top: 15px;
-	flex-direction: column-reverse;
+	padding: 15px 0 15px 0;
+	flex-direction: column;
 	border-radius: var(--server-radius);
-	background: var(--background-secondary-alt);
+	background: transparent !important;
 }
 
 .panels-j1Uci_ > .container-3baos1 > .flex-1xMQg5 {
-	height: 120px;
+	height: 85px;
 }
 
 .panels-j1Uci_ > .container-3baos1 > .flex-1xMQg5 > .button-14-BFJ {
@@ -3943,9 +4050,13 @@ div#cc_server_count {
 /* KIA - Status Picker - 004 */
 #status-picker {
 	box-shadow: none !important;
-	width: 260px !important;
+	width: var(--sidebar-width) !important;
 	margin-bottom: 12px;
 	margin-left: 25px;
+}
+
+#status-picker .focused-3afm-j {
+	
 }
 
 #status-picker .mask-1qbNWk {
@@ -3953,6 +4064,7 @@ div#cc_server_count {
 	width: 14px;
 	margin-left: 4px;
 }
+
 
 #status-picker-dnd .status-1AY8sU {
 	background: var(--red-primary) !important;
@@ -3987,23 +4099,16 @@ div#cc_server_count {
 	background: linear-gradient(45deg, var(--red-tertiary), var(--red-secondary));
 }
 
-#status-picker .focused-3afm-j#status-picker-invisible {
+#status-picker #status-picker-invisible {
 	background: linear-gradient(45deg, var(--normal-tertiary), var(--normal-secondary));
 }
 
 /* Get Rid Of The Trash & Beta Tag */
 #status-picker .item-1tOPte:not(#status-picker-custom-status):not(#status-picker-switch-account) .status-1fhblQ,
 #status-picker .description-2L932D,
-#status-picker .separator-2I32lJ {
-	display: none;
-}
-
+#status-picker .separator-2I32lJ,
 #status-picker .betaTag-2ehOEB {
-	position: absolute;
-	font-size: 0;
-	background-color: var(--brand-color) !important;
-	margin-left: 172px;
-	border-radius: var(--primary-rounding);
+	display: none;
 }
 
 #status-picker .status-1fhblQ {
@@ -4090,9 +4195,19 @@ div#cc_server_count {
 
 #status-picker-custom-status,
 #status-picker-switch-account {
-	margin-top: 8px;
-	margin-right: 5px !important;
+	margin-right: -5px !important;
+	margin-top: 10px !important;
 }
+
+#status-picker-switch-account {
+	margin-bottom: -2px !important;
+}
+
+
+#status-picker-switch-account svg:not(.switchAccountsIcon-355frb) {
+	display: none;
+}
+
 
 #status-picker .item-1tOPte {
 	margin-right: -8px;
@@ -5067,8 +5182,7 @@ html[lang=hi] .closeButton-1tv5uR + .keybind-KpFkfr::before {
 	--saturation-factor: 1!important
 }
 
-:root,
-* {
+:root:not([class*="spotify"]) {
 	transition: none !important;
 	animation: none !important;
 	translate: none !important;
@@ -5119,7 +5233,6 @@ html[lang=hi] .closeButton-1tv5uR + .keybind-KpFkfr::before {
 }
 
 /* Spotify Player */
-
 /* GooseMod Ver - Honk */
 [class*="gm-spotify-controls-player-wrap"] {
 	background-color: var(--background-secondary-alt) !important;
@@ -5159,55 +5272,49 @@ html[lang=hi] .closeButton-1tv5uR + .keybind-KpFkfr::before {
 }
 
 [class*="gm-spotify"] [class*="info-box"] {
-	transition: 200ms ease !important;
+	position: fixed;
+	contain: none;
+	z-index: 10;
+	max-width: 0px;
+
 	content: "";
-	max-width: 45px !important;
-	width: 43px;
-	height: 45px;
-	margin-top: -8px;
-	margin-right: 11px;
-	margin-left: calc(var(--primary-spacing) * 1.3);
+	padding: 5px 13px 5px 5px;
+	width: 8px;
+	height: 8px;
+	margin-top: 10px;
+	margin-left: -93px;
+	background: var(--background-secondary-alt);
+	border: 2px solid var(--background-secondary);
+	border-radius: var(--tertiary-rounding);
 }
 
 [class*="gm-spotify"] [class*="info-box"]:hover {
 	transition: 200ms ease !important;
-	max-width: 2000px !important;
-	width: 2000px !important;
-	background: none !important;
-	margin-top: 0 !important;
-	margin-left: 0 !important;
-	padding-right: var(--sidebar-width);
+	max-width: var(--sidebar-width) !important;
+	width: var(--sidebar-width) !important;
+	height: 30px !important;
+	margin-top: 9px;
+	margin-left: -96px;
+	border-radius: var(--primary-rounding) !important;
+	padding: var(--primary-spacing);
 }
 
-[class*="gm-spotify"] [class*="info-box"]:before {
-	content: "";
-	width: 61px;
-	height: 45px;
-	margin-top: 0px;
-	margin-left: -17px;
-	position: fixed;
-	background: var(--spotify-color);
-	border-radius: var(--primary-rounding);
-}
-
-[class*="gm-spotify"] [class*="info-box"]:hover:before {
-	background: transparent;
-	pointer-events: none !important;
-}
 
 [class*="gm-spotify"] [class*="info-box"]:after {
+	transition: 200ms ease !important;
 	content: "";
-	width: 45px;
-	height: 45px;
-	margin-top: 0px;
-	margin-left: -10px;
+	width: 15px;
+	height: 15px;
+	margin-top: -4px;
+	margin-left: -4px;
 	position: fixed;
 	background: var(--interactive-normal);
-	-webkit-mask: var(--icon) center/15px no-repeat !important;
+	-webkit-mask: var(--icon) center/10px no-repeat !important;
 	--icon: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/template.svg);
 }
 
 [class*="gm-spotify"] [class*="info-box"]:hover:after {
+	transition: 200ms ease !important;
 	pointer-events: none !important;
 	-webkit-mask: var(--icon) center/0px no-repeat !important;
 	--icon: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/template.svg);
@@ -5222,7 +5329,7 @@ html[lang=hi] .closeButton-1tv5uR + .keybind-KpFkfr::before {
 [class*="gm-spotify"] [class*="button"] button {
 	background: var(--green-tertiary);
 	border-radius: var(--primary-rounding);
-	width: 51px;
+	width: 72px;
 	height: 45px;
 }
 
