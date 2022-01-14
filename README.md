@@ -1,5 +1,4 @@
-# KIA V2 - Alpha - ALL CONTENT IS SUBJECTED TO CHANGE.
-A Sleek Nord Based Discord Theme Named By a Car.
+# KIA V2 - DED
 
 TO USE V2 Please Find it in These Folders. **Note to Self ``scale: 50;`` Does Not Work on PC Just Web**
 
