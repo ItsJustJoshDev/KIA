@@ -1,9 +1,0 @@
-{
-    "name": "KIA",
-    "description": "A Sleek Nord Based Discord Theme",
-    "version": "2.0.0",
-    "author": "It'sJustJosh#2812 - (362628885361197056)",
-    "theme": "src/app/scss/index/_variables.scss",
-    "consent": "true",
-    "license": "MIT"
-}
