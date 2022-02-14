@@ -1,10 +1,30 @@
 @use "app.scss";
 
+/* Quick Vars */
 :root {
 
+	--avatar-radius: 4px;
+	--server-radius: 8px;
+	--primary-spacing: 10px;
+	--primary-rounding: 5px;
+	--sidebar-width: 260px;
+
+}
+
+/* Skin Base */
+:root {
+
+	--skin-version: "V2";
+	--skin: "KIA Base";
+	--dev: "It'sJustJoshDev#7817";
+	--skin-enable: block; /* Block = Keep, None = Disable */
+	--dev-logo: none;
+
 	/* Extra */
+	--brand-color: var(--accent-primary);
 	--spotify-color: var(--green-primary);
-	
+	--brand-experiment: var(--accent-primary);
+
 	/* Base */
 	--background-primary: #292e3b;
 	--background-secondary: #232731;
@@ -12,6 +32,16 @@
 	--background-tertiary: #2e3340;
 
 	/* Text & Icon */
+	--btn-bg-primary: var(--accent-primary);
+	--btn-bg-secondary: var(--accent-secondary);
+	--btn-bg-primary-hover: var(--accent-secondary);
+	--btn-bg-secondary-hover: var(--accent-primary);
+	--background-modifier-selected: var(--background-secondary);
+	--background-modifier-hover: var(--background-primary);
+	--background-modifier-active: var(--background-secondary-alt);
+	--background-accent: var(--accent-tertiary);
+	--header-primary: var(--text-normal);
+	--text-link: var(--text-normal);
 	--interactive-active: #ffffff;
 	--interactive-hover: #ffffff6e;
 	--interactive-normal: #ffffffc9;
@@ -20,12 +50,11 @@
 	--focus-primary: #fff;
 
 	/* Accent */
-	--accent-pri-numbers: 50, 93, 95;
-	--accent-sec-numbers: 80, 155, 158;
-	--accent-ter-numbers: 28, 53, 54;
 	--accent-primary: rgba(50, 93, 95, 1.0);
 	--accent-secondary: rgb(80, 155, 158);
 	--accent-tertiary: rgb(28, 53, 54);
+	
+	/* Base Colors */
 	--green-primary: rgb(46, 131, 92);
 	--green-secondary: rgb(72, 152, 113);
 	--green-tertiary: rgb(22, 103, 70);
@@ -43,7 +72,7 @@
 	--normal-tertiary: rgba(33, 40, 55);
 
 	/* Font */
-	--primary-font: "Poppins", sans-serif;
-	--secondary-font: "Poppins", sans-serif;
+	--primary-font: var(--poppins-font);
+	--secondary-font: var(--poppins-font);
 
 }
