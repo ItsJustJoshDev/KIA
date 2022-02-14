@@ -1,0 +1,18 @@
+/* Font Imports */
+@import url("https://itsjustjoshdev.github.io/Titlebar/src/Fonts/classic.css");
+@import url("https://itsjustjoshdev.github.io/Titlebar/src/Fonts/rebrand.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root, * {
+	font-weight: 10 !important;
+	--font-headline: "Poppins" !important;
+	--font-primary:  "Poppins" !important;
+	--font-display: var(--rebrand-font) !important;
+	--classic-font: "Discord Classic";
+  --rebrand-font: "Discord Rebrand";
+}
+
+div #cc_server_count {
+	text-align: center;
+	font-family: var(--font-display);
+}
