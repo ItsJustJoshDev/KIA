@@ -1,26 +1,25 @@
 {
     "manifest": {
         "author": "It'sJustJoshDev#7817",
-        "version": "2.0.0",
+        "version": "2.0.1",
         "license": "MIT",
         "name": "KIA",
-        "updater": "https:\/\/raw.githubusercontent.com\/TheRealGWJosh\/KIA\/main\/src\/app\/Aliucord\/KIA.json"
+        "updater": "https:\/\/raw.githubusercontent.com\/ItsJustJoshDev\/KIA\/Discord-Mobile\/Kia.json"
     },
     "background": {
-        "url": "https:\/\/raw.githubusercontent.com\/TheRealGWJosh\/KIA\/main\/src\/app\/Aliucord\/assets\/shapes-grey.jpg",
         "blur_radius": 8,
         "overlay_alpha": 10
     },
     "fonts": {
-        "ginto_bold": "https:\/\/github.com\/TheRealGWJosh\/KIA\/blob\/main\/src\/app\/Aliucord\/Fonts\/Discord-Sans.otf?raw=true",
-        "ginto_medium": "https:\/\/github.com\/TheRealGWJosh\/KIA\/blob\/main\/src\/app\/Aliucord\/Fonts\/Discord-Sans.otf?raw=true",
-        "whitney_semibold": "https:\/\/github.com\/TheRealGWJosh\/KIA\/blob\/main\/src\/app\/Aliucord\/Fonts\/Poppins-SemiBold.ttf?raw=true",
-        "whitney_medium": "https:\/\/github.com\/TheRealGWJosh\/KIA\/blob\/main\/src\/app\/Aliucord\/Fonts\/Poppins-Medium.ttf?raw=true",
-        "whitney_bold": "https:\/\/github.com\/TheRealGWJosh\/KIA\/blob\/main\/src\/app\/Aliucord\/Fonts\/Poppins-Bold.ttf?raw=true",
-        "sourcecodepro_semibold": "https:\/\/github.com\/TheRealGWJosh\/KIA\/blob\/main\/src\/app\/Aliucord\/Fonts\/Poppins-SemiBold.ttf?raw=true",
-        "ginto_regular": "https:\/\/github.com\/TheRealGWJosh\/KIA\/blob\/main\/src\/app\/Aliucord\/Fonts\/Discord-Sans.otf?raw=true",
-        "roboto_medium_numbers": "https:\/\/github.com\/TheRealGWJosh\/KIA\/blob\/main\/src\/app\/Aliucord\/Fonts\/Poppins-Medium.ttf?raw=true",
-        "*": "https:\/\/github.com\/TheRealGWJosh\/KIA\/blob\/main\/src\/app\/Aliucord\/Fonts\/Poppins-Medium.ttf?raw=true"
+        "*": "https:\/\/github.com\/ItsJustJoshDev\/cdn\/blob\/main\/Fonts\/Poppins-Medium.ttf?raw=true",
+        "roboto_medium_numbers": "https:\/\/github.com\/ItsJustJoshDev\/cdn\/blob\/main\/Fonts\/Poppins-Medium.ttf?raw=true",
+        "whitney_medium": "https:\/\/github.com\/ItsJustJoshDev\/cdn\/blob\/main\/Fonts\/Poppins-Medium.ttf?raw=true",
+        "sourcecodepro_semibold": "https:\/\/github.com\/ItsJustJoshDev\/cdn\/blob\/main\/Fonts\/Poppins-SemiBold.ttf?raw=true",
+        "whitney_semibold": "https:\/\/github.com\/ItsJustJoshDev\/cdn\/blob\/main\/Fonts\/Poppins-SemiBold.ttf?raw=true",
+        "whitney_bold": "https:\/\/github.com\/ItsJustJoshDev\/cdn\/blob\/main\/Fonts\/Poppins-Bold.ttf?raw=true",
+        "ginto_bold": "https:\/\/github.com\/ItsJustJoshDev\/cdn\/blob\/main\/Fonts\/Discord-Sans.otf?raw=true",
+        "ginto_medium": "https:\/\/github.com\/ItsJustJoshDev\/cdn\/blob\/main\/Fonts\/Discord-Sans.otf?raw=true",
+        "ginto_regular": "https:\/\/github.com\/ItsJustJoshDev\/cdn\/blob\/main\/Fonts\/Discord-Sans.otf?raw=true"
     },
     "simple_colors": {
         "statusbar": -13816267,
@@ -80,5 +79,6 @@
         "drawable_overlay_channels_selected_dark": -13476513,
         "design_bottom_navigation_item_background": -13476513,
         "abc_action_bar_item_background_material": -14078405
-    }
+    },
+    "raws": {}
 }
