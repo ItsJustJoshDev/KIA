@@ -1,27 +1,23 @@
 @forward 'app/_index';
 
 /* Imports */
-@import url("https://therealgwjosh.github.io/Snippets/CSS/Settings/icons.css"); /* Settings - 001 */
-@import url("https://therealgwjosh.github.io/BannerBG/src/banners.css"); /* BannerBG - 003 */
-@import url("https://therealgwjosh.github.io/Snippets/CSS/BetterBG/import.css"); /* BetterBG - 010 */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url("https://itsjustjoshdev.github.io/BannerBG/src/banners.css"); /* BannerBG - 003 */
+@import url("https://itsjustjoshdev.github.io/Snippets/CSS/BetterBG/import.css"); /* BetterBG - 010 */
+@import url('https://itsjustjoshdev.github.io/KIA/src/app/css/imports/font.css');
+@import url("https://itsjustjoshdev.github.io/Titlebar/src/main.css");
+@import url("https://itsjustjoshdev.github.io/Titlebar/src/client.css");
+
 
 /* Extra Imports */
-@import url("https://crearts-community.github.io/Context-Icons/context-icons.theme.css");
-@import url("https://luckfire.github.io/theme-source/src/css-compile/ThemeSource-Compiled.css");
-@import url("https://raw.githack.com/v-briese/Channel-Icons/main/channelicons.theme.css");
-@import url("https://raw.githack.com/LuckFire/theme-source/main/old-theme-source.css");
-@import url("https://raw.githack.com/leeprky/FullyThemedDiscord/main/source.css");
+@import url("https://css.wmeluna.com/hljs.css");
 @import url("https://nyri4.github.io/Discolored/main.css");
+@import url("https://spinfish.github.io/css-snippets/snippets/filled-roles.css");
+@import url("https://raw.githack.com/leeprky/FullyThemedDiscord/main/source.css");
+@import url("https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css");
 
-/* Dev Owned */
-@import url("https://therealgwjosh.github.io/Snippets/CSS/Extra/badge.css");
-@import url("https://therealgwjosh.github.io/BannerBG/src/main.css");
-@import url("https://therealgwjosh.github.io/Snippets/CSS/Extra/spooky.css");
-@import url("https://therealgwjosh.github.io/Snippets/CSS/BetterBG/Friend-Grid/main.css");
-@import url("https://therealgwjosh.github.io/Snippets/CSS/Extra/colorful-urls.css");
-
-/* Web or PC */ /* @import url("https://therealgwjosh.github.io/KIA/src/app/css/clients/Cumcord/main.css"); */
-/* The Theme is Stabeish - BD Support Not Added */
-/* The Theme is Stabeish - VZ Support Not Added */
-/* The Theme is Stabeish - PC Support Not Added */
+@import url("https://crearts-community.github.io/Friends-Grid/theme.css");
+@import url("https://crearts-community.github.io/Settings-Icons/clients/web.css");
+@import url("https://crearts-community.github.io/Settings-Icons/clients/vizality.css");
+@import url("https://crearts-community.github.io/Settings-Icons/clients/powercord.css");
+@import url("https://crearts-community.github.io/Context-Icons/context-icons.theme.css");
+@import url("https://crearts-community.github.io/Settings-Icons/clients/betterdiscord.css");
