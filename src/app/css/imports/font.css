@@ -5,8 +5,7 @@
 
 :root, * {
 
-	font-weight: 10 !important;
-	--font-headline: var(--primary-font) !important;
+	--font-headline: var(--secondary-font) !important;
 	--font-primary: var(--primary-font) !important;
 	--font-display: var(--secondary-font) !important;
 	--classic-font: "Discord Classic";
