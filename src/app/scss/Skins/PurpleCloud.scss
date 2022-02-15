@@ -1,0 +1,65 @@
+/* Purple Cloud By WmeLuna#9999 */
+:root {
+
+	--skin-version: "V2";
+	--skin: "Purple Cloud";
+	--dev: "WmeLuna#9999";
+	--skin-enable: block; /* Block = Keep, None = Disable */
+	--dev-logo: url('https://avatars.githubusercontent.com/u/46545277');
+
+	/* Extra */
+	--brand-color: var(--accent-primary);
+	--spotify-color: var(--green-primary);
+	--brand-experiment: var(--accent-primary);
+
+	/* Base */
+    --background-primary: black;
+    --background-secondary: rgb(20, 20, 20);
+    --background-secondary-alt: rgb(28, 28, 28);
+    --background-tertiary: rgb(10, 10, 10);
+
+	/* Text & Icon */
+	--btn-bg-primary: var(--accent-primary);
+	--btn-bg-secondary: var(--accent-secondary);
+	--btn-bg-primary-hover: var(--accent-secondary);
+	--btn-bg-secondary-hover: var(--accent-primary);
+	--background-modifier-selected: var(--background-secondary);
+	--background-modifier-hover: var(--background-primary);
+	--background-modifier-active: var(--background-secondary-alt);
+	--background-accent: var(--accent-tertiary);
+	--header-primary: var(--text-normal);
+	--text-link: var(--text-normal);
+	--interactive-active: #ffffff;
+	--interactive-hover: #ffffff6e;
+	--interactive-normal: #ffffffc9;
+	--text-normal: #d8dee9;
+	--text-secondary: #d8dee98a;
+	--focus-primary: #fff;
+
+	/* Accent */
+	--accent-primary: var(--purple-primary);
+	--accent-secondary: var(--purple-secondary);
+	--accent-tertiary: var(--purple-tertiary);
+	
+	/* Base Colors */
+	--green-primary: rgb(46, 131, 92);
+	--green-secondary: rgb(72, 152, 113);
+	--green-tertiary: rgb(22, 103, 70);
+	--yellow-primary: rgba(250, 166, 26);
+	--yellow-secondary: rgba(255, 194, 61);
+	--yellow-tertiary: rgba(220, 140, 0);
+	--red-primary: rgba(240, 71, 71);
+	--red-secondary: rgba(255, 102, 96);
+	--red-tertiary: rgba(209, 39, 49);
+	--purple-primary: rgba(89, 54, 149);
+	--purple-secondary: rgba(116, 79, 177);
+	--purple-tertiary: rgba(62, 32, 124);
+	--normal-primary: rgba(51, 57, 73);
+	--normal-secondary: rgba(42, 48, 64);
+	--normal-tertiary: rgba(33, 40, 55);
+
+	/* Font */
+	--primary-font: var(--poppins-font);
+	--secondary-font: var(--poppins-font);
+
+}
